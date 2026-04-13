@@ -1,0 +1,14 @@
+# Secrets — never commit these
+.env
+
+# Obsidian internals
+.obsidian/
+.claude/
+
+# Mac
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo

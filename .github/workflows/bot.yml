@@ -1,0 +1,44 @@
+name: Texti Bot — 24/7
+
+on:
+  schedule:
+    - cron: '0 */5 * * *'   # restart every 5 hours (before GitHub's 6h job limit)
+  workflow_dispatch:          # allow manual trigger from GitHub UI
+
+# Only one run at a time — queue instead of cancel so there's no gap
+concurrency:
+  group: texti-bot
+  cancel-in-progress: false
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350      # 5h 50m — safely under GitHub's 6h hard limit
+
+    steps:
+      - name: Checkout vault
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r "🤖 Agents/Message Formatter/bot/requirements.txt"
+
+      - name: Configure git (for saving rules back to repo)
+        run: |
+          git config user.name  "Texti Bot"
+          git config user.email "texti-bot@users.noreply.github.com"
+
+      - name: Run bot
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_USER_ID:   ${{ secrets.TELEGRAM_USER_ID }}
+          ANTHROPIC_API_KEY:  ${{ secrets.ANTHROPIC_API_KEY }}
+          VAULT_PATH:         ${{ github.workspace }}
+          GITHUB_ACTIONS_MODE: "true"
+        run: python "🤖 Agents/Message Formatter/bot/bot.py"
