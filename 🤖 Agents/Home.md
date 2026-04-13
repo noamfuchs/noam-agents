@@ -9,6 +9,7 @@ This is your command center for all AI agents. Each agent lives in its own folde
 | Agent | What it does | Status |
 |---|---|---|
 | [[Message Formatter/Agent\|Message Formatter]] | Formats rough messages for 3 audiences via Telegram | ✅ Active |
+| [[Webinar Signup Bot/Agent\|Webinar Signup Bot]] | Auto-sends WhatsApp + buttons when someone signs up on Base44 | 🔧 Setup in progress |
 
 ---
 
