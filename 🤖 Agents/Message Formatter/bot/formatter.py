@@ -22,6 +22,33 @@ STYLE_FILES = {
     "ads":       "Styles/Ads & Webinars.md",
 }
 
+# Inline style profile for the general-purpose formatter (no Obsidian file needed)
+GENERAL_STYLE_PROFILE = """\
+## סגנון עיצוב כללי
+
+מטרה: לקחת הודעה גולמית ולסדר אותה בצורה ברורה, מקצועית ונעימה לקריאה.
+
+### עקרונות
+- תקן שגיאות דקדוק וכתיב בעברית
+- הדגש מילים/משפטים חשובים עם *כוכביות* (פורמט WhatsApp)
+- השתמש ברשימה ממוספרת עם אמוג'י מספרים (1️⃣ 2️⃣ 3️⃣...) כשיש שלבים, תהליך או כמה פריטים ברורים, עם שורה ריקה בין כל פריט
+- השתמש בנקודות (•) לרשימות שאינן רצף
+- הוסף אמוג'י מקצועי ורלוונטי לכותרות ולנקודות מפתח — לא יותר מדי (1-2 לקטע)
+- אל תפנה לאף אחד בשם; אין פנייה אישית ספציפית
+- שמור על טון מקצועי וישיר
+
+### מבנה
+- אם ההודעה ארוכה — פתח עם שורת פתיחה קצרה
+- פרק טקסט צפוף לפסקאות או לפריטים ברשימה
+- סיים בצורה נקייה — בלי סיומות גנריות שלא היו במקור
+
+### מה להימנע ממנו
+- אל תוסיף מידע שלא היה במקור
+- אל תפנה בשמות ספציפיים
+- אל תשתמש ב-## כותרות מרקדאון — WhatsApp לא מציג אותן
+- אל תגזים באמוג'ים
+"""
+
 SYSTEM_PROMPT = """\
 You are a Hebrew message formatter for a real estate business.
 Your job is to take a raw, unstructured message and format it according \
@@ -41,10 +68,26 @@ Rules:
 - Match the emoji placement, density, and type shown in the style profile examples
 - Match the greeting and closing style from the profile
 - Apply all learned instructions strictly
+
+Hebrew language rules — CRITICAL:
+- Write natural, everyday Israeli Hebrew — not translated or formal Hebrew
+- NEVER use: הינו, הינה, הנו, הנה (as "is/are"), יש לציין, ניתן לראות, בהתאם לכך, לאור האמור, על מנת ש, מעניין לציין, נציין כי, כמו כן (when overused)
+- NEVER add politeness, warmth, or softness that did not exist in the original message — if the raw message is blunt, keep it blunt
+- NEVER change the emotional tone or intent of the original — an excited message stays excited, a serious one stays serious, an urgent one stays urgent
+- Preserve the writer's voice and energy — only improve structure and clarity, not personality
+- The final message must sound like it was written by a real person in Israel, not formatted by an AI
+
+Formatting rules — CRITICAL:
+- NEVER use dashes of any kind: no -, no --, no –, no — (en dash, em dash, or any hyphen used as punctuation). They signal AI-generated text. Use a comma, period, or line break instead
+- When numbering items, ALWAYS use emoji numbers: 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣ — never plain digits followed by a dot or parenthesis
+- ALWAYS add a blank line between each numbered item
 """
 
 
 def _load_style_profile(audience: str, vault_path: Path) -> str:
+    if audience == "general":
+        return GENERAL_STYLE_PROFILE
+
     relative = STYLE_FILES.get(audience)
     if not relative:
         raise ValueError(f"Unknown audience: '{audience}'. Valid: {list(STYLE_FILES.keys())}")

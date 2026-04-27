@@ -44,6 +44,7 @@ ALLOWED_USER_ID    = int(os.environ["TELEGRAM_USER_ID"])
 VAULT_PATH         = Path(os.environ["VAULT_PATH"])
 
 AUDIENCES = {
+    "general":   "📋 כללי",
     "community": "🏘️ קהילת הקורס",
     "partners":  "🤝 שותפים",
     "ads":       "📣 פרסום וובינרים",
