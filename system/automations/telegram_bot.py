@@ -49,6 +49,9 @@ TOKEN = SECRETS.get("TELEGRAM_BOT_TOKEN", "")
 ALLOWED_CHAT_ID = SECRETS.get("TELEGRAM_CHAT_ID", "")  # may be empty on first run
 BRAIN = Path(SECRETS.get("SECOND_BRAIN_PATH", str(Path.home() / "Desktop" / "MY BRAIN")))
 LOG_LEVEL = SECRETS.get("LOG_LEVEL", "INFO")
+# Stable session ID so the bot maintains conversation continuity across messages.
+# All Telegram chat → one long-running Claude session.
+CLAUDE_SESSION_ID = SECRETS.get("CLAUDE_SESSION_ID", "c5e8d9a0-4f1b-4b8e-9c3a-1234567890ab")
 
 if not TOKEN:
     sys.stderr.write("FATAL: TELEGRAM_BOT_TOKEN not set in secrets.env\n")
@@ -95,6 +98,14 @@ def tg_send(chat_id: int, text: str) -> None:
             log.error("sendMessage failed: %s", r.text)
     except Exception as e:
         log.error("sendMessage exception: %s", e)
+
+
+def tg_send_chat_action(chat_id: int, action: str = "typing") -> None:
+    """Show 'typing...' in the user's Telegram client. Best-effort, swallow errors."""
+    try:
+        requests.post(f"{API}/sendChatAction", json={"chat_id": chat_id, "action": action}, timeout=10)
+    except Exception:
+        pass
 
 
 def tg_download_voice(file_id: str, dest: Path) -> bool:
@@ -151,29 +162,62 @@ def write_voice_to_inbox(audio_path: Path) -> Path:
 # ---- Command handling ------------------------------------------------------
 
 
-def run_skill_via_claude(skill_with_args: str, chat_id: int) -> None:
-    """Invoke claude -p in the brain directory, return result to user."""
-    prompt = f"Run skill: {skill_with_args}"
-    log.info("invoking claude -p with prompt: %s", prompt)
+# Read-only tool whitelist. The bot is a network-exposed daemon — no Bash, no
+# external network, no writes from Claude. Mutations to the brain happen only
+# via interactive desktop Claude sessions where Noam approves them.
+CLAUDE_ALLOWED_TOOLS = " ".join([
+    "Read",
+    "Glob",
+    "Grep",
+    "TodoWrite",
+    "mcp__filesystem-brain__read_text_file",
+    "mcp__filesystem-brain__read_multiple_files",
+    "mcp__filesystem-brain__list_directory",
+    "mcp__filesystem-brain__list_directory_with_sizes",
+    "mcp__filesystem-brain__directory_tree",
+    "mcp__filesystem-brain__search_files",
+    "mcp__filesystem-brain__get_file_info",
+    "mcp__sequential-thinking__sequentialthinking",
+])
+
+
+def call_claude(prompt: str, chat_id: int) -> None:
+    """Invoke claude -p in the brain dir with read-only tools. Reply with response."""
+    log.info("→ claude: %s", prompt[:120].replace("\n", " "))
+    tg_send_chat_action(chat_id, "typing")
     try:
         result = subprocess.run(
-            ["claude", "-p", prompt],
+            [
+                "claude", "-p",
+                "--session-id", CLAUDE_SESSION_ID,
+                "--allowedTools", CLAUDE_ALLOWED_TOOLS,
+                prompt,
+            ],
             cwd=str(BRAIN),
             capture_output=True,
             text=True,
-            timeout=180,
+            timeout=240,
         )
-        out = result.stdout.strip() or result.stderr.strip() or "(no output)"
+        out = result.stdout.strip()
+        if not out:
+            err = result.stderr.strip()
+            log.error("claude empty stdout; stderr: %s", err[:500])
+            out = err or "(no response)"
         # Telegram limit is 4096 chars per message
         for chunk in [out[i : i + 4000] for i in range(0, len(out), 4000)]:
             tg_send(chat_id, chunk)
     except subprocess.TimeoutExpired:
-        tg_send(chat_id, "⏱️ Skill timed out after 3 minutes.")
+        tg_send(chat_id, "⏱️ זמן תגובה ארוך מדי (>4 דקות). נסה שוב.")
     except FileNotFoundError:
         tg_send(chat_id, "❌ `claude` CLI not found in PATH.")
     except Exception as e:
-        log.error("run_skill error: %s", e)
-        tg_send(chat_id, f"❌ Skill failed: {e}")
+        log.exception("claude error: %s", e)
+        tg_send(chat_id, f"❌ {e}")
+
+
+def run_skill_via_claude(skill_with_args: str, chat_id: int) -> None:
+    """Slash-command path: invoke a specific skill (read-only)."""
+    call_claude(f"Run skill: {skill_with_args}", chat_id)
 
 
 def handle_command(text: str, chat_id: int) -> None:
@@ -239,9 +283,11 @@ def main() -> None:
                     if text.startswith("/"):
                         handle_command(text, chat_id)
                     else:
+                        # 1. Durable capture: write the message to inbox/ regardless.
                         path = write_text_to_inbox(text)
                         log.info("text → %s", path)
-                        tg_send(chat_id, f"✅ נשמר ב־inbox: {path.name}")
+                        # 2. Conversational reply: ask Claude (read-only) and relay.
+                        call_claude(text, chat_id)
                 elif "voice" in msg:
                     file_id = msg["voice"]["file_id"]
                     audio_path = INBOX_AUDIO / f"{stamp()}.ogg"
