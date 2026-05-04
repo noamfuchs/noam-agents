@@ -1,5 +1,7 @@
 # Secrets — never commit these
 .env
+**/secrets*
+**/*.key
 
 # Obsidian internals
 .obsidian/
@@ -12,3 +14,10 @@
 __pycache__/
 *.pyc
 *.pyo
+
+# Assistant runtime
+system/logs/
+inbox/audio/
+
+# Archived content (kept locally, not synced)
+.archive/
