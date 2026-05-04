@@ -49,9 +49,6 @@ TOKEN = SECRETS.get("TELEGRAM_BOT_TOKEN", "")
 ALLOWED_CHAT_ID = SECRETS.get("TELEGRAM_CHAT_ID", "")  # may be empty on first run
 BRAIN = Path(SECRETS.get("SECOND_BRAIN_PATH", str(Path.home() / "Desktop" / "MY BRAIN")))
 LOG_LEVEL = SECRETS.get("LOG_LEVEL", "INFO")
-# Stable session ID so the bot maintains conversation continuity across messages.
-# All Telegram chat → one long-running Claude session.
-CLAUDE_SESSION_ID = SECRETS.get("CLAUDE_SESSION_ID", "c5e8d9a0-4f1b-4b8e-9c3a-1234567890ab")
 
 if not TOKEN:
     sys.stderr.write("FATAL: TELEGRAM_BOT_TOKEN not set in secrets.env\n")
@@ -186,13 +183,14 @@ def call_claude(prompt: str, chat_id: int) -> None:
     log.info("→ claude: %s", prompt[:120].replace("\n", " "))
     tg_send_chat_action(chat_id, "typing")
     try:
+        # Pipe prompt via stdin to avoid argparse swallowing it as a flag value
+        # (since --allowedTools is a variadic flag).
         result = subprocess.run(
             [
                 "claude", "-p",
-                "--session-id", CLAUDE_SESSION_ID,
                 "--allowedTools", CLAUDE_ALLOWED_TOOLS,
-                prompt,
             ],
+            input=prompt,
             cwd=str(BRAIN),
             capture_output=True,
             text=True,
