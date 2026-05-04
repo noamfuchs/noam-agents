@@ -159,14 +159,18 @@ def write_voice_to_inbox(audio_path: Path) -> Path:
 # ---- Command handling ------------------------------------------------------
 
 
-# Read-only tool whitelist. The bot is a network-exposed daemon — no Bash, no
-# external network, no writes from Claude. Mutations to the brain happen only
-# via interactive desktop Claude sessions where Noam approves them.
+# Tool whitelist for the network-exposed bot. Reads everywhere in the brain.
+# Writes allowed via filesystem-brain MCP — Claude must follow CLAUDE.md
+# rules about which files are safe to modify (memory/* except boundaries.md;
+# inbox/, journal/, people/, projects/, outbox/). Never CLAUDE.md, never
+# boundaries.md silently, never .archive/, never .obsidian/, never .git/.
+# No Bash, no external network, no git mutations.
 CLAUDE_ALLOWED_TOOLS = " ".join([
     "Read",
     "Glob",
     "Grep",
     "TodoWrite",
+    # filesystem MCP — read
     "mcp__filesystem-brain__read_text_file",
     "mcp__filesystem-brain__read_multiple_files",
     "mcp__filesystem-brain__list_directory",
@@ -174,6 +178,11 @@ CLAUDE_ALLOWED_TOOLS = " ".join([
     "mcp__filesystem-brain__directory_tree",
     "mcp__filesystem-brain__search_files",
     "mcp__filesystem-brain__get_file_info",
+    # filesystem MCP — write (Claude must follow CLAUDE.md about safe paths)
+    "mcp__filesystem-brain__write_file",
+    "mcp__filesystem-brain__edit_file",
+    "mcp__filesystem-brain__create_directory",
+    # reasoning
     "mcp__sequential-thinking__sequentialthinking",
 ])
 

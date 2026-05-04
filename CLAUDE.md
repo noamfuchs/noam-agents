@@ -37,11 +37,30 @@ When invoked, **decide first, then act**: read the relevant memory/files, then e
 7. `memory/recurring.md` — cadence
 8. `memory/learned-this-week.md` — pending inferences
 
-**During session — when Noam expresses something durable:**
-- A preference → append to `memory/preferences.md` (or `memory/learned-this-week.md` for review if uncertain)
-- A commitment → append to `memory/commitments.md`
-- A boundary → append to `memory/boundaries.md` (then surface for confirmation — boundaries are LAW, don't add silently)
-- A decision → append to `memory/decisions.md` with date + reasoning
+**During session — when Noam expresses something durable, append immediately and tell him what you saved:**
+- A preference → append to `memory/preferences.md` (or `memory/learned-this-week.md` if uncertain — surface for confirmation in next evening review)
+- A commitment ("remind me to X by Y", "I owe Amit a draft Tuesday") → append to `memory/commitments.md`
+- A decision ("we're going with X because Y") → append to `memory/decisions.md` with date + reasoning
+- A recurring thing ("every Monday I do X") → append to `memory/recurring.md`
+- A voice/style observation about how Noam writes → append to `memory/voice.md`
+- An identity fact ("I live in X", "my timezone is Y") → fill the relevant TBD in `memory/about-me.md`
+- A person update ("Itay said X", new contact) → update or create `people/{name}.md` (use `people/_template.md` as template)
+- A project update ("chapter 4 done", "Amit needs Y by Z") → update relevant `projects/{name}.md`
+
+**Always tell Noam what you saved.** End the reply with a short ack like "🧠 שמרתי ב־commitments.md" or "📌 עדכנתי את people/itay.md". He should never be surprised by what you wrote.
+
+**Files that are SAFE to write from any session (terminal, Telegram, SSH):**
+- `memory/preferences.md`, `memory/commitments.md`, `memory/decisions.md`, `memory/recurring.md`, `memory/voice.md`, `memory/about-me.md`, `memory/learned-this-week.md`
+- `journal/{YYYY-MM-DD}.md` — append today's entries
+- `inbox/` — capture
+- `outbox/` — drafts
+- `people/{name}.md`
+- `projects/{name}.md`
+
+**Files that are TERMINAL-ONLY (never write from Telegram even if asked):**
+- `memory/boundaries.md` — boundaries are LAW. Adding a boundary is a serious act. If Noam asks via Telegram to add a boundary, write it instead to `memory/learned-this-week.md` under "Pending boundary — confirm at desk" so he reviews in person.
+- `CLAUDE.md` — changing the operating manual changes how you behave. Terminal-only.
+- `the-system-v8 2/`, `.archive/`, `.git/`, `.obsidian/`, `.claude/`, `_References/`, `🤖 Agents/` — never modify.
 
 **Session end (or `/sync` command):**
 - Commit memory changes to git with meaningful messages.

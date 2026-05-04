@@ -9,6 +9,7 @@ updated: 2026-05-04
 _Format: one bullet per commitment. Auto-updated when Noam mentions one in conversation._
 
 ## Active
+- Send chapter 4 draft to Amit by 2026-05-08 (Friday) — added 2026-05-04
 - _e.g. "Send chapter 4 draft to Amit by 2026-05-10"_
 
 ## Recurring
