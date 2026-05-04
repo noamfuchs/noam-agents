@@ -60,9 +60,22 @@ FILE_API = f"https://api.telegram.org/file/bot{TOKEN}"
 INBOX = BRAIN / "inbox"
 INBOX_AUDIO = INBOX / "audio"
 LOGS = BRAIN / "system" / "logs"
+CONV_DIR = BRAIN / "system" / "conversations"
+CONV_LOG = CONV_DIR / "telegram.md"
 INBOX.mkdir(parents=True, exist_ok=True)
 INBOX_AUDIO.mkdir(parents=True, exist_ok=True)
 LOGS.mkdir(parents=True, exist_ok=True)
+CONV_DIR.mkdir(parents=True, exist_ok=True)
+
+# Local whisper CLI — installed via `pip3 install openai-whisper` against
+# the system python at /Library/Frameworks/Python.framework/Versions/3.13.
+# Runs entirely on-device, no API cost.
+WHISPER_BIN = "/Library/Frameworks/Python.framework/Versions/3.13/bin/whisper"
+WHISPER_MODEL = SECRETS.get("WHISPER_MODEL", "small")  # base|small|medium|large
+
+# Conversation context — how much of the recent log to inject into each
+# `claude -p` call so replies stay coherent across turns.
+CONTEXT_MAX_CHARS = 8000
 
 logging.basicConfig(
     level=getattr(logging, LOG_LEVEL, logging.INFO),
@@ -140,20 +153,99 @@ def write_text_to_inbox(text: str, source: str = "telegram") -> Path:
     return path
 
 
-def write_voice_to_inbox(audio_path: Path) -> Path:
+def write_voice_to_inbox(audio_path: Path, transcript: str | None = None) -> Path:
     name = f"{stamp()}-tg-voice.md"
     path = INBOX / name
-    body = (
-        f"---\n"
-        f"source: telegram-voice\n"
-        f"timestamp: {datetime.now().isoformat()}\n"
-        f"audio: {audio_path}\n"
-        f"transcript: pending\n"
-        f"---\n\n"
-        f"_Voice memo — transcription not yet configured. Audio file saved at `{audio_path}`._\n"
-    )
+    if transcript:
+        body = (
+            f"---\n"
+            f"source: telegram-voice\n"
+            f"timestamp: {datetime.now().isoformat()}\n"
+            f"audio: {audio_path}\n"
+            f"---\n\n"
+            f"{transcript}\n"
+        )
+    else:
+        body = (
+            f"---\n"
+            f"source: telegram-voice\n"
+            f"timestamp: {datetime.now().isoformat()}\n"
+            f"audio: {audio_path}\n"
+            f"transcript: failed\n"
+            f"---\n\n"
+            f"_Voice memo — local transcription failed. Audio file saved at `{audio_path}`._\n"
+        )
     path.write_text(body, encoding="utf-8")
     return path
+
+
+# ---- Voice transcription (local, free) -------------------------------------
+
+
+def transcribe_voice(audio_path: Path) -> str | None:
+    """Run local whisper on the .ogg file. Returns transcript text or None.
+
+    Uses the openai-whisper Python package via its CLI (no API call). Hebrew
+    is hinted but whisper auto-detects if the speaker switches.
+    """
+    if not Path(WHISPER_BIN).exists():
+        log.error("whisper binary missing at %s", WHISPER_BIN)
+        return None
+    out_dir = audio_path.parent
+    try:
+        result = subprocess.run(
+            [
+                WHISPER_BIN, str(audio_path),
+                "--model", WHISPER_MODEL,
+                "--language", "he",
+                "--output_dir", str(out_dir),
+                "--output_format", "txt",
+                "--fp16", "False",
+                "--verbose", "False",
+            ],
+            capture_output=True,
+            text=True,
+            timeout=600,
+        )
+        txt_file = out_dir / (audio_path.stem + ".txt")
+        if txt_file.exists():
+            transcript = txt_file.read_text(encoding="utf-8").strip()
+            return transcript or None
+        log.error("whisper produced no txt; rc=%s stderr=%s", result.returncode, result.stderr[:500])
+        return None
+    except subprocess.TimeoutExpired:
+        log.error("whisper timed out on %s", audio_path)
+        return None
+    except Exception as e:
+        log.exception("whisper error: %s", e)
+        return None
+
+
+# ---- Conversation context --------------------------------------------------
+
+
+def append_conversation(role: str, text: str) -> None:
+    """Append one turn to the persistent telegram conversation log."""
+    ts = datetime.now().isoformat(timespec="seconds")
+    try:
+        with CONV_LOG.open("a", encoding="utf-8") as f:
+            f.write(f"\n## {role} — {ts}\n{text.strip()}\n")
+    except Exception as e:
+        log.error("failed to append conversation log: %s", e)
+
+
+def recent_context() -> str:
+    """Return the tail of the conversation log, capped at CONTEXT_MAX_CHARS."""
+    if not CONV_LOG.exists():
+        return ""
+    try:
+        text = CONV_LOG.read_text(encoding="utf-8")
+    except Exception as e:
+        log.error("failed to read conversation log: %s", e)
+        return ""
+    if len(text) <= CONTEXT_MAX_CHARS:
+        return text.strip()
+    return "...(earlier turns omitted)...\n" + text[-CONTEXT_MAX_CHARS:].strip()
 
 
 # ---- Command handling ------------------------------------------------------
@@ -187,10 +279,34 @@ CLAUDE_ALLOWED_TOOLS = " ".join([
 ])
 
 
-def call_claude(prompt: str, chat_id: int) -> None:
-    """Invoke claude -p in the brain dir with read-only tools. Reply with response."""
+def call_claude(prompt: str, chat_id: int, with_context: bool = True) -> None:
+    """Invoke claude -p in the brain dir. Reply with response.
+
+    When with_context=True, the recent telegram conversation log is prepended
+    so the assistant has continuity across turns. The user message and the
+    assistant's reply are then appended to that log.
+    """
     log.info("→ claude: %s", prompt[:120].replace("\n", " "))
     tg_send_chat_action(chat_id, "typing")
+
+    if with_context:
+        ctx = recent_context()
+        if ctx:
+            full_prompt = (
+                "Below is the recent Telegram conversation between you (Claude, "
+                "Noam's personal assistant) and Noam, oldest first. Treat it as "
+                "your prior turns — don't repeat past replies, build on them.\n\n"
+                "=== RECENT CONVERSATION ===\n"
+                f"{ctx}\n"
+                "=== END CONVERSATION ===\n\n"
+                f"## Noam — now\n{prompt}\n\n"
+                "Reply to Noam's latest message. Match his language."
+            )
+        else:
+            full_prompt = prompt
+    else:
+        full_prompt = prompt
+
     try:
         # Pipe prompt via stdin to avoid argparse swallowing it as a flag value
         # (since --allowedTools is a variadic flag).
@@ -199,7 +315,7 @@ def call_claude(prompt: str, chat_id: int) -> None:
                 "claude", "-p",
                 "--allowedTools", CLAUDE_ALLOWED_TOOLS,
             ],
-            input=prompt,
+            input=full_prompt,
             cwd=str(BRAIN),
             capture_output=True,
             text=True,
@@ -213,6 +329,9 @@ def call_claude(prompt: str, chat_id: int) -> None:
         # Telegram limit is 4096 chars per message
         for chunk in [out[i : i + 4000] for i in range(0, len(out), 4000)]:
             tg_send(chat_id, chunk)
+        if with_context:
+            append_conversation("Noam", prompt)
+            append_conversation("Assistant", out)
     except subprocess.TimeoutExpired:
         tg_send(chat_id, "⏱️ זמן תגובה ארוך מדי (>4 דקות). נסה שוב.")
     except FileNotFoundError:
@@ -245,6 +364,16 @@ def handle_command(text: str, chat_id: int) -> None:
 
     if cmd_lower == "id":
         tg_send(chat_id, f"chat_id: {chat_id}")
+        return
+
+    if cmd_lower == "reset":
+        # Clear conversation context (keep the file but archive it).
+        if CONV_LOG.exists():
+            archive = CONV_DIR / f"telegram-{stamp()}.md"
+            CONV_LOG.rename(archive)
+            tg_send(chat_id, f"🧹 הקונטקסט אופס. (גובה ל־{archive.name})")
+        else:
+            tg_send(chat_id, "🧹 אין מה לאפס.")
         return
 
     # default — forward as a skill invocation
@@ -298,12 +427,20 @@ def main() -> None:
                 elif "voice" in msg:
                     file_id = msg["voice"]["file_id"]
                     audio_path = INBOX_AUDIO / f"{stamp()}.ogg"
-                    if tg_download_voice(file_id, audio_path):
-                        path = write_voice_to_inbox(audio_path)
-                        log.info("voice → %s", path)
-                        tg_send(chat_id, f"🎤 נשמר ב־inbox: {path.name} (transcription pending)")
-                    else:
+                    if not tg_download_voice(file_id, audio_path):
                         tg_send(chat_id, "❌ Voice download failed.")
+                        continue
+                    tg_send_chat_action(chat_id, "typing")
+                    tg_send(chat_id, "🎤 מתמלל...")
+                    transcript = transcribe_voice(audio_path)
+                    if not transcript:
+                        write_voice_to_inbox(audio_path, transcript=None)
+                        tg_send(chat_id, "❌ תמלול נכשל. ההקלטה נשמרה ב־inbox/audio/.")
+                        continue
+                    path = write_voice_to_inbox(audio_path, transcript=transcript)
+                    log.info("voice → %s (%d chars)", path, len(transcript))
+                    tg_send(chat_id, f"📝 {transcript}")
+                    call_claude(transcript, chat_id)
                 else:
                     log.info("ignoring message type: %s", list(msg.keys()))
 
