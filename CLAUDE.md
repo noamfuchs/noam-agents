@@ -17,7 +17,7 @@ When invoked, **decide first, then act**: read the relevant memory/files, then e
 
 ## Identity
 - **User:** Noam Fuchs (`fooxsound@gmail.com`)
-- **Vault:** `~/Desktop/MY BRAIN/` (also reachable as `~/second-brain/` via symlink)
+- **Vault:** `~/Dropbox/MY BRAIN/` (also reachable as `~/second-brain/` via symlink). Cloud bot reads/writes via Dropbox API; Mac sees same files via local Dropbox sync.
 - **Primary language:** Hebrew. Secondary: English.
 
 ## Language rule (most important)
@@ -95,20 +95,24 @@ When invoked, **decide first, then act**: read the relevant memory/files, then e
 
 ## Vault layout (this Obsidian vault)
 ```
-~/Desktop/MY BRAIN/
-├── CLAUDE.md            ← this file
-├── memory/              ← Claude-managed memory
-├── inbox/               ← captured items pending classification
-├── people/              ← one .md per person (use _template.md)
-├── projects/            ← one .md per active project (use _template.md)
-├── outbox/              ← drafts Noam copy-pastes
+~/Dropbox/MY BRAIN/
+├── CLAUDE.md                ← this file
+├── memory/                  ← Claude-managed memory
+├── inbox/                   ← captured items pending classification
+├── people/                  ← one .md per person (use _template.md)
+├── projects/                ← one .md per active project (use _template.md)
+├── outbox/                  ← drafts Noam copy-pastes
+├── gym/                     ← workout logs (managed by /fitness skill)
+├── finance/                 ← expense logs (managed by /finance skill)
 ├── system/
-│   ├── automations/     ← Telegram bot, launchd plists, scripts
-│   ├── prompts/         ← reusable prompt fragments
-│   └── logs/            ← capture.log, access.log, etc.
-├── _References/         ← Noam's reference material (CV, profile, etc.)
-├── 🤖 Agents/          ← Noam's existing personal agents
-└── .archive/            ← deprecated content; NEVER touch
+│   ├── automations/         ← old launchd telegram bot (deprecated; cloud bot lives at ~/Documents/code_projacts/my personal assistent/)
+│   ├── conversations/main.md← unified cross-channel turn log (Telegram + terminal)
+│   ├── project-registry.yaml← project routing for the cloud bot
+│   ├── prompts/             ← reusable prompt fragments
+│   └── logs/                ← capture.log, access.log, etc.
+├── _References/             ← Noam's reference material (CV, profile, etc.)
+├── 🤖 Agents/              ← Noam's existing personal agents
+└── .archive/                ← deprecated content; NEVER touch
 ```
 
 ## Daily rhythm (scheduled via launchd — Phase 10, not built yet)
@@ -117,7 +121,17 @@ When invoked, **decide first, then act**: read the relevant memory/files, then e
 - **Sunday 6pm weekly digest** → decisions added this week, `learned-this-week.md` flushed (asks first), highlights stuck items → Telegram + journal.
 
 ## Voice
-_Filled during Phase 8 onboarding. See `memory/voice.md`._
+_Filled during Phase 8 onboarding (skill: `/onboard`). See `memory/voice.md`._
+
+## Cloud bot (live, not on this Mac)
+- Lives at `~/Documents/code_projacts/my personal assistent/` (codebase) and runs on Fly.io as app `noam-brain-bot`.
+- Talks to this vault via Dropbox API; appends turns to `system/conversations/main.md`.
+- For project work (CRM_REA, etc.) it dispatches over Tailscale to the Mac executor daemon (`com.user.secondbrain.executor`), which runs `claude -p` in the target project dir.
+- Routing table: `system/project-registry.yaml`. Edit by hand to add/remove projects.
+
+## Subagent skills (live at `~/.claude/skills/`)
+- `/capture`, `/morning-preview`, `/evening-review`, `/weekly-digest`, `/person-prep`, `/draft-message`, `/decision-recall`, `/copywrite` (existing)
+- `/fitness`, `/finance`, `/schedule`, `/onboard` (added 2026-05-08)
 
 ## How to act on Noam's behalf
 - Default: confirm before any external action (sending messages, calendar writes, form submissions).
