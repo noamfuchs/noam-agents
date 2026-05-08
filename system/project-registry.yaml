@@ -1,0 +1,37 @@
+# Project Registry
+# ----------------
+# Read on every Telegram bot turn so the bot knows where to dispatch
+# project-flavored requests. Edit by hand to add/remove projects.
+#
+# Fields:
+#   name           — project key (used in dispatches)
+#   path           — absolute path on the Mac (~ is expanded by the executor)
+#   description    — one-line, used in the bot's system prompt for routing decisions
+#   route_keywords — substrings that strongly suggest this project (case-insensitive)
+#   exec_mode      — "sync" (wait, reply when done — for fast tasks)
+#                  | "background" (ack now, ping when done — for slow tasks)
+#                  | "ask" (bot proposes which project; user confirms)
+
+projects:
+  - name: CRM_REA
+    path: ~/Documents/code_projacts/REA/CRM_REA
+    description: Real-estate CRM (Fireberry integration). Lead capture, client follow-up, property records.
+    route_keywords: [lead, client, crm, fireberry, property, נדל"ן, ליד]
+    exec_mode: background
+
+  - name: webinar-signup-bot
+    path: ~/Dropbox/CLAUDE CODE
+    description: Webinar signup pipeline (registrations, attendance tracking).
+    route_keywords: [webinar, signup, registration, וובינר]
+    exec_mode: background
+
+  - name: second-brain
+    path: ~/Desktop/MY BRAIN
+    description: This vault — memory, people, projects, journal. Default home for capture and recall.
+    route_keywords: [remember, capture, note, journal, person, decision, "זכור", "תרשום"]
+    exec_mode: sync
+
+# Defaults applied when a project entry omits a field
+defaults:
+  exec_mode: sync
+  timeout_seconds: 180

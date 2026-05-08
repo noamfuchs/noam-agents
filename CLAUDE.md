@@ -36,6 +36,7 @@ When invoked, **decide first, then act**: read the relevant memory/files, then e
 6. `memory/voice.md` — how he writes
 7. `memory/recurring.md` — cadence
 8. `memory/learned-this-week.md` — pending inferences
+9. `system/conversations/main.md` (tail — last ~8000 chars) — the unified cross-channel conversation log. The Telegram bot writes both sides of its turns here; terminal sessions append turns too. Treat it as your prior turns across channels — don't repeat past replies, build on them. If the file is large, only read the tail with `Read` + `offset`.
 
 **During session — when Noam expresses something durable, append immediately and tell him what you saved:**
 - A preference → append to `memory/preferences.md` (or `memory/learned-this-week.md` if uncertain — surface for confirmation in next evening review)
@@ -56,6 +57,7 @@ When invoked, **decide first, then act**: read the relevant memory/files, then e
 - `outbox/` — drafts
 - `people/{name}.md`
 - `projects/{name}.md`
+- `system/conversations/main.md` — append-only cross-channel conversation log. Bot writes both sides automatically; terminal Claude appends `## Noam (terminal) — {iso}\n{prompt}` and `## Assistant (terminal) — {iso}\n{reply}` blocks for substantive turns (skip trivial pleasantries / pure tool-use turns).
 
 **Files that are TERMINAL-ONLY (never write from Telegram even if asked):**
 - `memory/boundaries.md` — boundaries are LAW. Adding a boundary is a serious act. If Noam asks via Telegram to add a boundary, write it instead to `memory/learned-this-week.md` under "Pending boundary — confirm at desk" so he reviews in person.

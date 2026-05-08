@@ -61,7 +61,9 @@ INBOX = BRAIN / "inbox"
 INBOX_AUDIO = INBOX / "audio"
 LOGS = BRAIN / "system" / "logs"
 CONV_DIR = BRAIN / "system" / "conversations"
-CONV_LOG = CONV_DIR / "telegram.md"
+# Unified conversation log shared across channels (telegram + terminal).
+# Terminal sessions append via hooks in .claude/settings.json.
+CONV_LOG = CONV_DIR / "main.md"
 INBOX.mkdir(parents=True, exist_ok=True)
 INBOX_AUDIO.mkdir(parents=True, exist_ok=True)
 LOGS.mkdir(parents=True, exist_ok=True)
@@ -224,12 +226,12 @@ def transcribe_voice(audio_path: Path) -> str | None:
 # ---- Conversation context --------------------------------------------------
 
 
-def append_conversation(role: str, text: str) -> None:
-    """Append one turn to the persistent telegram conversation log."""
+def append_conversation(role: str, text: str, channel: str = "telegram") -> None:
+    """Append one turn to the unified cross-channel conversation log."""
     ts = datetime.now().isoformat(timespec="seconds")
     try:
         with CONV_LOG.open("a", encoding="utf-8") as f:
-            f.write(f"\n## {role} — {ts}\n{text.strip()}\n")
+            f.write(f"\n## {role} ({channel}) — {ts}\n{text.strip()}\n")
     except Exception as e:
         log.error("failed to append conversation log: %s", e)
 
@@ -293,13 +295,14 @@ def call_claude(prompt: str, chat_id: int, with_context: bool = True) -> None:
         ctx = recent_context()
         if ctx:
             full_prompt = (
-                "Below is the recent Telegram conversation between you (Claude, "
-                "Noam's personal assistant) and Noam, oldest first. Treat it as "
+                "Below is the recent unified conversation between you (Claude, "
+                "Noam's personal assistant) and Noam, oldest first. Turns are "
+                "tagged with channel — telegram or terminal. Treat them all as "
                 "your prior turns — don't repeat past replies, build on them.\n\n"
                 "=== RECENT CONVERSATION ===\n"
                 f"{ctx}\n"
                 "=== END CONVERSATION ===\n\n"
-                f"## Noam — now\n{prompt}\n\n"
+                f"## Noam (telegram) — now\n{prompt}\n\n"
                 "Reply to Noam's latest message. Match his language."
             )
         else:
@@ -330,8 +333,8 @@ def call_claude(prompt: str, chat_id: int, with_context: bool = True) -> None:
         for chunk in [out[i : i + 4000] for i in range(0, len(out), 4000)]:
             tg_send(chat_id, chunk)
         if with_context:
-            append_conversation("Noam", prompt)
-            append_conversation("Assistant", out)
+            append_conversation("Noam", prompt, channel="telegram")
+            append_conversation("Assistant", out, channel="telegram")
     except subprocess.TimeoutExpired:
         tg_send(chat_id, "⏱️ זמן תגובה ארוך מדי (>4 דקות). נסה שוב.")
     except FileNotFoundError:
