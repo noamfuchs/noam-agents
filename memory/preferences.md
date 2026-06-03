@@ -26,13 +26,20 @@ updated: 2026-05-13
 - Avoid `~` as shorthand for "about" in finished copy — write "roughly", "about", "close to".
 - See the `guest-one-pager` skill (Run For Startups guest briefing PDFs; black + neon-green #CCFF00 brand). First output: [[sarel-eldor]].
 
+## Hardware & performance (added 2026-06-03)
+- **Dislikes heavy CPU load on his Mac.** Reacted strongly when a CPU-bound job (openai-whisper on CPU) grabbed most cores, spiking heat/fans and disrupting other apps.
+- **Prefer GPU / hardware acceleration over CPU** for any heavy local job:
+  - Transcription: `whisper.cpp` with Metal (`whisper-cli`) rather than CPU `openai-whisper`.
+  - Video encoding: `h264_videotoolbox` / `hevc_videotoolbox` (ffmpeg), not CPU `libx264`.
+- **If a CPU-bound path is unavoidable:** cap threads (e.g. ~3-4) and/or `nice`, and **warn him + confirm first** before launching anything that will saturate cores.
+
 ## Things to always proactively surface
 - **Cross-project context.** When a message belongs to another project, route it there without him asking. Source: explicit bot UX feedback.
 - **Multi-turn continuity.** Remember the prior turn. Follow-ups like "and X?" should work.
 - **Stuck steps for him.** Only the actions only he can do (uploads, OAuth, recording) — minimum list, never a 5-item checklist where 4 are mine.
 
 ## Money / cost
-- **No paid services right now.** Free tiers only. Source (inbox 2026-05-04): "אני לא רוצה דברים שעולים כסף בכלל כרגע". This bot runs on Cloudflare Workers free tier; voice transcription deferred until/unless a free path is available.
+- **No paid services right now.** Free tiers only. Source (inbox 2026-05-04): "אני לא רוצה דברים שעולים כסף בכלל כרגע". (The assistant bot is currently inactive — local-only setup; ignore unless reactivated.) Voice transcription deferred until/unless a free path is available.
 - **Cheap-to-operate** is also a constraint on the REA CRM build (max free tiers, minimize third-party deps).
 
 ## Quality / tooling bar (technical work)
@@ -43,7 +50,7 @@ updated: 2026-05-13
 ## Working rhythm / channels
 - **Talks to the bot from Telegram** while Mac is asleep (most of the day).
 - **Talks to project-specific Claude on the Mac** in each project's working directory (CRM_REA, sem2-coach, real-estate course, etc.).
-- **Obsidian vault** at `~/Dropbox/MY BRAIN/` (PARA structure) is the persistent memory layer; mobile read/write via Obsidian iOS.
+- **Obsidian vault** at `~/MY BRAIN/` (reachable as `~/second-brain/` via symlink) is the persistent memory layer; mobile read/write via Obsidian iOS. Local-only.
 - **Daily journal flow:** morning intention → tasks → evening reflection.
 
 ## Language defaults (per channel)

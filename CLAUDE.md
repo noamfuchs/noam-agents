@@ -17,7 +17,7 @@ When invoked, **decide first, then act**: read the relevant memory/files, then e
 
 ## Identity
 - **User:** Noam Fuchs (`fooxsound@gmail.com`)
-- **Vault:** `~/Dropbox/MY BRAIN/` (also reachable as `~/second-brain/` via symlink). Cloud bot reads/writes via Dropbox API; Mac sees same files via local Dropbox sync.
+- **Vault:** `~/MY BRAIN/` (also reachable as `~/second-brain/` via symlink). **Local-only** — not synced to Dropbox/cloud. (A cloud bot + Dropbox sync setup existed earlier but is currently inactive/irrelevant.)
 - **Primary language:** Hebrew. Secondary: English.
 
 ## Language rule (most important)
@@ -95,7 +95,7 @@ When invoked, **decide first, then act**: read the relevant memory/files, then e
 
 ## Vault layout (this Obsidian vault)
 ```
-~/Dropbox/MY BRAIN/
+~/MY BRAIN/
 ├── CLAUDE.md                ← this file
 ├── memory/                  ← Claude-managed memory
 ├── inbox/                   ← captured items pending classification
@@ -123,11 +123,12 @@ When invoked, **decide first, then act**: read the relevant memory/files, then e
 ## Voice
 _Filled during Phase 8 onboarding (skill: `/onboard`). See `memory/voice.md`._
 
-## Cloud bot (live, not on this Mac)
-- Lives at `~/Documents/code_projacts/my personal assistent/` (codebase) and runs on Fly.io as app `noam-brain-bot`.
-- Talks to this vault via Dropbox API; appends turns to `system/conversations/main.md`.
-- For project work (CRM_REA, etc.) it dispatches over Tailscale to the Mac executor daemon (`com.user.secondbrain.executor`), which runs `claude -p` in the target project dir.
-- Routing table: `system/project-registry.yaml`. Edit by hand to add/remove projects.
+## Cloud bot (CURRENTLY INACTIVE — ignore unless Noam reactivates it)
+_The vault is local-only right now. The cloud bot below is not running; treat this section as dormant reference, not live infrastructure._
+- Codebase at `~/Documents/code_projacts/my personal assistent/`; previously ran on Fly.io as app `noam-brain-bot`.
+- Previously talked to this vault via Dropbox API and appended turns to `system/conversations/main.md`.
+- For project work it dispatched over Tailscale to the Mac executor daemon (`com.user.secondbrain.executor`).
+- Routing table: `system/project-registry.yaml`.
 
 ## Subagent skills (live at `~/.claude/skills/`)
 - `/capture`, `/morning-preview`, `/evening-review`, `/weekly-digest`, `/person-prep`, `/draft-message`, `/decision-recall`, `/copywrite` (existing)

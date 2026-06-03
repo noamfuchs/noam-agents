@@ -4,7 +4,7 @@ This is the daily-use brain. Open it via:
 ```
 cd ~/second-brain && claude
 ```
-(or `cd "~/Desktop/MY BRAIN" && claude` — same place via symlink)
+(`~/second-brain` is a symlink to `~/MY BRAIN`. Note: a separate, abandoned copy exists at `~/Desktop/MY BRAIN` — it is NOT this vault; ignore it.)
 
 ## Quick map
 - `CLAUDE.md` — operating manual, read first by every session
