@@ -4,7 +4,7 @@ This is the daily-use brain. Open it via:
 ```
 cd ~/second-brain && claude
 ```
-(`~/second-brain` is a symlink to `~/MY BRAIN`. Note: a separate, abandoned copy exists at `~/Desktop/MY BRAIN` — it is NOT this vault; ignore it.)
+(The vault lives at `~/Dropbox/MY BRAIN` and is synced via Dropbox. `~/second-brain` and `~/MY BRAIN` are symlinks pointing to it, so those paths still work everywhere. Note: a separate, abandoned copy exists at `~/Desktop/MY BRAIN`, it is NOT this vault, ignore it.)
 
 ## Quick map
 - `CLAUDE.md` — operating manual, read first by every session

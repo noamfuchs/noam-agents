@@ -17,7 +17,7 @@ When invoked, **decide first, then act**: read the relevant memory/files, then e
 
 ## Identity
 - **User:** Noam Fuchs (`fooxsound@gmail.com`)
-- **Vault:** `~/MY BRAIN/` (also reachable as `~/second-brain/` via symlink). **Local-only** — not synced to Dropbox/cloud. (A cloud bot + Dropbox sync setup existed earlier but is currently inactive/irrelevant.)
+- **Vault:** canonical location `~/Dropbox/MY BRAIN/`, **synced via Dropbox** (cloud backup + multi-device). Also reachable as `~/MY BRAIN/` and `~/second-brain/` (both symlinks to the Dropbox copy), so any tool or path that uses those still works. (A cloud bot that talked to the vault existed earlier but is currently inactive/irrelevant.)
 - **Primary language:** Hebrew. Secondary: English.
 
 ## Language rule (most important)
@@ -124,7 +124,7 @@ When invoked, **decide first, then act**: read the relevant memory/files, then e
 _Filled during Phase 8 onboarding (skill: `/onboard`). See `memory/voice.md`._
 
 ## Cloud bot (CURRENTLY INACTIVE — ignore unless Noam reactivates it)
-_The vault is local-only right now. The cloud bot below is not running; treat this section as dormant reference, not live infrastructure._
+_The vault now lives in Dropbox (synced), but the cloud bot below is still not running; treat this section as dormant reference, not live infrastructure._
 - Codebase at `~/Documents/code_projacts/my personal assistent/`; previously ran on Fly.io as app `noam-brain-bot`.
 - Previously talked to this vault via Dropbox API and appended turns to `system/conversations/main.md`.
 - For project work it dispatched over Tailscale to the Mac executor daemon (`com.user.secondbrain.executor`).

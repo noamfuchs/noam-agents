@@ -50,7 +50,7 @@ updated: 2026-05-13
 ## Working rhythm / channels
 - **Talks to the bot from Telegram** while Mac is asleep (most of the day).
 - **Talks to project-specific Claude on the Mac** in each project's working directory (CRM_REA, sem2-coach, real-estate course, etc.).
-- **Obsidian vault** at `~/MY BRAIN/` (reachable as `~/second-brain/` via symlink) is the persistent memory layer; mobile read/write via Obsidian iOS. Local-only.
+- **Obsidian vault** canonical at `~/Dropbox/MY BRAIN/` (synced via Dropbox; also reachable as `~/MY BRAIN/` and `~/second-brain/` via symlinks) is the persistent memory layer; mobile read/write via Obsidian iOS.
 - **Daily journal flow:** morning intention → tasks → evening reflection.
 
 ## Language defaults (per channel)
