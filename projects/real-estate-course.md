@@ -41,6 +41,14 @@ started: 2026-04
 - **Process:** extract deck with `pdftotext` → write expanded Hebrew script following the approved ch.1–3 style → structure as Heading 1 (chapter title), Heading 2 (sections), Normal paragraphs, bracketed stage directions like `[מצגת: ...]`, `[הפסקה קצרה]`, `[דוגמה אישית: ...]` → build `.docx` with python-docx → send to Amit for voice/pacing review.
 - **Locations:** scripts → `~/Desktop/clawed bot/קורס/פרקים/`; source PDFs → `~/Desktop/clawed bot/קורס/חומרים/` (old) and `~/Desktop/clawed bot/קורס/חומרים חדש/` (PART 3–8). PART 9–12 PDFs supplied later.
 
+## Ad campaign (added 2026-06-02)
+- **Strategist:** [[neria-ogen]] (onboarded 2026-06-02). Films/edits with [[amit-schleffer]].
+- **Audience:** people who want US real estate as a *primary income / career change*, not a side hustle (actively researching, e.g. watching YouTube; goal = "לחיות מזה" / remote travel lifestyle).
+- **Creative:** 1 core video + 5 hooks → 5 distinct test creatives. Amit films Sundays, diverse locations. Add a combined testimonial video.
+- **Blocker:** Facebook Business Verification before Neria can access the ad account (final step before launch). Amit started it 2026-06-02.
+- **Timeline:** landing page ready for review by end of the following week; ad creative finalized before that.
+- Open: Noam → send landing-page URL to Neria. Amit → upload photos to shared drive, get testimonials (incl. Omer), send incorporation docs to Neria.
+
 ## Notes
 - Output language: Hebrew
 - Tone: conversational, sharp, direct, not academic

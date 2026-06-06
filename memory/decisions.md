@@ -8,6 +8,18 @@ updated: 2026-05-04
 
 _Format: each decision is a level-2 heading with date and reasoning. Add new ones at the top._
 
+## 2026-06-04 — RFS Global gets its own brand
+**Decision:** The English-speaking RFS Global cohort gets a distinct brand: a new `@RFSGlobal` Instagram account and `rfs.global@gmail.com`, using Instagram Collabs with the main RFS account to borrow its audience.
+**Why:** A separate English-language identity for the international/olim cohort, kept distinct from the Hebrew RFS brand. See [[rfs-global]].
+
+## 2026-06-04 — Accepted Zak Feingold into RFS Global
+**Decision:** Admit Zak Feingold to the first RFS Global cohort.
+**Why:** Strong profile — CS student at Reichman (ASEG scholar), running a service-delivery startup with his brother, founding a university robotics club. Good fit and energy for the global group.
+
+## 2026-06-02 — Real Estate Academy ad-campaign strategy
+**Decision:** Target audience = people who want US real estate as a *primary income / career change* (not a side hustle). Creative approach = one core video + 5 hooks, combined into 5 distinct test creatives; Amit films on Sundays.
+**Why:** Sharper positioning for higher-intent buyers, and a cheap way to test multiple angles fast. Run by [[neria-ogen]]; see [[real-estate-course]].
+
 ## 2026-05-04 — Brain location
 **Decision:** Personal assistant lives inside the existing Obsidian vault at `~/Desktop/MY BRAIN/`, not a parallel `~/second-brain/`.
 **Why:** Existing PARA Obsidian vault has the daily-journal habit and `.git`. Splitting into two trees would kill the journal habit. `~/second-brain` is a symlink to the vault for spec compatibility.
