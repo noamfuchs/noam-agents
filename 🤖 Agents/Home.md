@@ -2,6 +2,8 @@
 
 This is your command center for all AI agents. Each agent lives in its own folder with its style profiles, logs, and code.
 
+> 🏛️ For the full company view (all agents, who reports to whom, the quality gate), see the **[[Org Chart]]**.
+
 ---
 
 ## Active Agents

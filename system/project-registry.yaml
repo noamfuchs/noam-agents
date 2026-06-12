@@ -13,10 +13,10 @@
 #                  | "ask" (bot proposes which project; user confirms)
 
 projects:
-  - name: CRM_REA
-    path: ~/Documents/code_projacts/REA/CRM_REA
-    description: Real-estate CRM (Fireberry integration). Lead capture, client follow-up, property records.
-    route_keywords: [lead, client, crm, fireberry, property, נדל"ן, ליד]
+  - name: crm-rea
+    path: ~/Documents/code_projacts/REA/crm-rea
+    description: Real-estate CRM for Real Estate Academy. Next.js + Supabase, WhatsApp + BoldSign + Calendly integrations. Lead capture, client follow-up, sales pipeline.
+    route_keywords: [lead, client, crm, property, contract, whatsapp, calendly, נדל"ן, ליד]
     exec_mode: background
 
   - name: webinar-signup-bot
@@ -26,10 +26,16 @@ projects:
     exec_mode: background
 
   - name: second-brain
-    path: ~/Desktop/MY BRAIN
+    path: ~/MY BRAIN
     description: This vault — memory, people, projects, journal. Default home for capture and recall.
     route_keywords: [remember, capture, note, journal, person, decision, "זכור", "תרשום"]
     exec_mode: sync
+
+  - name: sem2-coach
+    path: ~/Dropbox/IDC/SEM 2/MY SEM 2 COACH
+    description: IDC second-semester academic coach. Tracks 9 courses, syllabi, deadlines, submissions across economics core / math / stats / R / Gen AI / entrepreneurship. STATUS.md is the live state.
+    route_keywords: [idc, reichman, sem 2, semester, assignment, exam, deadline, course, syllabus, "סמסטר", "מטלה", "מבחן", "ריצמן"]
+    exec_mode: background
 
 # Defaults applied when a project entry omits a field
 defaults:

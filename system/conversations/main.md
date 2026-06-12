@@ -346,3 +346,33 @@ Built the full Fathom → second-brain pipeline:
 - Backfilled + processed 5 meetings (RFS Global recruitment + REA ad campaign): created people [[dafne-bennatan]], [[neria-ogen]], [[alan-mekibel]]; created project [[rfs-global]]; added 9 commitments + 3 decisions; journal 06-02→06-05.
 - Root-caused the "awaiting user input" / no-auto-record bug: Fathom.app was running under macOS App Translocation (quarantine flag from Safari download), so it couldn't keep Screen Recording/Mic permissions. Quit it, stripped `com.apple.quarantine` from `/Applications/Fathom.app`, relaunched the clean copy, opened the permission panes.
 Remaining (Noam's clicks only): grant Screen Recording + Microphone to Fathom, turn on auto-record + Auto Request Recording Consent (or bot-less mode). Fathom API is read-only so settings can't be scripted.
+
+## Noam (terminal) — 2026-06-08T12:00:00+03:00
+Process any meeting notes in Meetings/ marked processed: false — fold each into the second brain and mark it processed.
+
+## Assistant (terminal) — 2026-06-08T12:00:00+03:00
+Processed 5 Fathom meetings (06-07 ×2, 06-08 ×3), all RFS-centric plus one real-estate chat with Itay:
+- **Created** project [[rfs-platform]] (CEO directory + calendar + pipeline, built by Ori) and people [[ori-rozental]], [[yonatan-buntzel]], [[lev-wolf]], [[arad-fruchter]].
+- **Updated** [[rfs-global]] (launch 06-10, speaker shift VCs→founders, war/alarm protocol, weekly ops under Lev, Dana Gerichter as pending candidate, Arad as co-manager), [[dafne-bennatan]], [[adam-teer-run-for-startups]], [[itay-liani]] (real-estate process coaching).
+- **memory:** +4 decisions (platform two-tier UX; speaker shift; war protocol; standardized weekly ops) and +13 commitments.
+- **journal:** created 2026-06-07 and 2026-06-08.
+- Marked all 5 meetings `processed: true` (processed_date 2026-06-08) + added Related links.
+Note: couldn't read the process-meetings skill file (outside the vault, permission-denied), so I followed the established pipeline convention. Left changes uncommitted because the working tree already holds unrelated in-progress work from other sessions.
+
+## Noam (terminal) — 2026-06-11T15:47:53+03:00
+Updated Gal Halfon's RFS one-pager: LinkedIn experience was missing from the Background. Pasted the experience section from his profile.
+
+## Assistant (terminal) — 2026-06-11T15:47:53+03:00
+Rebuilt ~/Downloads/Gal Halfon.pdf (1 page, Global purple): added early career (Unit 8200 data analysis team leader 2003-2008; NICE Systems pre-sale engineer 2008-2009, lawful interception product became NICE's top seller in India). Merged the two Noname bullets and dropped a duplicate CTech link to stay on one page. Created people/gal-halfon.md. Open thread: one ops-leadership role from his LinkedIn is missing its company/title (paste cut off). Caution noted: Gal Haselkorn (Corsound AI) is a different person.
+
+## Noam (terminal) — 2026-06-11T15:57:39+03:00
+Pasted Gal Halfon's full LinkedIn experience list and asked to verify all facts on the one-pager.
+
+## Assistant (terminal) — 2026-06-11T15:57:39+03:00
+Fact-checked and rebuilt the one-pager (~/Downloads/Gal Halfon.pdf, 1 page). Corrections: he joined Noname Jan 2023 (after the unicorn round, not the early arc) — fixed bullet + question 1; quote author is Lars Jerkland, Akamai BD director (not "a partner"); swapped editorial "fastest Israeli unicorn" for sourced "first API security unicorn". Added the Hardoor chapter (9 yrs, 4M→50M NIS, 8→110 people, COO, crisis+closure) and automotive cyber (Argus 20M+ vehicles, Upstream), new question about the factory-to-product path. Funding figures verified ($25M+$60M+$135M=$220M, $1B Dec 2021, $450M Akamai 2024). people/gal-halfon.md now holds his full career timeline.
+
+## Noam (terminal) — 2026-06-11T19:05:18+0300
+Run the meeting-processing pipeline on Meetings/ (fold unprocessed Fathom notes into the second brain).
+
+## Assistant (terminal) — 2026-06-11T19:05:18+0300
+Processed 1 meeting: 2026-06-11 RFS Systems (Ori, Yonatan). Testing kickoff — Noam tests as mobile community member, Yonatan desktop C-suite, all reports to a shared Notion table; Ori delivers dev setup package by Sunday 2026-06-14. Filed: 5 commitments, 1 decision (testing-first / role split), updated rfs-platform + ori-rozental + yonatan-buntzel, created journal/2026-06-11.md, marked the meeting processed.

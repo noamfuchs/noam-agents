@@ -19,6 +19,23 @@ _Format: one bullet per commitment. Auto-updated when Noam mentions one in conve
 - Call Adam re: Eitan Irsh fee exception + Lia Cronwell outreach, then decide — from 2026-06-02 meeting [[Meetings/2026-06-02 - Impromptu Google Meet Meeting (151358112)]] — added 2026-06-05
 - Contact Sari (AI R&D manager at Decart-AI) about an RFS Global CEO/speaker slot — from 2026-06-02 meeting [[Meetings/2026-06-02 - Impromptu Google Meet Meeting (151358112)]] — added 2026-06-05
 - Call first-cohort RFS alumni for candidate referrals — from 2026-06-02 meeting [[Meetings/2026-06-02 - Impromptu Google Meet Meeting (151358112)]] — added 2026-06-05
+- Decide Dana Gerichter's RFS Global admission; if yes, notify her + send onboarding (fee, Wed 06:30 Hof Migdalor, parking tips) — from 2026-06-08 meeting [[Meetings/2026-06-08 - Impromptu Google Meet Meeting (152967446)]] — added 2026-06-08
+- Email Sari Hillel (Descartes AI) about an RFS Global CEO/speaker slot — from 2026-06-08 meeting [[Meetings/2026-06-08 - Impromptu Zoom Meeting (152930711)]] — added 2026-06-08
+- Prepare the run-route shelter-map graphic and post it on the RFS Global Instagram — from 2026-06-08 meeting [[Meetings/2026-06-08 - Impromptu Zoom Meeting (152930711)]] — added 2026-06-08
+- Set up the RFS Global/Olim Instagram (pink branding, Sarel photo, story highlights; add Adam + Dafne as managers) — from 2026-06-08 meeting [[Meetings/2026-06-08 - Impromptu Zoom Meeting (152930711)]] — added 2026-06-08
+- Research custom email domain (`@runforstartups.com`) costs and propose a plan — from 2026-06-08 meeting [[Meetings/2026-06-08 - Impromptu Zoom Meeting (152930711)]] — added 2026-06-08
+- Create the shared RFS weekly-sync doc (a tab per meeting) — from 2026-06-08 meeting [[Meetings/2026-06-08 - Impromptu Google Meet Meeting (152958268)]] — added 2026-06-08
+- Send the RFS Global group: teaser article, coffee poll, CEO health declaration, photos/insights to Adam, 2-week readiness update — from 2026-06-08 meeting [[Meetings/2026-06-08 - Impromptu Google Meet Meeting (152958268)]] — added 2026-06-08
+- Ask the upcoming CEO for permission to record/mic; if OK, record and send the clip to Adam — from 2026-06-08 meeting [[Meetings/2026-06-08 - Impromptu Google Meet Meeting (152958268)]] — added 2026-06-08
+- Test a simple app for collecting coffee orders — from 2026-06-08 meeting [[Meetings/2026-06-08 - Impromptu Google Meet Meeting (152958268)]] — added 2026-06-08
+- Update the RFS platform landing page with approved copy + visuals once received — from 2026-06-07 meeting [[Meetings/2026-06-07 - Impromptu Google Meet Meeting (152888669)]] — added 2026-06-08
+- Join the RFS platform build via Git once Ori's foundation is stable — from 2026-06-07 meeting [[Meetings/2026-06-07 - Impromptu Google Meet Meeting (152888669)]] — added 2026-06-08
+- Tag Lev in a post about the real-estate meeting's music — from 2026-06-07 meeting [[Meetings/2026-06-07 - Impromptu Zoom Meeting (152891241)]] — added 2026-06-08
+- Test the RFS platform as a mobile "community member"; log all bugs/suggestions in the shared Notion table — from 2026-06-11 meeting [[Meetings/2026-06-11 - RFS Systems (154300397)]] — added 2026-06-11
+- Send the accepted RFS Global application form to Ori (for the onboarding import flow) — from 2026-06-11 meeting [[Meetings/2026-06-11 - RFS Systems (154300397)]] — added 2026-06-11
+- Send the community/group rosters with member emails to Ori (with Yonatan) — from 2026-06-11 meeting [[Meetings/2026-06-11 - RFS Systems (154300397)]] — added 2026-06-11
+- Use Claude to automate bug discovery on the RFS platform; once Ori's dev setup package lands (due Sunday 2026-06-14), explore the UX/UI overhaul — from 2026-06-11 meeting [[Meetings/2026-06-11 - RFS Systems (154300397)]] — added 2026-06-11
+- Send the RFS one-pager to the team; ping Yonatan if no reply — from 2026-06-11 meeting [[Meetings/2026-06-11 - RFS Systems (154300397)]] — added 2026-06-11
 - _e.g. "Send chapter 4 draft to Amit by 2026-05-10"_
 
 ## Recurring

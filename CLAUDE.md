@@ -63,6 +63,7 @@ When invoked, **decide first, then act**: read the relevant memory/files, then e
 - `memory/boundaries.md` — boundaries are LAW. Adding a boundary is a serious act. If Noam asks via Telegram to add a boundary, write it instead to `memory/learned-this-week.md` under "Pending boundary — confirm at desk" so he reviews in person.
 - `CLAUDE.md` — changing the operating manual changes how you behave. Terminal-only.
 - `the-system-v8 2/`, `.archive/`, `.git/`, `.obsidian/`, `.claude/`, `_References/`, `🤖 Agents/` — never modify.
+  - **Exception (terminal only):** `🤖 Agents/Org Chart.md` and `🤖 Agents/Home.md` may be maintained as the Life-OS org map. The individual agent folders inside `🤖 Agents/` stay never-modify.
 
 **Session end (or `/sync` command):**
 - Commit memory changes to git with meaningful messages.

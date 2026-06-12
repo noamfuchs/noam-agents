@@ -8,6 +8,26 @@ updated: 2026-05-04
 
 _Format: each decision is a level-2 heading with date and reasoning. Add new ones at the top._
 
+## 2026-06-11 — RFS platform: testing-first, split by role and device
+**Decision:** Bug discovery takes priority over new features. Testing is split by permission level and device: Noam tests exclusively as a mobile "community member", Yonatan as a desktop "C-suite" user (highest permissions). All bugs and improvement suggestions go into a shared Notion table — the single source of truth — preferably via the in-app bug reporter (auto page/device context). Dev access opens via Ori's setup package + Claude/Codex prompt (due Sunday 2026-06-14); parallel development must be coordinated to avoid conflicts.
+**Why:** Role/device split gives comprehensive coverage across permission levels; centralized Notion tracking prevents lost reports; bugs-first protects the release. See [[rfs-platform]].
+
+## 2026-06-08 — RFS speaker pipeline shifts to founders
+**Decision:** Re-weight the Run For Startups speaker pipeline away from VCs and toward founders/entrepreneurs. Active leads: Sari Hillel (Descartes AI), Sagi Schleisser (Crazy Labs), a ServiceNow-exit ($80M) founder via Arad, a $116M-exit founder (Arad's stepfather), Greg Kinross.
+**Why:** The current pipeline is VC-heavy; founders are more relatable and valuable for the runners. See [[rfs-global]].
+
+## 2026-06-08 — RFS run-safety / war-alarm protocol
+**Decision:** Standing protocol for runs during alarms — 1 alarm → run as planned; 2 alarms → start 07:00; 3 alarms → cancel. Plus a Google Map of the route with shelter locations and close 1:1 contact with each runner.
+**Why:** A previous conflict caused heavy attrition (12 of 20 runners left). Clear rules + reassurance protect safety and group cohesion. See [[rfs-global]].
+
+## 2026-06-08 — RFS standardized weekly operations
+**Decision:** [[lev-wolf]] leads program management across all RFS groups, with a recurring 15-min weekly management sync and a mandatory weekly checklist (speaker outreach 2–3 weeks ahead, fixed member-comms cadence, post-meeting summary + speaker follow-up + content to Adam) standardizing every group.
+**Why:** Earlier groups treated programs as one-off events, causing inconsistency and low community conversion. Standardization ensures continuity and a community-first experience. See [[rfs-global]].
+
+## 2026-06-07 — RFS platform: two-tier UX + scope
+**Decision:** The RFS web platform expands from an internal-only CEO pipeline to a member-facing product (public CEO directory + meeting calendar + internal pipeline). Two tiers: members get a clean public directory with only a simplified status (coming-soon + binary "in pipeline" to prevent duplicate outreach), managers get the full internal pipeline. The application/onboarding pipeline is deferred.
+**Why:** A standalone pipeline offers members little value; a directory + calendar drives adoption, while hiding internal labels keeps the public view professional. Deferring onboarding protects the deadline. See [[rfs-platform]].
+
 ## 2026-06-04 — RFS Global gets its own brand
 **Decision:** The English-speaking RFS Global cohort gets a distinct brand: a new `@RFSGlobal` Instagram account and `rfs.global@gmail.com`, using Instagram Collabs with the main RFS account to borrow its audience.
 **Why:** A separate English-language identity for the international/olim cohort, kept distinct from the Hebrew RFS brand. See [[rfs-global]].
@@ -41,3 +61,7 @@ _Format: each decision is a level-2 heading with date and reasoning. Add new one
 ## 2026-05-04 — FileVault
 **Decision:** Enable as Phase -1 (background). Required before Phase 9 vault import.
 **Why:** Vault holds passport/financial scans. FileVault is the at-rest encryption that makes that acceptable.
+
+## 2026-06-07 — Instagram personal brand
+**Decision:** Grow personal IG from 1,030 → 5,000 by 2027-06. Personal brand (not a topic page), Hebrew-first (English from ~m9), reach-now/monetize-later. Lead with the cross-cultural relationship pillar as the virality engine; 5 pillars total, 2 reels/week (Tue + Motzash). Full plan in [[instagram-growth]].
+**Why:** 0→1k already cleared (hardest part). Multi-topic brand needs one spine; the relationship angle is the unfair, high-reach differentiator. Test all pillars for 8 weeks, let shares/saves/follows pick the 2 to scale.
