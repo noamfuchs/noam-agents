@@ -10,7 +10,7 @@ last_interaction: "2026-05-10 (last WhatsApp mention; they talk daily in person/
 
 **Relationship:** Noam's partner. He calls her פיפימי (Pipimi) or פי (Pi) with everyone, and half-jokingly "אשתי" / "זוגתי". In Feb 2026 he described it as "הזוגיות הכי ארוכה שהייתה לי... מביא לפעמים קשיים אבל גם המון התפתחות, לומד לחיות בשניים" (to Yahel). They live together. ^[living together stated by Noam to Roey, 2026-04-26]
 
-**Who she is:** Chinese, family in the Chengdu area (her mother is well-connected there and helped host Noam on the April 2026 visit). Studies mechanical engineering at the Technion (cousin Hadas: "חברה שלומדת הנדסת מכונות בטכניון"); mechanical + aerospace per Noam. Exceptional student: scored 100 in "אלגברה מתקדמת" (7 proofs in a 24-hour exam), won a scholarship for semester B (Mar 2026), and her research was featured in a video Noam proudly shared with the family. Expected to finish at the Technion around September 2026; Noam also told Camilla in April that "P starts a master this semester" ^[ambiguous — finishing vs. starting a master's, possibly B.Sc. ending Sept + master's beginning; unresolved]
+**Who she is:** Chinese, family in the Chengdu area (her mother is well-connected there and helped host Noam on the April 2026 visit). Studies mechanical engineering at the Technion (cousin Hadas: "חברה שלומדת הנדסת מכונות בטכניון"); mechanical + aerospace per Noam. Exceptional student: scored 100 in "אלגברה מתקדמת" (7 proofs in a 24-hour exam), won a scholarship for semester B (Mar 2026), and her research was featured in a video Noam proudly shared with the family. She is already in the master's program (aerospace; confirmed by Noam 2026-06-12) — the B.Sc chapter is behind her, which resolves the earlier finishing-vs-starting confusion in the chats.
 
 **How they communicate:** Her world runs on WeChat (Noam: "זה אצל פיפימי בוויצ׳אט") — she has no significant WhatsApp presence, which is why she has no DM in the archive; this profile is built from mentions across Noam's chats. Between them they likely speak English. ^[inferred]
 
@@ -23,7 +23,7 @@ last_interaction: "2026-05-10 (last WhatsApp mention; they talk daily in person/
 - **Shared travel** — March–April 2026 trip together: Jordan crossing → Bangkok → Chiang Mai → China (Chengdu region, meeting her family; villa BBQ with her friend, waterfall hikes).
 
 ## Open threads
-- **Post-Technion plans** — finishing around Sept 2026; a long China trip is planned after; the couple is building "מרכז חיים" in Israel at least until Noam finishes his degree.
+- **Post-Technion plans** — in the M.Sc now; a long China trip is planned after the Technion chapter ends; the couple is building "מרכז חיים" in Israel at least until Noam finishes his degree.
 - **Birthday** — February 10 (Noam organized a nature tzimmer + restaurant dinner in 2026).
 
 ## Notes

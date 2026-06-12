@@ -17,7 +17,7 @@ Back to [[HOME]].
 ## Reflection
 - journal/ - daily entries, the temporal hub of the vault
 - [[learned-this-week]] - observations awaiting Sunday review
-- Distilled sources: רשימת החלומות שלי.docx, 30 days projact (note: project date ambiguous, 2024 or 2026; if it's running NOW alongside 75 Hard, treat it as live and re-distill when new days appear), הצהרות הלב, Byron Katie worksheets
+- Distilled sources: רשימת החלומות שלי.docx, הצהרות הלב, Byron Katie worksheets, and the **30 days projact, which is LIVE right now** (started June 2026, runs alongside 75 Hard; re-distill into [[story]] as new days appear)
 - Education thread: Rimon (2018), SAE Institute (2022), bagrut-in-5-months (2024), Reichman (now)
 
 ## Learning

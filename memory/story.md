@@ -32,7 +32,7 @@ Music prodigy-by-work (not by talent narrative: started piano at 18) → top-tie
 - Organizational excellence and follow-through, "valuable asset across productions." (BookTook CEO)
 - Rare learning speed and seriousness: the 5-month bagrut. (Sigal Abudi, matriculation coordinator)
 
-## Inner world (from the 30-day self-interview; date uncertain 2024 vs 2026 ^[ambiguous])
+## Inner world (from the 30-day self-interview — RUNNING NOW, started June 2026, confirmed by Noam 2026-06-12; re-distill as new days appear)
 - **Money anxiety vs growth:** "Friends my age making more money... and I'm studying and doing a lot of things for free. I want to make more money." (Day 2)
 - **Performer pattern:** constructs versions of himself for audiences, including himself ("the perfect boyfriend you perform for yourself"). The facilitator: "The puppy pleases so he'll be loved for pleasing." (Day 7)
 - **The spine:** "I handed out my spine to her. She prefers a strong man, but I have a tendency to be a puppy in the relationship." (Day 7)

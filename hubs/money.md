@@ -10,7 +10,7 @@ Back to [[HOME]].
 
 ## The goals (full list with sources: [[goals]])
 - Net worth above $10M; financial freedom by age 35 (Reichman application, Day 7)
-- Financial independence from parents (dream-list target was 2026-03-02; status to confirm with Noam) ^[ambiguous]
+- Financial independence from parents: mostly achieved, some support remains (Noam, 2026-06-12)
 - Save 20% of income; "retire from wage slavery by 40"
 - Context that matters: money pressure is identity pressure for him (peers earning while he studies). See [[story]] "Tensions".
 
@@ -20,7 +20,7 @@ Back to [[HOME]].
 
 ## Income streams
 - Music production and gigs: FUCHS-SOUND (see [[music]]); Tamar Raili shows via [[ziv]] pay 1200/show
-- [[real-estate-course]] - course sales (REA, with [[amit]] and [[itay]])
+- [[real-estate-course]] - course sales (REA, with [[amit-schleffer|Amit]] and [[itay-liani|Itay]])
 - [[crm-rea]] - infrastructure for REA revenue
 
 ## Records (raw sources, not in vault)
@@ -28,4 +28,4 @@ Back to [[HOME]].
 - Shared bookkeeping 2025/2026: מסמכים/RELATIONSHIP/FINANCE (tier-2, private)
 
 ## Tracking
-- finance/_template.md + finance/recurring.md exist but unused; keep-or-delete decision is with Noam
+- The unused finance/ template folder was deleted 2026-06-12 (Noam's call). Money state lives in the accountant's reports (source docs) and the goals above; no manual expense log.

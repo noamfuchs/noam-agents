@@ -21,4 +21,4 @@ Back to [[HOME]].
 - To be built in levelup Phase 3 (health.md context; the 2025 medical tests stay private, tier-2)
 
 ## Gym
-- gym/_template.md exists but was never used; keep-or-delete decision is with Noam
+- The unused gym/ template folder was deleted 2026-06-12 (Noam's call). The 75 Hard bot covers daily tracking; if structured workout logging is ever wanted, design it fresh.

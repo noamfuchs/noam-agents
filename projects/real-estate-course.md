@@ -28,8 +28,8 @@ started: 2026-04
 - [ ] 12 _(source TBA)_
 
 ## Stakeholders
-- [[people/amit]] — speaker
-- [[people/itay]] — partner
+- [[people/amit-schleffer]] — speaker
+- [[people/itay-liani]] — partner
 
 ## Open items
 - [ ] Draft chapter 4 script

@@ -44,7 +44,7 @@ Navigation, token-cheap read order: **hot.md** (500-word recent cache) then **[[
 - [x] Created [[HOME]] + hubs: [[work]], [[people]], [[mind]], [[body]], [[money]], [[music]]
 - [x] 75 Hard cluster linked via [[body]]
 - [x] wa-people-sync: diagnosed the 01:00 API failure, re-ran, 94 messages caught up, watermark advanced
-- [ ] finance/ and gym/ keep-or-delete (decision with Noam)
+- [x] finance/ and gym/ deleted (Noam decided 2026-06-12; /fitness and /finance skills now dormant, retire via /level-up if never missed)
 - Graph after Phase 0: 115 active notes, 13 fully isolated (11%), nearly all logs/templates
 
 ### Phase 0.5: Navigation + schema (done 2026-06-12, one item with Noam)
@@ -67,7 +67,7 @@ Navigation, token-cheap read order: **hot.md** (500-word recent cache) then **[[
 - [x] Identities: Boss = Gilad Klein (OD SIFRA invoice + 3 independent namings) ^[inferred]; [[ran]] = biological brother Ran Fuchs (confirmed); [[babi]] = business partner (appraiser), not family; [[bitton]] joke-name removed, real first name still unknown ^[ambiguous]; mom/paps first names absent from archive ^[ambiguous]
 - [x] relationships.md rebuilt as index + new "Active groups" table (ההכשרה course group = 2,279 Noam messages); boss.md renamed gilad-klein.md; hubs and about-me corrected
 - [ ] iMessage + Contacts second pass: BLOCKED by macOS (iMessage needs Full Disk Access granted by Noam; Contacts is iCloud-only with no local db)
-- First /audit ran (verdict ATTENTION): proposed merging probable duplicates itay.md/itay-liani.md and amit.md/amit-schleffer.md (contradictory roles, needs Noam), commitments.md triage (overdue items), watch tonight's wa-sync
+- First /audit ran (verdict ATTENTION); its duplicate-people catch was confirmed by Noam same evening: ONE Itay and ONE Amit. Merged into itay-liani.md and amit-schleffer.md (skeleton notes deleted, links rewired). Parents named: Tal (mom), Tomer (paps). Still open from the audit: commitments.md overdue triage; watch tonight's wa-sync
 
 ### Phase 3: Life-area expansion (done 2026-06-12)
 - [x] [[music]]: full career arc + real artist list from the Ableton archive + what the letters say about him

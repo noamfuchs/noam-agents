@@ -38,7 +38,7 @@ updated: 2026-06-12
 - Lived: Tamra → Zikhron Yaakov → Tel Aviv loft (2021-2023) → Geneva (Oct 2023, ~10 months, war period, relatives Constantine and [[camilla]]) → Herzliya dorms.
 - Bagrut completed May 2024 in 5 months, GPA 96. Accepted to Ben Gurion, Technion, Reichman; chose Reichman.
 - OD SIFRA (2025-05 to 2025-11): investor relations in US residential real estate; the bridge to REA. ^[inferred]
-- Family: [[mom]], [[paps]], brothers [[ran]] (Ran Fuchs, closest confidant) and [[shai-my-brother]] (eldest, partner Avital), sister [[hila-my-sister]] (in army); cousins [[tom-fox]] and Jonathan Fuchs; Geneva relatives Constantine and [[camilla]]. Note: [[babi]] is a business partner (appraiser), not family.
+- Family: mother **Tal** [[mom]], father **Tomer** [[paps]] (names confirmed 2026-06-12), brothers [[ran]] (Ran Fuchs, closest confidant) and [[shai-my-brother]] (eldest, partner Avital), sister [[hila-my-sister]] (in army); cousins [[tom-fox]] and Jonathan Fuchs; Geneva relatives Constantine and [[camilla]]. Note: [[babi]] is a business partner (appraiser), not family.
 
 ## Role / what he does
 - **Entrepreneur & operations** — running a real-estate education business with two partners.
@@ -59,8 +59,8 @@ updated: 2026-06-12
 - **Studies** — `sem2-coach` Claude project tracks 9 IDC courses, syllabi, deadlines.
 
 ## People in active rotation
-- **Amit Shalfar** — real estate course speaker; REA CRM marketing. See `people/amit.md`.
-- **Itay Liani** — real estate course partner; REA CRM sales (works from Costa Rica, calls Israeli leads via WhatsApp). See `people/itay.md`.
+- **Amit Shalfar** — real estate course speaker; REA CRM marketing. See `people/amit-schleffer.md`.
+- **Itay Liani** — real estate course partner; REA CRM sales (works from Costa Rica, calls Israeli leads via WhatsApp). See `people/itay-liani.md`.
 - **Qiu Qiqian** — בת זוג, סינית, טכניון, מעונות רייכמן.
 
 ## Channels he uses to talk to me

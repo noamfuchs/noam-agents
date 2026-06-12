@@ -6,6 +6,7 @@ updated: 2026-06-12
 
 # 📜 Log (newest first)
 
+- 2026-06-12 (evening): Noam answered the open questions: 30-day project is LIVE (Day 6 = Qiu), Qiu already in M.Sc, financial independence mostly achieved, parents = Tal + Tomer, ONE Itay + ONE Amit (notes merged), finance/gym deleted, privacy tier-2 confirmed. qmd indexed (126 docs), Sunday 18:00 cadence activated.
 - 2026-06-12: Levelup Phases 1-5 executed in one run: [[goals]] + [[story]] distilled from מסמכים, about-me/voice expanded (birthday, backstory, family), Facebook 2024 export distilled, WhatsApp deep-mine (6 new people incl. [[qiu-qiqian]]; Boss=[[gilad-klein]], Ran=brother confirmed, babi=business partner), hubs filled with real content, 4 skills created (/audit /level-up /grill-me /voice-to-tasks), cross-project routers placed (REA CRM, sem2-coach), first /audit run (ATTENTION: duplicate itay/amit notes proposed for merge, commitments overdue triage). Remaining: Noam's activation commands + 7 open questions (see [[hot]]).
 
 - 2026-06-12: Second-brain levelup Phase 0.5 done: hot.md + log.md created, provenance convention adopted (CLAUDE.md + nightly WhatsApp sync prompt), CLAUDE.md rewired as router. qmd install pending Noam.

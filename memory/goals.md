@@ -11,7 +11,7 @@ Sources: רשימת החלומות שלי.docx (Dropbox root, "dream list"), 30 
 ## Financial
 - Net worth above $10M. Wrote it as "certain", then noticed fear saying it aloud. (Day 7)
 - Financial freedom by age 35. (Reichman application)
-- Financial independence from parents. Dream-list target was 2026-03-02; status unconfirmed, ask Noam. ^[ambiguous]
+- Financial independence from parents. Dream-list target was 2026-03-02; status as of 2026-06-12 (Noam): mostly achieved, some support remains. In progress.
 - Save 20% of income. (dream list)
 - Steady side-hustle income alongside the main path. (dream list)
 
@@ -36,7 +36,7 @@ Sources: רשימת החלומות שלי.docx (Dropbox root, "dream list"), 30 
 ## Relationships and lifestyle
 - Family date once a month. (dream list) See [[people]].
 - Big birthday celebration with many friends. (dream list)
-- A true partnership: his own words shifted from "girlfriend" to "true partner" about Qiu after she stayed through a hard period. (Day 6) ^[inferred: the 30-day project date is uncertain, 2024 or 2026, so which relationship Day 6 describes needs Noam's confirmation] ^[ambiguous]
+- A true partnership: his own words shifted from "girlfriend" to "true partner" about [[qiu-qiqian]] after she stayed through a hard period. (Day 6 of the 30-day project, which is running now, June 2026; confirmed by Noam 2026-06-12)
 - "Retire from wage slavery by 40." (dream list)
 
 ## How to use this file

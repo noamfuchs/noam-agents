@@ -16,13 +16,17 @@ updated: 2026-06-12
 - Vault now has: HOME + hubs, hot/log navigation, provenance convention, [[goals]], [[story]], expanded about-me/voice, 6 new people notes incl. [[qiu-qiqian]], 4 new skills (/audit /level-up /grill-me /voice-to-tasks), cross-project routers (REA CRM, sem2-coach), first audit done (ATTENTION, mostly proposals).
 - Identities resolved: Boss = [[gilad-klein]] (OD SIFRA) ^[inferred]; [[ran]] = biological brother; [[babi]] = appraiser business partner, not family.
 
-## Waiting on NOAM (the whole remaining backlog)
-1. Run qmd install: `npm install -g @tobilu/qmd && qmd collection add "$HOME/Dropbox/MY BRAIN" --name brain && qmd embed`
-2. Activate Sunday cadence: `launchctl load ~/Library/LaunchAgents/com.user.secondbrain.weekly-audit.plist`
-3. Request Instagram + LinkedIn data exports
-4. Full Disk Access for the terminal if iMessage mining is wanted
-5. Decisions: finance/gym keep-or-delete; confirm medical/visa tier-2 defaults
-6. Questions (also in audit.log): Bitton's first name? Sinai Tzarfati's real name? Mom & Paps first names? 30-day project: 2024 or 2026 (affects which relationship Day 6 describes)? Financial-independence status vs the 03-02 target? Qiu Sept 2026: finishing B.Sc or starting M.Sc? Merge itay/itay-liani and amit/amit-schleffer (same people)?
+## Resolved 2026-06-12 evening (by Noam)
+- qmd installed + vault indexed (126 docs). Sunday 18:00 cadence ACTIVE (launchd loaded).
+- 30-day project is LIVE (June 2026): re-distill [[story]] as days appear. Day 6 partner = Qiu.
+- The two Itays and two Amits are four DIFFERENT people (notes disambiguated).
+- Financial independence: mostly achieved, some support remains. Qiu: already in the M.Sc.
+
+## Still waiting on NOAM
+1. Instagram + LinkedIn data exports (then Phase 4 ingestion)
+2. Full Disk Access for the terminal if iMessage mining is wanted
+3. Two names left: Bitton's first name; Sinai Tzarfati's real name
+(Resolved 2026-06-12 evening: parents = Tal + Tomer; ONE Itay and ONE Amit, duplicate notes merged into itay-liani.md + amit-schleffer.md; finance/gym deleted; privacy tier-2 confirmed)
 
 ## Watch
 - Tonight's 01:00 wa-people-sync (failed last night on API error, recovered manually; launchd still shows exit 1).

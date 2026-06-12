@@ -122,8 +122,6 @@ The vault is the distilled wiki over immutable raw sources (whatsapp.db, Fathom,
 ├── Meetings/                ← Fathom meeting summaries (auto-synced)
 ├── 75 Hard/                 ← challenge tracker + dailies (bot-maintained)
 ├── outbox/                  ← drafts Noam copy-pastes
-├── gym/                     ← workout logs (managed by /fitness skill)
-├── finance/                 ← expense logs (managed by /finance skill)
 ├── system/
 │   ├── automations/         ← old launchd telegram bot (deprecated; cloud bot lives at ~/Documents/code_projacts/my personal assistent/)
 │   ├── conversations/main.md← unified cross-channel turn log (Telegram + terminal)

@@ -1,7 +1,7 @@
 ---
 phone: "972525512055"
 whatsapp_label: "Paps"
-name: "Father (abbr. Paps in contacts) — first name unconfirmed"
+name: "Tomer (Paps)"
 relationship: "Father"
 language: "Mixed Hebrew/English"
 last_interaction: "2026-05-11"
@@ -50,3 +50,5 @@ last_interaction: "2026-05-11"
 - On Noam's birthday (2026-04-08, Noam turned 25) his words moved Noam to reply "האבא הכי טוב בעולם".
 - **Relationships:** Close with family; regularly hosts family gatherings and meals at home.
 - **Tech-savvy:** Learning
+
+- **First name: Tomer** (confirmed by Noam, 2026-06-12).

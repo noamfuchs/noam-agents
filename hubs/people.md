@@ -12,7 +12,7 @@ Back to [[HOME]]. Ranked index: [[relationships]].
 - [[qiu-qiqian]] - Qiu: Chinese (family near Chengdu), Technion mechanical engineering on scholarship, birthday Feb 10, runs with Noam, deeply woven into the Fuchs family. She lives on WeChat, not WhatsApp.
 
 ## Family (the פוקסים group)
-- [[mom]] · [[paps]] (first names not in the archive yet, ask Noam) ^[ambiguous]
+- [[mom|Tal (Mom)]] · [[paps|Tomer (Paps)]] (names confirmed by Noam 2026-06-12)
 - [[ran]] (Ran Fuchs, brother, closest confidant) · [[shai-my-brother]] (eldest, ~30, partner Avital) · [[hila-my-sister]] (in army, birthday May 15)
 - [[tom-fox]] (cousin, helps with the course group) · Jonathan Fuchs (cousin, no note yet)
 - Geneva relatives: Constantine + [[camilla]]
@@ -30,7 +30,8 @@ Back to [[HOME]]. Ranked index: [[relationships]].
 - [[gilad-klein]] (former boss at OD SIFRA, Toledo deal flow) ^[inferred] · [[babi]] (appraiser, business partner on the Zamari deal - NOT family despite the label)
 
 ## REA
-- [[amit]] (course speaker) · [[itay]] / [[itay-liani]] (partner, sales) · [[amit-schleffer]] (production) · [[neria-ogen]] (ads) · [[yonatan-automations]] (WhatsApp-automation consultant)
+- [[amit-schleffer|Amit Shalfar]] (co-founder, course speaker, marketing) · [[itay-liani|Itay Liani]] (co-founder, sales from Costa Rica + content/ops) · [[neria-ogen]] (ads) · [[yonatan-automations]] (WhatsApp-automation consultant)
+- (One Amit, one Itay — the duplicate notes were merged 2026-06-12 per Noam.)
 
 ## RFS
 - [[dafne-bennatan]] · [[adam-teer-run-for-startups]] · [[lev-wolf]] · [[arad-fruchter]] · [[ori-rozental]] · [[yonatan-buntzel]] · [[sarel-eldor]] · [[alan-mekibel]]

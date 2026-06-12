@@ -1,7 +1,7 @@
 ---
 phone: "972526441941"
 whatsapp_label: "Mom"
-name: "Mom — first name unconfirmed (earlier 'Aviva' guess had no source)"
+name: "Tal (Mom)"
 relationship: "Mother"
 language: "Mixed Hebrew/English"
 last_interaction: "2026-05-09"
@@ -46,3 +46,5 @@ last_interaction: "2026-05-09"
 - **Location dynamics:** Parents live in one location (mentioned grocery shopping, home base); Noam lives in Reichman dorms in Herzliya with Qiu. Frequent travel between locations.
 - **Medical practitioners she's connected him with:**
   - Igor (sports therapist, Tel Aviv south clinic) — for rib/shoulder injury.
+
+- **First name: Tal** (confirmed by Noam, 2026-06-12).
