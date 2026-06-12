@@ -32,6 +32,7 @@ updated: 2026-06-12
 
 ## Watch
 - Tonight's 01:00 wa-people-sync (failed last night on API error, recovered manually; launchd still shows exit 1).
+- ROOT CAUSE FOUND 2026-06-12: the Mac often runs on an **iPhone hotspot** (DNS 172.20.10.1). Night jobs fail when the hotspot is off; the Telegram bot (@Noam_brain_bot, ALIVE, launchd `com.user.brain-bot`) flaps with it. Ask Noam about stable home Wi-Fi for the Mac, or shift night jobs to morning. Bot wishlist: network backoff to stop 3MB error logs.
 
 ## How to read this vault (for any session)
 1. This file. 2. [[HOME]] and the hubs. 3. Drill into specific notes. Never load the whole vault.

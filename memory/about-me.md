@@ -55,7 +55,7 @@ updated: 2026-06-12
 - **Real Estate Course** — 12-chapter Hebrew online course for Israeli investors, on US real estate investing (fix-and-flip, rehab, long-term rentals). Speaker: Amit Shalfar. Partner: Itay Liani. Chapters 1–3 done; 4 next. See `projects/real-estate-course.md`.
 - **REA CRM** — custom Next.js + Supabase + Vercel CRM replacing Base44, GoHighLevel-style, going to real production. WhatsApp Cloud API for messaging, BoldSign for contracts, Calendly for appointments. Code at `~/Documents/code_projacts/REA/crm-rea`. Pipeline + automations + KPI dashboard scoped. _(See `projects/crm-rea.md`.)_
 - **Webinar Signup Bot** — pipeline for webinar registrations at `~/Dropbox/CLAUDE CODE`.
-- **Personal assistant (this)** — _Currently inactive (bot not running)._ Was a local-only Telegram bot (launchd agent `com.user.secondbrain.bot`) that long-polled Telegram and read/wrote the vault as files, shelling out to `claude -p`. Codebase at `~/Documents/code_projacts/my personal assistent/`. For now the vault is used directly via Claude Code, not the bot.
+- **Personal assistant (this)** — Telegram bot **@Noam_brain_bot is RUNNING** (verified 2026-06-12; launchd agent `com.user.brain-bot`, long-polls Telegram, shells out to `claude -p`, codebase at `~/Documents/code_projacts/my personal assistent/`). It looked dead because the Mac often runs on an iPhone hotspot and the bot logs DNS failures every time the hotspot drops. The OLD label `com.user.secondbrain.bot` (flagged dead in the Org Chart audit) is a different, retired agent. The separate CLOUD bot (Fly.io) remains retired.
 - **Studies** — `sem2-coach` Claude project tracks 9 IDC courses, syllabi, deadlines.
 
 ## People in active rotation
