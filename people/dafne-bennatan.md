@@ -2,7 +2,7 @@
 name: "Dafne Bennatan"
 relationship: "Run For Startups co-organizer (Global cohort)"
 language: "Hebrew"
-last_interaction: "2026-06-08"
+last_interaction: "2026-06-11"
 ---
 
 # Dafne Bennatan
@@ -21,7 +21,10 @@ last_interaction: "2026-06-08"
 - Noam owes her: send the new Calendly link (2026-06-02).
 - Co-decides with Noam on candidate admissions (e.g. Dana Gerichter, 2026-06-08).
 - Owns (launch, 2026-06-08): buy pink balloons; set up the Global/Olim Instagram with pink-themed branding; send Adam's Canva templates to Noam; update Noam re: the 11 approvals.
+- Coffee meeting pending (2026-06-11): Noam proposed sitting for coffee, she was to confirm; Noam available from ~11:00 on 2026-06-12. May shift to Zoom.
 
 ## Notes
 - Works closely with [[adam-teer-run-for-startups]] on payments and exceptions, and now [[arad-fruchter]] (Global/Olim co-manager).
 - Recruiting target: 17 members for the first English-speaking RFS Global cohort (launch 2026-06-10).
+- Also handles video/photo content for RFS events — shot the first Global session (2026-06-10). Noam discussed her footage with her 2026-06-11, requested more clips, and gave positive feedback on her content quality.
+- One-pager color discussion (2026-06-11): Noam noted first one-pager was in green vibes; they've settled on "their colors" going forward.

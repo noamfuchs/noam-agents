@@ -1,4 +1,6 @@
 ---
+phone: "972509316854"
+whatsapp_label: "שקד נאור"
 name: "Shaked Naor (שקד נאור)"
 relationship: "Close friend & real estate business associate"
 language: "Mixed Hebrew/English"
@@ -20,7 +22,7 @@ last_interaction: "2026-04-10"
 - **Career / job situation** — Shaked has expressed frustration with workplace dynamics and is exploring other options; Noam offered to help source opportunities (anonymously)
 - **Partnership & business building** — Noam has joked multiple times about them opening a company together and co-investing
 - **Personal life & social** — tennis, parties (Purim), checking in on each other's well-being
-- **Course feedback** — early discussion about whether Amit Shalfar's course was practical for Shaked; Noam advised "do 2–3 deals with Gal'ad first"
+- **Course feedback** ([[real-estate-course]]) — early discussion about whether Amit Shalfar's course was practical for Shaked; Noam advised "do 2–3 deals with Gal'ad first"
 
 ## Open threads (latest activity)
 - **Job search (paused?)** — In March, Shaked mentioned considering leaving his role due to workplace friction and asked if Noam knew anyone hiring for a similar position (wants to keep it anonymous). No recent updates; unclear if he's still exploring.

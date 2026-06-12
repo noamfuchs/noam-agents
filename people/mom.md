@@ -40,7 +40,7 @@ last_interaction: "2026-05-09"
 
 ## Notes
 
-- **Family structure:** Noam, mother Aviva, father Ran, sister Hila, brother Roni (referenced as "אוסקר"). Qiu Qiqian is now integrated into family life.
+- **Family structure:** Noam, mother Tal, father Tomer, sister Hila, brother Run (referenced as "אוסקר"). Qiu Qiqian is now integrated into family life.
 - **Location dynamics:** Parents live in one location (mentioned grocery shopping, home base); Noam lives in Reichman dorms in Herzliya with Qiu. Frequent travel between locations.
 - **Medical practitioners she's connected him with:**
   - Igor (sports therapist, Tel Aviv south clinic) — for rib/shoulder injury.

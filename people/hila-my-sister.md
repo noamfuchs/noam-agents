@@ -1,4 +1,6 @@
 ---
+phone: "972506446086"
+whatsapp_label: "הילה אחותי האהובה שאני חולה עליה😍"
 name: Hila
 relationship: Sister
 language: Mixed Hebrew/English
@@ -31,7 +33,7 @@ last_interaction: 2026-05-04
 ## Notes
 - **Military service:** Hila is on active duty (עדיין בצבא) with unpredictable leave schedules. She often can't make family plans on short notice.
 - **Health:** Has recurring stomach/abdominal issues that occasionally flare up, causing her to return to base. Noam is compassionate about this.
-- **Family dynamics:** Appears close to both parents (אבא, אמא). Noam coordinates Shabbat gatherings that include the whole family. At least one sibling named Ran (רן) and possibly Aviталь.
+- **Family dynamics:** Appears close to both parents ([[mom]], [[paps]]). Noam coordinates Shabbat gatherings that include the whole family. Siblings: [[ran]] (רן) and [[shai-my-brother]]; digest also guessed 'Avital' (unconfirmed).
 - **Personality:** Practical, warm, service-oriented (in the military). Doesn't complain much but shares struggles when Noam asks directly.
 - **Contact identifier shift:** Her contact label changed from "IAA=" to "245457532002332@lid" mid-conversation (2026-04-14 onwards), likely a WhatsApp contact sync or phone number issue.
 - **In-jokes & style:** Uses "יאמיייי", "פששששש", enthusiastic repetition (כןכן, מדהימה), heart emoji 🤍.

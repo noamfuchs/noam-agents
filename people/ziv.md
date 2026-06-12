@@ -1,4 +1,6 @@
 ---
+phone: "972526271144"
+whatsapp_label: "זיו מפיקוס"
 name: "Ziv (זיו)"
 relationship: "Music/entertainment collaborator and friend"
 language: "Mixed Hebrew/English"

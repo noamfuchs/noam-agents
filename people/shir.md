@@ -1,4 +1,6 @@
 ---
+phone: "972524034013"
+whatsapp_label: "שיר"
 name: "שיר"
 relationship: "Close friend — reconnected after time apart; emotionally supportive"
 language: "Hebrew with English code-switching"
@@ -23,7 +25,7 @@ last_interaction: "2026-05-03"
 - **Relationship & life satisfaction** — how to find joy/excitement despite external hardship; the gap between having "everything" and feeling crushed
 
 ## Open threads (latest activity)
-- **Upcoming gathering at יהל's (May 19):** שיר invited Noam; he confirmed attendance (95% sure without Qiu). Address: ירושלים 5. Noam said he'd confirm after Qiu's exam on May 20.
+- **Upcoming gathering at יהל's ([[yahel-abrahams]], May 19):** שיר invited Noam; he confirmed attendance (95% sure without Qiu). Address: ירושלים 5. Noam said he'd confirm after Qiu's exam on May 20.
 - **Last message (2026-05-03):** שיר sent a warm "ובהצלחה חבר לחיים ומשפחה" (good luck, friend for life and family) — closing message after the May 1 event coordination. No open questions.
 
 ## Notes

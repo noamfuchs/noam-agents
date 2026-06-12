@@ -1,4 +1,6 @@
 ---
+phone: "972527252062"
+whatsapp_label: "תום פוקס"
 name: "Tom Fox (תום פוקס)"
 relationship: "Cousin; close family friend and informal business collaborator"
 language: "Mixed Hebrew/English"
@@ -16,7 +18,7 @@ last_interaction: "2026-04-19"
 **Tone with me:** Deeply warm and affectionate. Enthusiastically supportive of Noam's ventures. Celebratory (sent birthday greetings with genuine emotion). Helpful and eager to assist without hesitation. Uses humor and teasing affectionately. Expresses pride in Noam's accomplishments.
 
 ## Recurring topics
-- **Real estate education course** — Tom posts discussion-starter questions in the course WhatsApp group to activate participants; helps shape engagement strategy
+- **Real estate education course** ([[real-estate-course]]) — Tom posts discussion-starter questions in the course WhatsApp group to activate participants; helps shape engagement strategy
 - **US real estate investing** — Tom has colleagues and friends (including "Shuli") investing in US properties; interested in the sector; offered to partner with Noam on future first property purchase
 - **Life updates & family** — celebration of milestones (Noam's birthday, Tom's upcoming daughter), check-ins during busy periods, family events
 - **Travel & current events** — Tom follows Noam's Instagram; was curious about Noam's Bangkok trip; makes light of Israel–diaspora time zone and safety differences

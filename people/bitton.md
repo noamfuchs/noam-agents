@@ -1,4 +1,6 @@
 ---
+phone: "972506658921"
+whatsapp_label: "ביטון"
 name: "Eden Ben Zaken"
 relationship: "Close friend — childhood/long friendship"
 language: "Mixed Hebrew/English"

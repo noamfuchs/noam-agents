@@ -50,13 +50,14 @@ Noam's twist on it: the brain should learn who he is from what he already create
 
 ## Phases
 
-### Phase 0: Graph hygiene (1 session)
-- [ ] Process all 23 inbox captures through the capture protocol
-- [ ] Merge the 11 phone-number people files into named notes (Ran, Mom, Paps, Babi, Shai, Hila...), archive the raw imports
-- [ ] Delete finance/ and gym/ templates or commit to using them (decision for Noam)
-- [ ] Create hub notes: HOME.md plus life-area maps (Work, People, Mind, Body, Money, Music)
-- [ ] Link the self-contained clusters (75 Hard dailies to tracker, tracker to Body hub)
-- [ ] Fix wa-bridge (Org Chart flags it "exiting 1")
+### Phase 0: Graph hygiene (done 2026-06-12)
+- [x] Process all 23 inbox captures through the capture protocol (20 trash, 3 filed into this plan)
+- [x] Phone-number people files: turned out to be rich profiles, so they were RENAMED to named notes (ran, hila-my-sister, tom-fox, yahel-abrahams, shir, ziv, bitton, shaked-naor, taler, yoni-klipi, roey-kalifi) with phone + WhatsApp label kept in frontmatter; relationships.md index updated; cross-links added
+- [ ] Delete finance/ and gym/ templates or commit to using them (decision still with Noam)
+- [x] Created [[HOME]] plus hubs: [[work]], [[people]], [[mind]], [[body]], [[money]], [[music]]
+- [x] 75 Hard cluster linked via [[body]] hub (tracker is bot-rewritten, so links point at it, not from it)
+- [x] wa-bridge is healthy (running). Real issue was the 2026-06-12 01:00 people-sync failing on an API connection error; re-ran manually to catch up 94 pending messages
+- Note for Phase 2: [[bitton]] real name unconfirmed (digest guessed "Eden Ben Zaken" from an in-joke); [[boss]] identity unclear; Ran's "brother" status is digest-inferred, confirm with Noam
 
 ### Phase 1: Identity core (mine the gold documents)
 - [ ] Distill dream list, 30-day self-interview, heart statements, Byron Katie sheets, Reichman application, CV arc, recommendation letters
@@ -77,7 +78,7 @@ Noam's twist on it: the brain should learn who he is from what he already create
 - [ ] money.md: financial independence goal, accountant picture, 20% savings target, course/REA income logic
 - [ ] health.md: 75 Hard context, training, the 2025 tests referenced at tier-2 only
 - [ ] family.md + relationship area (Qiu): depth level is Noam's call, flagged below
-- [ ] learning.md: 15 books/year goal, IDC, what he's teaching himself
+- [ ] learning.md: 15 books/year goal, IDC, what he's teaching himself. Must link the sem2-coach world (~/Dropbox/IDC/SEM 2/MY SEM 2 COACH/) so studies context lives in the brain too (Noam asked for this explicitly on 2026-05-07: "שאתה תדע הכללללל" about sem2)
 - [ ] dreams/travel: from the dream list (biweekly nature nights, marathon abroad yearly)
 
 ### Phase 4: Live connections
@@ -90,6 +91,7 @@ Noam's twist on it: the brain should learn who he is from what he already create
 ### Phase 5: Capabilities and cadence
 - [ ] /grill-me skill: targeted interview for gaps the documents could not answer
 - [ ] /graph-gardener skill: weekly orphan sweep, proposes links, reports graph health
+- [ ] Voice-to-tasks: convert Noam's voice messages into a simple clear task list (asked 2026-05-06 via Telegram, surfaced from inbox triage)
 - [ ] Revive capture flow as a weekly ritual, revive outbox drafting
 - [ ] Schedule the daily rhythm already designed in CLAUDE.md (morning preview, evening review, Sunday digest)
 - [ ] Rewrite CLAUDE.md as a router (per the video): shorter core, points to hubs and memory instead of holding everything

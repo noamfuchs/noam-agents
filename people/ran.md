@@ -1,4 +1,6 @@
 ---
+phone: "972546440060"
+whatsapp_label: "רן אחשלי🤍"
 name: "Ran Achsheli"
 relationship: "Younger brother — closest confidant, life partner in adventures and growth"
 language: "Mixed Hebrew/English"
@@ -18,7 +20,7 @@ last_interaction: "2026-05-09"
 ## Recurring topics
 - **Dating & relationships** — struggles with standards, fear of settling, processing breakups (e.g., dating a girl he wasn't sure about; recent discussion of a friend's 3-year breakup with a Chinese girlfriend)
 - **Career & study direction** — feeling lost in math/physics at university, questioning relevance, looking for better direction; considering business/marketing; admiring Noam's entrepreneurship
-- **Real estate course & business** — actively involved in helping with the course (forwarding questions to group, connecting Noam with contacts, discussing strategy)
+- **Real estate course & business** — actively involved in helping with [[real-estate-course]] (forwarding questions to group, connecting Noam with contacts, discussing strategy)
 - **Music & taste** — shares Spotify playlists with Noam; eclectic, random taste ("משמשים אקראיים מאד מאד")
 - **Travel & adventure** — trips to Thailand, plans to go to the sea, logistics (who's picking up from the train, etc.)
 
@@ -26,7 +28,7 @@ last_interaction: "2026-05-09"
 - **Auditions for a TV show ("הנינג׳ה")** — completed second audition recently; concerned about how he answered questions on camera about relationships; worried how it will look in the final cut.
 - **Trying to make money** — mentioned struggling to generate meaningful income (180k goal?); exploring options, asking Noam for advice on diversifying efforts.
 - **WhatsApp API & marketing help** — asked if Noam knew someone to help with WhatsApp Cloud API setup for marketing/scheduling; wanted technical help, not just theory.
-- **CRM & business consulting** — Noam shared PDFs about hiring a consultant (Yonatan from Ncode) for REA's system build; Ran engaged and said he'd check on references (Segev, others); they're planning a deeper conversation about whether to hire him.
+- **CRM & business consulting** ([[crm-rea]]) — Noam shared PDFs about hiring a consultant (Yonatan from Ncode) for REA's system build; Ran engaged and said he'd check on references (Segev, others); they're planning a deeper conversation about whether to hire him.
 - **Real Estate Academy group** — actively forwarding Noam's questions to "The Real side of real estate" group (helped with webinar follow-up strategy, apartment valuation factors, flip vs. rental debates, contractor vetting).
 - **Mentor opportunity with Orel Hershkovitch** — Noam sent a TLDR about a Wednesday meeting with an investor/mentor (Forbes 30u30, ex-Zell, ex-Wisor.AI); Ran's last message was "וואח וואי וואי" (excited/emphatic reaction), suggesting interest or curiosity.
 

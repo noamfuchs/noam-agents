@@ -1,4 +1,6 @@
 ---
+phone: "972533397727"
+whatsapp_label: "יוני כליפי"
 name: "Yoni Klipi"
 relationship: "Close friend & creative collaborator"
 language: "Mixed Hebrew/English"
@@ -16,11 +18,11 @@ last_interaction: "2026-05-07"
 **Tone with me:** Warm, brotherly, encouraging. Uses affectionate nicknames. Responds supportively to Noam's stress ("אין לחץ בדוק", "תן בראש גיבור בהצלחה"). Quick to share ideas and offer practical help (e.g., sending references, coordinating logistics).
 
 ## Recurring topics
-- **Podcast production** — studio logistics, guest coordination (Abner Stefak episode on 2026-04-29), editing timelines, monetization ideas
+- **Podcast production** (with [[roey-kalifi]]) — studio logistics, guest coordination (Abner Stefak episode on 2026-04-29), editing timelines, monetization ideas
 - **Music/AI course idea** — brainstorming a product on building music with AI
 - **Social hangouts** — meeting up in Krayot/Herzliya, weekend plans, group trips (monkey forest on Friday morning 2026-05-05)
 - **Creative feedback** — offering opinions on subtitles, style, references; Noam asking his input on strategy
-- **CRM/business demos** — Yoni reviewing Noam's CRM spec doc and asking to share it with "Nadav" (inferred: another collaborator or potential investor)
+- **CRM/business demos** ([[crm-rea]]) — Yoni reviewing Noam's CRM spec doc and asking to share it with "Nadav" (inferred: another collaborator or potential investor)
 
 ## Open threads (latest activity)
 - **Missing the podcast hang (2026-05-07)** — Noam expressed surprise/disappointment that Yoni didn't show up for a podcast event. Status unclear; may need follow-up.

@@ -15,6 +15,7 @@ last_interaction: "2026-06-11"
 
 ## Open threads
 - _(resolved 2026-06-11: the mystery operations role was Hardoor — full history below)_
+- Confirmed guest for RFS Global session Wednesday 2026-06-18; one-pager distributed to the group 2026-06-11.
 
 ## Notes
 Full career timeline (from his LinkedIn, pasted by Noam 2026-06-11; newest first):

@@ -1,4 +1,6 @@
 ---
+phone: "972544557741"
+whatsapp_label: "טלר הגאון"
 name: "Taler (טלר)"
 relationship: "Close friend — university peer, runs in similar circles (Reichman, fitness, social), shares intellectual interests"
 language: "Mixed Hebrew/English"

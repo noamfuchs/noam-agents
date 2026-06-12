@@ -1,4 +1,6 @@
 ---
+phone: "972528234398"
+whatsapp_label: "יהל אברהמס"
 name: "Yahel Abrahams"
 relationship: "Close friend — long-standing, emotionally intimate"
 language: "Hebrew"
@@ -28,7 +30,7 @@ last_interaction: "2026-05-01"
 
 ## Notes
 - Yahel has a partner named Noa (נעה); they travel together (e.g., Paris trip in Feb 2026)
-- He's emotionally intelligent and comfortable discussing vulnerability — someone Noam's girlfriend Shir recommended Noam talk to about relationship struggles
+- He's emotionally intelligent and comfortable discussing vulnerability — someone [[shir]] recommended Noam talk to (note: digest called Shir 'girlfriend', wrong — Shir is a close friend; Noam's partner is Qiu) about relationship struggles
 - They use "אהוב שלי" / terms of endearment naturally; this is a deeply affectionate friendship
 - They've been out of frequent contact for stretches (Feb gap, then March birthday message, then long silence until April)
 - Currently doesn't appear to be in Israel (was planning Paris trip; Noam asked "אתה באזור בקרוב" suggesting Yahel isn't local)

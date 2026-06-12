@@ -1,4 +1,6 @@
 ---
+phone: "972536299919"
+whatsapp_label: "רועי כליפי"
 name: "Roey Kalifi"
 relationship: "Close friend & business collaborator on podcast/content project"
 language: "Mixed Hebrew/English"
@@ -7,7 +9,7 @@ last_interaction: "2026-05-07"
 
 # Roey Kalifi
 
-**Relationship:** Roey is a close friend and collaborator on a nascent podcast/content production project. They've been working together since early 2026 on creating Hebrew podcast episodes featuring guest speakers (Amit Shalfar initially, with plans to bring in other prominent Israeli figures). The dynamic is warm, familiar, and entrepreneurial — they brainstorm frequently, divide tasks, and push each other on execution. Roey appears to handle script prep, guest coordination, and technical/platform setup; Noam handles outreach, logistics, and content direction.
+**Relationship:** Roey is a close friend and collaborator on a nascent podcast/content production project. They've been working together since early 2026 (see also [[yoni-klipi]]) on creating Hebrew podcast episodes featuring guest speakers (Amit Shalfar initially, with plans to bring in other prominent Israeli figures). The dynamic is warm, familiar, and entrepreneurial — they brainstorm frequently, divide tasks, and push each other on execution. Roey appears to handle script prep, guest coordination, and technical/platform setup; Noam handles outreach, logistics, and content direction.
 
 **How I know them:** Long-standing friendship (580+ WhatsApp messages over ~4 months, mixed frequency). They meet in person regularly — coffee, university hangouts, car rides — and text constantly about the podcast, guest strategy, tech platforms, and life logistics.
 
