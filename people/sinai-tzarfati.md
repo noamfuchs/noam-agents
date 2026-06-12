@@ -10,7 +10,7 @@ last_interaction: "2026-05-09"
 
 # סיני צרפתי
 
-> **Name note:** the label "סיני צרפתי" is unresolved. "צרפתי" is plausibly his surname; "סיני" ("Chinese") may be a nickname Noam gave him because his girlfriend is Chinese — no message states his actual first name. ^[ambiguous]
+> **Name note (updated 2026-06-12):** Noam confirmed "סיני צרפתי" is a NICKNAME, not his real name. Real name still unrecorded — Noam will supply it when it comes up. ^[ambiguous]
 
 **Relationship:** One of Noam's emotionally closest friends (461 messages, 7th-biggest DM). They call each other "אח שלי", "נסיך שלי", "חיים שלי". This is Noam's main peer for processing the deep stuff: cross-cultural relationships, Jewish identity and future kids, emotional patterns, being hurt and growing. Both date Chinese women, which makes the friendship a rare mirror.
 

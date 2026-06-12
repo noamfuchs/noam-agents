@@ -1,7 +1,7 @@
 ---
 phone: "972506658921"
 whatsapp_label: "ביטון"
-name: "Bitton (ביטון) — first name not yet determined"
+name: "Bitton (ביטון)"
 relationship: "Close friend — childhood/long friendship"
 language: "Mixed Hebrew/English"
 last_interaction: "2026-05-11"
@@ -9,7 +9,7 @@ last_interaction: "2026-05-11"
 
 # Bitton (ביטון)
 
-> **Name correction (2026-06-12):** the previous name "Eden Ben Zaken" was wrongly extracted from the message "עדן בן זקן😂" (2026-05-11), which is an in-joke name-drop of the Israeli singer, not his name. His first name could not be determined from the chat. ^[ambiguous]
+> **Name (settled 2026-06-12):** "Bitton" IS what Noam calls him — the surname is the name in use, no first-name hunt needed (Noam's words). The earlier "Eden Ben Zaken" came from an in-joke name-drop of the singer (message "עדן בן זקן😂", 2026-05-11) and was wrong.
 > Evidence on record: surname ביטון; he appears to be the brother of אריאל ביטון (Marina from Avangard, 2026-02-16: "אריאל ביטון הזכירה לאח שלה שיש לו הופעה") ^[inferred]; based in/around Zichron Yaakov; performing musician (Avangard jams, Cyprus gig May 2026).
 
 **Relationship:** Childhood friend or very close peer. They have deep affection, frequent check-ins, and easy banter. Eden calls Noam "אח שלי" (my brother) and expresses constant missing/thinking of Noam. They make plans to meet, help each other with practical needs, and share life updates across distance.

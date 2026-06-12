@@ -25,8 +25,8 @@ updated: 2026-06-12
 ## Still waiting on NOAM
 1. Instagram + LinkedIn data exports (then Phase 4 ingestion)
 2. Full Disk Access for the terminal if iMessage mining is wanted
-3. Two names left: Bitton's first name; Sinai Tzarfati's real name
-(Resolved 2026-06-12 evening: parents = Tal + Tomer; ONE Itay and ONE Amit, duplicate notes merged into itay-liani.md + amit-schleffer.md; finance/gym deleted; privacy tier-2 confirmed)
+3. One name left: Sinai Tzarfati's real name (confirmed nickname; Noam will supply when it comes up)
+(Resolved 2026-06-12 evening: parents = Tal + Tomer; ONE Itay and ONE Amit, notes merged; "Bitton" confirmed as the name in use; finance/gym deleted; privacy tier-2 confirmed)
 
 ## Watch
 - Tonight's 01:00 wa-people-sync (failed last night on API error, recovered manually; launchd still shows exit 1).
