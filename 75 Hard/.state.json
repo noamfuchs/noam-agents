@@ -127,7 +127,7 @@
     },
     "2026-06-11": {
       "day": 1,
-      "water_ml": 560,
+      "water_ml": 1120,
       "workouts": 0,
       "outdoor": false,
       "reading_pages": 0,
@@ -138,6 +138,8 @@
       "failed": false,
       "notes": [
         "📸 progress photo",
+        "💧 +280 ml water",
+        "💧 +280 ml water",
         "💧 +280 ml water",
         "💧 +280 ml water"
       ]
