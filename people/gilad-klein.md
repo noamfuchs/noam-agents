@@ -1,11 +1,16 @@
 ---
-name: "Gilad (Gili) — surname unknown"
-relationship: "Business partner in real estate ventures; handles financial/accounting operations"
+phone: "972509209996"
+whatsapp_label: "Boss"
+name: "Gilad Klein"
+relationship: "Former boss / business partner — ran the US real-estate (Toledo, OH) operation Noam worked in; handles financial/accounting operations"
 language: "Mixed Hebrew/English"
 last_interaction: "2026-04-23"
 ---
 
-# Gilad (Gili)
+# Gilad Klein ("Boss")
+
+> **Identity resolved (2026-06-12):** "Boss" is Gilad Klein. ^[inferred] Chain of evidence: the Boss chat invoice details give the name Gilad (עוד סיפרה בע״מ, mail gilad@odsifra.com, phone 0509209996 = this chat's number); Noam told Roman Shumunov "עבדתי איתם הרבה אצל גלעד קליין (הייתי אחראי על פתיחת החברות...)"; Shaked Naor pushes Noam to do "2-3 עסקאות בטולדו עם גלעד"; Asaf (מבור) was "מלווה אצל גלעד קליין... עם איזה חודש עבודה גם בטולדו"; Ran jokes "גלעד קליין התחיל במתקפת מנע". All converge on the same Toledo-deals Gilad. No message states the surname inside the Boss chat itself, hence the tag.
+> Role: Noam previously worked inside Gilad Klein's operation (responsible for opening client LLCs) and still earns commissions on deals (e.g., the זמרי/Zamari deal), invoicing עוד סיפרה בע״מ. Gilad coordinates with אורי (Ori Elmaliah) and באבי on closings.
 
 **Relationship:** Gilad is a senior business partner in Noam's real estate operations. He manages financial documentation, invoicing, accounting coordination, and liaison with accountants (רו״ח). They communicate with mutual respect but are currently experiencing friction over a VAT filing error that Gilad caused but refuses to resolve directly, passing responsibility to Noam's accountant instead.
 

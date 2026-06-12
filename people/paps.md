@@ -1,5 +1,7 @@
 ---
-name: "Father (abbr. Paps in contacts)"
+phone: "972525512055"
+whatsapp_label: "Paps"
+name: "Father (abbr. Paps in contacts) — first name unconfirmed"
 relationship: "Father"
 language: "Mixed Hebrew/English"
 last_interaction: "2026-05-11"
@@ -42,6 +44,9 @@ last_interaction: "2026-05-11"
 ## Notes
 
 - **Location:** Northern Israel (implies Hadera/Karmel area based on Carmel Tunnels mention, family cemetery in Hutrim).
-- **Family:** Married (mother mentioned); Noam has a brother (Shai) who works with money management; grandparents (living; grandmother at apartment 168); grandmother (סבתא) recently had dental work.
+- **Family:** Married (mother mentioned); Noam's siblings: [[shai-my-brother|Shai]] (~30), [[hila-my-sister|Hila]], and younger brother [[ran|Ran]] (verified biological brother, 2026-06-12); grandparents (living; grandmother at apartment 168); grandmother (סבתא) recently had dental work.
+- **Birthday:** mid-February — in 2026 it was celebrated with a family Golan trip around Feb 13 (Noam to Adam Teer, 2026-02-12: "הזיזו את היום הולדת של אבא שלי למחר (טיול בגולן)").
+- **Owner of the פוקסים family group** (his number created the group jid) ^[inferred].
+- On Noam's birthday (2026-04-08, Noam turned 25) his words moved Noam to reply "האבא הכי טוב בעולם".
 - **Relationships:** Close with family; regularly hosts family gatherings and meals at home.
 - **Tech-savvy:** Learning

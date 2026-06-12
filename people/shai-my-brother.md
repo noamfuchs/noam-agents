@@ -1,6 +1,8 @@
 ---
+phone: "972522322668"
+whatsapp_label: "Shai My Brother"
 name: "Shai Fuchs"
-relationship: "Brother"
+relationship: "Brother (eldest)"
 language: "Mixed Hebrew/English"
 last_interaction: "2026-05-11"
 ---
@@ -30,5 +32,7 @@ last_interaction: "2026-05-11"
 - **Shai's location:** Lives in/near the center (מרכז), travels there for work/meetings. Familiar with Herzliya and can visit for coffee.
 - **Shai's education:** Master's degree student (currently paying for it himself — "אני משלם לעצמי"). Second year, less demanding than his first degree. Previously completed a B.A.
 - **Shai's work:** Busy, earning enough ("לא מטורף"), not full-time investment. Seems to be progressing (got a promotion/recognition at some point).
-- **Family contacts:** Knows grandmother (סבתא) and sister Abiital. Mentions פיפימי (likely a family nickname for someone — possibly Qiu or another family member, context suggests a woman who is an engineer).
+- **Family contacts (corrected 2026-06-12):** Avital (אביטל) is Shai's partner, not a sister — her contact label in Noam's phone is "אביטל בת זוג שי💜🤩"; Shai and Avital host family lunches in their yard. פיפימי = [[qiu-qiqian|Qiu Qiqian]], Noam's partner.
+- **Age:** turned ~30 in early 2026 (Ran, 2026-02-17: "שי עוד רגע בן 30").
+- **Siblings:** Shai is the eldest; then Noam, [[hila-my-sister|Hila]], and [[ran|Ran]] (youngest). ^[birth order inferred from ages/context]
 - **Smart-cane project (EYE PATH):** Working on a systems-engineering project — an intelligent navigation cane for blind people. Improved from a prior drone-based concept. Has course materials and a presentation ready. Seems like

@@ -38,7 +38,7 @@ updated: 2026-06-12
 - Lived: Tamra → Zikhron Yaakov → Tel Aviv loft (2021-2023) → Geneva (Oct 2023, ~10 months, war period, relatives Constantine and [[camilla]]) → Herzliya dorms.
 - Bagrut completed May 2024 in 5 months, GPA 96. Accepted to Ben Gurion, Technion, Reichman; chose Reichman.
 - OD SIFRA (2025-05 to 2025-11): investor relations in US residential real estate; the bridge to REA. ^[inferred]
-- Family: [[mom]], [[paps]], brother [[shai-my-brother]], sister [[hila-my-sister]] (in army), [[babi]]; cousins [[tom-fox]] and Jonathan Fuchs; Geneva relatives Constantine and [[camilla]]. (Ran of [[ran]]: brother label unconfirmed, see his note.) ^[ambiguous]
+- Family: [[mom]], [[paps]], brothers [[ran]] (Ran Fuchs, closest confidant) and [[shai-my-brother]] (eldest, partner Avital), sister [[hila-my-sister]] (in army); cousins [[tom-fox]] and Jonathan Fuchs; Geneva relatives Constantine and [[camilla]]. Note: [[babi]] is a business partner (appraiser), not family.
 
 ## Role / what he does
 - **Entrepreneur & operations** — running a real-estate education business with two partners.

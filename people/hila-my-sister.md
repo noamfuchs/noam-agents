@@ -33,7 +33,8 @@ last_interaction: 2026-05-04
 ## Notes
 - **Military service:** Hila is on active duty (עדיין בצבא) with unpredictable leave schedules. She often can't make family plans on short notice.
 - **Health:** Has recurring stomach/abdominal issues that occasionally flare up, causing her to return to base. Noam is compassionate about this.
-- **Family dynamics:** Appears close to both parents ([[mom]], [[paps]]). Noam coordinates Shabbat gatherings that include the whole family. Siblings: [[ran]] (רן) and [[shai-my-brother]]; digest also guessed 'Avital' (unconfirmed).
+- **Family dynamics:** Appears close to both parents ([[mom]], [[paps]]). Noam coordinates Shabbat gatherings that include the whole family. Siblings: [[ran]] (רן) and [[shai-my-brother]]. Resolved 2026-06-12: 'Avital' is Shai's partner (contact label "אביטל בת זוג שי💜🤩"), not a sibling.
+- **Birthday:** May 15 (Mom coordinated a family Friday lunch for it, 2026).
 - **Personality:** Practical, warm, service-oriented (in the military). Doesn't complain much but shares struggles when Noam asks directly.
 - **Contact identifier shift:** Her contact label changed from "IAA=" to "245457532002332@lid" mid-conversation (2026-04-14 onwards), likely a WhatsApp contact sync or phone number issue.
 - **In-jokes & style:** Uses "יאמיייי", "פששששש", enthusiastic repetition (כןכן, מדהימה), heart emoji 🤍.

@@ -1,13 +1,19 @@
 ---
 phone: "972546440060"
 whatsapp_label: "רן אחשלי🤍"
-name: "Ran Achsheli"
-relationship: "Younger brother — closest confidant, life partner in adventures and growth"
+name: "Ran Fuchs"
+relationship: "Younger brother (biological) — closest confidant, life partner in adventures and growth"
 language: "Mixed Hebrew/English"
 last_interaction: "2026-05-09"
 ---
 
-# Ran Achsheli
+# Ran Fuchs
+
+> **Verified biological brother + name correction (2026-06-12):** "Achsheli" is not a surname — the contact label "רן אחשלי" is the slang "רן, אח שלי" ("Ran, my bro"; Noam uses "אחשלי" with other close friends too, e.g. Bitton). Ran is Noam's actual brother:
+> - His WhatsApp push name is **"Ran Fooxi"** (Fuchs family nickname; cf. Noam's fooxsound) and he posts in the פוקסים family group.
+> - They share parents in conversation without qualifiers: Ran — "אמא אומרת שקוראים לו טל" (2026-01-28); Noam — "אבא אמר לשאול אותך" (2026-03-01).
+> - Ran tracks family milestones as his own: "שי עוד רגע בן 30" (2026-02-17).
+> - Surname "Fuchs" itself is concluded from the push name + family-group membership. ^[inferred]
 
 **Relationship:** Ran is Noam's younger brother. They're extremely close — best friends despite occasional friction. They share deep conversations about relationships, careers, and life direction. Ran looks up to Noam as a mentor and motivator, while Noam deeply admires Ran's character, humor, and resilience. They travel together, play tennis, support each other through relationship challenges, and have a playful, teasing dynamic mixed with genuine vulnerability and love.
 
