@@ -27,16 +27,15 @@ When invoked, **decide first, then act**: read the relevant memory/files, then e
 
 ## Memory protocol (every session)
 
-**Session start — before responding to Noam's first real message, read in this order:**
-1. `memory/about-me.md` — who he is
-2. `memory/preferences.md` — how he likes to work
-3. `memory/boundaries.md` — hard rules (LAW)
-4. `memory/commitments.md` — what he owes
-5. `memory/decisions.md` — past decisions to respect
-6. `memory/voice.md` — how he writes
-7. `memory/recurring.md` — cadence
-8. `memory/learned-this-week.md` — pending inferences
-9. `system/conversations/main.md` (tail — last ~8000 chars) — the unified cross-channel conversation log. The Telegram bot writes both sides of its turns here; terminal sessions append turns too. Treat it as your prior turns across channels — don't repeat past replies, build on them. If the file is large, only read the tail with `Read` + `offset`.
+**Session start — read in this order, then STOP and navigate on demand:**
+1. `hot.md` — recent-context cache (what is going on right now)
+2. `memory/boundaries.md` — hard rules (LAW)
+3. `memory/about-me.md`, `memory/preferences.md`, `memory/voice.md` — identity core
+4. Everything else on demand via `HOME.md` → `hubs/` → the specific note. `memory/commitments.md` and `memory/decisions.md` are one hop away; read them when the task touches obligations or past choices. Never load the whole vault.
+
+Fast search when you don't know where something lives: `qmd query "..."` (local hybrid search over this vault, collection `brain`). Fall back to Grep.
+
+(`system/conversations/main.md` remains the verbatim cross-channel turn log written by the Telegram bot; you no longer need to read its tail at session start — `hot.md` replaces that.)
 
 **During session — when Noam expresses something durable, append immediately and tell him what you saved:**
 - A preference → append to `memory/preferences.md` (or `memory/learned-this-week.md` if uncertain — surface for confirmation in next evening review)
@@ -50,22 +49,35 @@ When invoked, **decide first, then act**: read the relevant memory/files, then e
 
 **Always tell Noam what you saved.** End the reply with a short ack like "🧠 שמרתי ב־commitments.md" or "📌 עדכנתי את people/itay.md". He should never be surprised by what you wrote.
 
+## Provenance (every claim the system writes)
+The vault is the distilled wiki over immutable raw sources (whatsapp.db, Fathom, מסמכים, exports). Raw sources are read-only, always.
+- Claims written from a source: untagged (default = extracted), but name the source when it isn't obvious.
+- Agent synthesis/guesses: end the line with `^[inferred]`.
+- Conflicting sources, or new data contradicting an existing note: do NOT overwrite; keep both and tag `^[ambiguous]` until resolved.
+- The weekly /audit hunts untagged inferences, contradictions, stale claims, and orphan notes.
+
 **Files that are SAFE to write from any session (terminal, Telegram, SSH):**
+- `hot.md` — refresh at session end (keep under 500 words)
+- `log.md` — append events, newest first, never rewrite history
 - `memory/preferences.md`, `memory/commitments.md`, `memory/decisions.md`, `memory/recurring.md`, `memory/voice.md`, `memory/about-me.md`, `memory/learned-this-week.md`
 - `journal/{YYYY-MM-DD}.md` — append today's entries
 - `inbox/` — capture
 - `outbox/` — drafts
 - `people/{name}.md`
 - `projects/{name}.md`
+- `HOME.md` and `hubs/` — keep the maps current when notes are added/moved
 - `system/conversations/main.md` — append-only cross-channel conversation log. Bot writes both sides automatically; terminal Claude appends `## Noam (terminal) — {iso}\n{prompt}` and `## Assistant (terminal) — {iso}\n{reply}` blocks for substantive turns (skip trivial pleasantries / pure tool-use turns).
 
 **Files that are TERMINAL-ONLY (never write from Telegram even if asked):**
 - `memory/boundaries.md` — boundaries are LAW. Adding a boundary is a serious act. If Noam asks via Telegram to add a boundary, write it instead to `memory/learned-this-week.md` under "Pending boundary — confirm at desk" so he reviews in person.
 - `CLAUDE.md` — changing the operating manual changes how you behave. Terminal-only.
-- `the-system-v8 2/`, `.archive/`, `.git/`, `.obsidian/`, `.claude/`, `_References/`, `🤖 Agents/` — never modify.
+- `_References/` — terminal-only (research notes and reference material may be added from the terminal; never from Telegram).
+- `the-system-v8 2/`, `.archive/`, `.git/`, `.obsidian/`, `.claude/`, `🤖 Agents/` — never modify.
   - **Exception (terminal only):** `🤖 Agents/Org Chart.md` and `🤖 Agents/Home.md` may be maintained as the Life-OS org map. The individual agent folders inside `🤖 Agents/` stay never-modify.
 
 **Session end (or `/sync` command):**
+- Refresh `hot.md` (what changed, what's now top of mind; under 500 words).
+- Append the session's notable events to `log.md` (one line each, newest first).
 - Commit memory changes to git with meaningful messages.
 - Never push without confirmation.
 
@@ -97,11 +109,18 @@ When invoked, **decide first, then act**: read the relevant memory/files, then e
 ## Vault layout (this Obsidian vault)
 ```
 ~/MY BRAIN/
-├── CLAUDE.md                ← this file
-├── memory/                  ← Claude-managed memory
+├── CLAUDE.md                ← this file (the schema/router)
+├── hot.md                   ← recent-context cache; read FIRST, refresh at session end
+├── log.md                   ← append-only event log, newest first
+├── HOME.md                  ← map of content; hubs are one hop from here
+├── hubs/                    ← life-area maps: work, people, mind, body, money, music
+├── memory/                  ← Claude-managed memory (identity, boundaries, commitments, decisions)
 ├── inbox/                   ← captured items pending classification
 ├── people/                  ← one .md per person (use _template.md)
 ├── projects/                ← one .md per active project (use _template.md)
+├── journal/                 ← daily entries (temporal hub)
+├── Meetings/                ← Fathom meeting summaries (auto-synced)
+├── 75 Hard/                 ← challenge tracker + dailies (bot-maintained)
 ├── outbox/                  ← drafts Noam copy-pastes
 ├── gym/                     ← workout logs (managed by /fitness skill)
 ├── finance/                 ← expense logs (managed by /finance skill)
@@ -111,7 +130,7 @@ When invoked, **decide first, then act**: read the relevant memory/files, then e
 │   ├── project-registry.yaml← project routing for the cloud bot
 │   ├── prompts/             ← reusable prompt fragments
 │   └── logs/                ← capture.log, access.log, etc.
-├── _References/             ← Noam's reference material (CV, profile, etc.)
+├── _References/             ← reference material + filed research (terminal-only writes)
 ├── 🤖 Agents/              ← Noam's existing personal agents
 └── .archive/                ← deprecated content; NEVER touch
 ```

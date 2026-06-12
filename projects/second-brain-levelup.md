@@ -1,116 +1,113 @@
 ---
 name: Second Brain Level-Up
-status: planning
+status: active
 goal: The vault knows Noam deeply, built from what he already created, with a connected graph and live data feeds
 started: 2026-06
+updated: 2026-06-12
 ---
 
-# Second Brain Level-Up
+# Second Brain Level-Up (plan v2)
 
-Source of the vision: Nate Herk, "I Turned Claude Fable Into The Ultimate Second Brain" (watched 2026-06-12). His framework is the Four C's: **Context** (the brain knows who you are), **Connections** (live data, not stale snapshots), **Capabilities** (skills), **Cadence** (runs while you sleep). The gut check: ask the brain "what do you know about me?" and the answer should sound like a co-founder, not a stranger.
+Two inputs shaped this plan:
+1. Nate Herk's "I Turned Claude Fable Into The Ultimate Second Brain" (watched 2026-06-12). The Four C's: Context, Connections, Capabilities, Cadence. Gut check: ask the brain "what do you know about me?" and the answer should sound like a co-founder, not a stranger.
+2. Deep research, 2026-06-12: 21 sources, 24 adversarially verified claims. Full findings in [[second-brain-research-2026-06]].
 
-Noam's twist on it: the brain should learn who he is from what he already created (documents, chats, posts, notes), not from him explaining himself. The vault holds the distilled understanding, not the raw data.
+Noam's twist: the brain learns who he is from what he already created (documents, chats, posts, notes), not from him explaining himself. The vault holds the distilled understanding, not the raw data. This matches the field's reference pattern exactly (Karpathy's LLM wiki: synthesis at ingest time, raw sources immutable, agent writes the wiki, human reads it).
 
-## Where the vault stands (2026-06-12 audit)
+## Architecture (v2, from verified research)
 
-**Strong:** RFS + REA work core is dense and well-linked (Meetings 100% linked, journal is a daily hub, commitments.md and decisions.md actively maintained, CLAUDE.md is a solid operating manual). Fathom sync, WhatsApp nightly sync, and 75 Hard bot all run.
+Three layers, strict boundaries:
+1. **Raw layer (immutable, agent reads only):** whatsapp.db + digests, Fathom API, מסמכים, ABLETON, future Instagram/LinkedIn exports. Source of truth. Never edited by agents.
+2. **Wiki layer (this vault):** distilled notes, heavily wikilinked. Agents write, Noam reads.
+3. **Schema (CLAUDE.md):** a router under 300 lines that points instead of stores.
 
-**Weak (why the graph looks disconnected):**
-- 23 inbox captures from early May, never processed
-- 11 phone-number people files (972...) from the WhatsApp import, never merged or linked, 71% of people/ is orphaned
-- finance/ and gym/ are empty templates
-- outbox/ never used, _References/ empty placeholders
-- No goals file, no hub/MOC notes, no life-area structure
+Navigation, token-cheap read order: **hot.md** (500-word recent cache) then **[[HOME]] + hubs** (the index layer, built in Phase 0) then specific notes. Plus **log.md**, append-only, newest first.
 
-**Missing life areas entirely:** music career (the biggest one: 214GB of Ableton sessions with 28 artists including Noa Kirel, Daniel Solomon, Liraz), family depth, Qiu, health, personal money, dreams/goals, learning, travel.
-
-## The raw material (what exists, ranked)
-
-| Source | Where | Value |
-|---|---|---|
-| Dream list (רשימת החלומות שלי) | Dropbox root | Gold: stated life goals with dates |
-| 30 days projact (self-interview, 7 days) | מסמכים | Gold: fears, money anxiety, identity |
-| Reichman application + motivation letters | מסמכים/לימודים | Gold: self-narrative, ambitions |
-| CVs 2024-2026 (6 versions) + recommendation letters | מסמכים/לימודים | Gold: career arc + how others see him |
-| הצהרות הלב + Byron Katie worksheets | מסמכים | High: values, inner work |
-| WhatsApp db (69k messages, 1,893 chats) | ~/.config/second-brain/whatsapp.db | Gold: every relationship, real voice |
-| Ableton LIVE folder (28 artist projects) | Dropbox/ABLETON | High: full music career map |
-| Accountant reports, financial plan, BOOK KEEP | מסמכים | High: real money picture |
-| iMessage chat.db (100MB) + Apple Contacts | ~/Library | Medium: untouched |
-| Facebook GDPR export (Feb 2024) | מסמכים | Low-medium: history snapshot |
-| Instagram + LinkedIn | not on disk | Need Noam to request exports |
+**Provenance convention:** anything a pipeline writes is tagged. Default = extracted from source. ^[inferred] = agent synthesis. ^[ambiguous] = sources disagree. The WhatsApp digest already produced two real errors this convention would have caught ([[bitton]] named from an in-joke, [[shir]] called "girlfriend"). A weekly lint hunts contradictions, stale claims, and orphans.
 
 ## Guiding principles
 
-1. **Distill, don't dump.** The vault gets insights about Noam with a link to the source file. Raw documents stay where they are.
-2. **Everything connects.** Every new or touched note links to at least 2 existing notes. Hubs make the graph readable.
-3. **Sources before interviews.** Mine what exists first. A /grill-me interview only fills gaps the documents can't answer.
-4. **Privacy tiers.** Tier 1 vault (normal life context). Tier 2 ~/.personal-vault/ (medical, visa, bank: referenced in vault only as "exists, see personal vault"). Tier 3 never stored (credentials). boundaries.md stays law.
-5. **Plain markdown, tool-agnostic.** Folders and files, no databases, works with any model.
+1. **Distill, don't dump.** Insights in the vault, raw files stay where they are, every distilled claim cites its source.
+2. **Everything connects.** Every new note links to at least 2 existing notes; hubs make the graph readable.
+3. **Sources before interviews.** Mine what exists; /grill-me only fills gaps documents can't answer.
+4. **Privacy tiers.** Tier 1 vault. Tier 2 ~/.personal-vault/ (medical, visa, bank: referenced only). Tier 3 never stored (credentials). The research found NO field consensus on privacy, so our design stands. boundaries.md is law.
+5. **Plain markdown, tool-agnostic.** No databases. Works with any model.
+6. **Cadence last.** Don't automate a workflow that doesn't work manually (verified Herk principle).
+7. **No folder reorg.** The only refuted claim in the research was a rigid folder taxonomy. Current folders stay; links do the organizing.
+8. **Scale guard.** Hot stays ~500 words, index lean, vault well under ~1,000 notes; archive aggressively.
 
 ## Phases
 
 ### Phase 0: Graph hygiene (done 2026-06-12)
-- [x] Process all 23 inbox captures through the capture protocol (20 trash, 3 filed into this plan)
-- [x] Phone-number people files: turned out to be rich profiles, so they were RENAMED to named notes (ran, hila-my-sister, tom-fox, yahel-abrahams, shir, ziv, bitton, shaked-naor, taler, yoni-klipi, roey-kalifi) with phone + WhatsApp label kept in frontmatter; relationships.md index updated; cross-links added
-- [ ] Delete finance/ and gym/ templates or commit to using them (decision still with Noam)
-- [x] Created [[HOME]] plus hubs: [[work]], [[people]], [[mind]], [[body]], [[money]], [[music]]
-- [x] 75 Hard cluster linked via [[body]] hub (tracker is bot-rewritten, so links point at it, not from it)
-- [x] wa-bridge is healthy (running). Real issue was the 2026-06-12 01:00 people-sync failing on an API connection error; re-ran manually to catch up 94 pending messages
-- Note for Phase 2: [[bitton]] real name unconfirmed (digest guessed "Eden Ben Zaken" from an in-joke); [[boss]] identity unclear; Ran's "brother" status is digest-inferred, confirm with Noam
+- [x] Processed all 23 inbox captures (20 trash, 3 filed into this plan)
+- [x] Renamed 11 phone-number people files to named notes (ran, hila-my-sister, tom-fox, yahel-abrahams, shir, ziv, bitton, shaked-naor, taler, yoni-klipi, roey-kalifi), phone + WhatsApp label kept in frontmatter, relationships.md updated, cross-links added
+- [x] Created [[HOME]] + hubs: [[work]], [[people]], [[mind]], [[body]], [[money]], [[music]]
+- [x] 75 Hard cluster linked via [[body]]
+- [x] wa-people-sync: diagnosed the 01:00 API failure, re-ran, 94 messages caught up, watermark advanced
+- [ ] finance/ and gym/ keep-or-delete (decision with Noam)
+- Graph after Phase 0: 115 active notes, 13 fully isolated (11%), nearly all logs/templates
+
+### Phase 0.5: Navigation + schema (done 2026-06-12, one item with Noam)
+- [x] hot.md (recent-context cache) and log.md (append-only, newest first) created at vault root
+- [x] CLAUDE.md rewired: hot-first read order, navigate via HOME/hubs on demand, provenance section, hot/log refresh at session end, layout map updated (~170 lines)
+- [x] Provenance instructions added to the wa-people-sync prompt in run.sh (no names from jokes, contradictions become ^[ambiguous], inferences tagged)
+- [ ] qmd local search: install blocked for the agent (unverified-package guard); command verified against the official repo, waiting for Noam to run it
 
 ### Phase 1: Identity core (mine the gold documents)
-- [ ] Distill dream list, 30-day self-interview, heart statements, Byron Katie sheets, Reichman application, CV arc, recommendation letters
-- [ ] New: memory/goals.md (every stated goal with date and status, linked to the projects that serve it)
+- [ ] Distill: dream list, 30-day self-interview, heart statements, Byron Katie sheets, Reichman application, CV arc 2024-2026, recommendation letters
+- [ ] New: memory/goals.md (every stated goal, date, status, linked to the projects serving it)
 - [ ] New: memory/story.md (life timeline: music career, FUCHS-SOUND, pivot to entrepreneurship, Reichman, ventures)
-- [ ] Expand about-me.md and voice.md with what the documents reveal
+- [ ] Expand about-me.md and voice.md; every claim cites its source file; inferences tagged
 - Output test: "what drives Noam and what is he afraid of?" answered from the vault alone
 
-### Phase 2: People and relationships (the WhatsApp deep mine)
-- [ ] Mine the top ~30 chats by volume + all family from whatsapp.db into real person notes
-- [ ] Create the missing core people: Qiu (most important person, barely in the vault), parents, siblings, closest friends
-- [ ] Every person note linked to projects, meetings, journal mentions
-- [ ] Regenerate relationships.md as a pure index of people/, single source of truth
+### Phase 2: People and relationships (WhatsApp deep mine)
+- [ ] Mine top ~30 chats by volume + all family from whatsapp.db into person notes (with provenance tags)
+- [ ] Create missing core people: [[qiu-qiqian]] first, then closest friends not yet covered
+- [ ] Fix known digest errors: [[bitton]] real name, [[shir]] relationship label; resolve [[boss]]; confirm Ran is a brother
+- [ ] Every person linked to projects, meetings, journal mentions; relationships.md stays a pure index
 - [ ] Second pass: iMessage + Apple Contacts enrichment
 
-### Phase 3: Life-area expansion (new notes, distilled)
-- [ ] music.md: FUCHS-SOUND, the 28 artist collaborations, current status of that career
-- [ ] money.md: financial independence goal, accountant picture, 20% savings target, course/REA income logic
-- [ ] health.md: 75 Hard context, training, the 2025 tests referenced at tier-2 only
-- [ ] family.md + relationship area (Qiu): depth level is Noam's call, flagged below
-- [ ] learning.md: 15 books/year goal, IDC, what he's teaching himself. Must link the sem2-coach world (~/Dropbox/IDC/SEM 2/MY SEM 2 COACH/) so studies context lives in the brain too (Noam asked for this explicitly on 2026-05-07: "שאתה תדע הכללללל" about sem2)
-- [ ] dreams/travel: from the dream list (biweekly nature nights, marathon abroad yearly)
+### Phase 3: Life-area expansion (fill the hubs)
+- [ ] [[music]]: FUCHS-SOUND, the 28 artist collaborations, current career status
+- [ ] [[money]]: independence goal, accountant picture, 20% savings target, income streams
+- [ ] [[body]]: health context (2025 tests stay tier-2), training, 75 Hard arc
+- [ ] [[people]]: family + Qiu depth (per Noam's flagged decision)
+- [ ] [[mind]]: learning, 15 books/year, sem2-coach bridge (Noam asked 2026-05-07: "שאתה תדע הכללללל" about sem2)
+- [ ] dreams/travel from the dream list
 
 ### Phase 4: Live connections
 - [ ] Noam requests Instagram export (Accounts Center, "Download your information") and LinkedIn export (Settings, "Get a copy of your data"). Only he can do this.
-- [ ] Process exports when they arrive: own posts and captions feed voice.md and instagram-growth
-- [ ] Parse the 2024 Facebook export for history (low priority)
-- [ ] Google Workspace MCP (calendar + Gmail) per the existing Phase 3b plan
-- [ ] Keep existing syncs healthy: Fathom, WhatsApp nightly, 75 Hard
+- [ ] Process exports on arrival: own posts/captions feed voice.md and [[instagram-growth]]
+- [ ] Parse the 2024 Facebook export (low priority)
+- [ ] Google Workspace MCP (calendar + Gmail) per existing Phase 3b plan
+- [ ] Cross-project routers: REA CRM, sem2-coach, and other repos get a CLAUDE.md pointer at this vault (hot then index read protocol), one shared brain across all sessions
 
-### Phase 5: Capabilities and cadence
+### Phase 5: Capabilities and cadence (cadence LAST, after skills prove out manually)
+- [ ] /audit skill: weekly lint (orphans, stale claims, contradictions, duplicates, provenance check); replaces the earlier /graph-gardener idea
+- [ ] /level-up skill: weekly "what should this system do better" review
 - [ ] /grill-me skill: targeted interview for gaps the documents could not answer
-- [ ] /graph-gardener skill: weekly orphan sweep, proposes links, reports graph health
-- [ ] Voice-to-tasks: convert Noam's voice messages into a simple clear task list (asked 2026-05-06 via Telegram, surfaced from inbox triage)
-- [ ] Revive capture flow as a weekly ritual, revive outbox drafting
-- [ ] Schedule the daily rhythm already designed in CLAUDE.md (morning preview, evening review, Sunday digest)
-- [ ] Rewrite CLAUDE.md as a router (per the video): shorter core, points to hubs and memory instead of holding everything
+- [ ] Voice-to-tasks: Noam's voice messages into a clear task list (asked 2026-05-06)
+- [ ] Codify-as-you-go habit: after a productive session, turn what worked into a skill; update skills every time they're used
+- [ ] Only then schedule: morning preview, evening review, Sunday digest + /audit via launchd
 
 ## Decisions flagged for Noam
 
 1. **Medical records (בדיקות 2025):** recommend tier-2 (out of vault, referenced only). Confirm.
-2. **Relationship depth (Qiu, partner visa, shared finances):** a person note yes, but how deep? Recommend normal person note + tier-2 for visa/finance files.
+2. **Relationship depth (Qiu, partner visa, shared finances):** person note yes; visa/finance files tier-2. Confirm.
 3. **finance/ and gym/ folders:** use them or delete them.
 4. **Instagram + LinkedIn exports:** the two requests only Noam can click.
 
 ## Success criteria
 
 - The gut check passes: "who am I, what matters to me, what am I building and why" gets a co-founder answer
-- Graph: under 10% orphan notes (today: roughly 35%)
-- Every person in people/ has a name, not a number
-- Each life area has a hub note with real content and links
-- The brain answers from sources it can cite (note links to file path)
+- Graph: isolated notes under 10% and falling (Phase 0 brought it to 11%)
+- Every person in people/ has a name, not a number (done) and provenance-clean content
+- Each hub has real content and links
+- Weekly /audit passes: no untagged inferences, no contradictions, no stale top-of-mind claims
+- The brain answers with sources it can cite
 
 ## Log
 
-- 2026-06-12: Audit completed (vault survey, מסמכים survey, data-source inventory). Plan written.
+- 2026-06-12: Audit completed (vault survey, מסמכים survey, data-source inventory). Plan v1 written.
+- 2026-06-12: Phase 0 executed (inbox cleared, people renamed + linked, HOME + 6 hubs, WhatsApp sync repaired and caught up).
+- 2026-06-12: Deep research completed (21 sources, 24 verified claims) and folded into plan v2: added Phase 0.5 (hot/log/provenance/router), provenance tags everywhere, /audit + /level-up, cross-project routers, qmd, scale guard. Findings: [[second-brain-research-2026-06]].
