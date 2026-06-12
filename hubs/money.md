@@ -8,8 +8,15 @@ updated: 2026-06-12
 
 Back to [[HOME]].
 
-## The goal
-Financial independence from parents (dream list target was 2026-03-02; status to confirm with Noam). Save 20%. "Retire from wage slavery by 40." Full picture lands in levelup Phase 3.
+## The goals (full list with sources: [[goals]])
+- Net worth above $10M; financial freedom by age 35 (Reichman application, Day 7)
+- Financial independence from parents (dream-list target was 2026-03-02; status to confirm with Noam) ^[ambiguous]
+- Save 20% of income; "retire from wage slavery by 40"
+- Context that matters: money pressure is identity pressure for him (peers earning while he studies). See [[story]] "Tensions".
+
+## Work history with money signal
+- FUCHS-SOUND self-employment since 2020 (accountant reports in מסמכים/מסמכי רו״ח, incl. signed 2023 annual report)
+- OD SIFRA (2025-05 to 2025-11): investor relations, US residential real estate (CV)
 
 ## Income streams
 - Music production and gigs: FUCHS-SOUND (see [[music]]); Tamar Raili shows via [[ziv]] pay 1200/show

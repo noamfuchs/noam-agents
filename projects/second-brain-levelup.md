@@ -53,12 +53,13 @@ Navigation, token-cheap read order: **hot.md** (500-word recent cache) then **[[
 - [x] Provenance instructions added to the wa-people-sync prompt in run.sh (no names from jokes, contradictions become ^[ambiguous], inferences tagged)
 - [ ] qmd local search: install blocked for the agent (unverified-package guard); command verified against the official repo, waiting for Noam to run it
 
-### Phase 1: Identity core (mine the gold documents)
-- [ ] Distill: dream list, 30-day self-interview, heart statements, Byron Katie sheets, Reichman application, CV arc 2024-2026, recommendation letters
-- [ ] New: memory/goals.md (every stated goal, date, status, linked to the projects serving it)
-- [ ] New: memory/story.md (life timeline: music career, FUCHS-SOUND, pivot to entrepreneurship, Reichman, ventures)
-- [ ] Expand about-me.md and voice.md; every claim cites its source file; inferences tagged
-- Output test: "what drives Noam and what is he afraid of?" answered from the vault alone
+### Phase 1: Identity core (done 2026-06-12)
+- [x] Distilled: dream list, 30-day self-interview, heart statements, Byron Katie sheets, Reichman application, CV arc 2024-2026, recommendation letters
+- [x] memory/goals.md created (every goal with source; financial, impact, body, mind, relationships)
+- [x] memory/story.md created (Tamra → Zikhron → music at 16 → keyboards at 18 → FUCHS-SOUND → Tel Aviv loft → 2023 burnout → Geneva → bagrut in 5 months → Reichman; identity arc, how others see him, inner world with quotes, tensions)
+- [x] about-me.md expanded (birthday 2000-04-08, languages, backstory, family incl. Facebook-confirmed brother/cousins, personal WhatsApp number); voice.md gained a self-directed-writing section
+- [x] Bonus: Facebook 2024 export distilled (profile anchors, Rimon 2018 / SAE 2022, interest phases)
+- Note: the 30-day project's date is ambiguous (2024 vs 2026); if it's running now, re-distill as days accumulate ^[ambiguous]
 
 ### Phase 2: People and relationships (WhatsApp deep mine)
 - [ ] Mine top ~30 chats by volume + all family from whatsapp.db into person notes (with provenance tags)
@@ -67,13 +68,13 @@ Navigation, token-cheap read order: **hot.md** (500-word recent cache) then **[[
 - [ ] Every person linked to projects, meetings, journal mentions; relationships.md stays a pure index
 - [ ] Second pass: iMessage + Apple Contacts enrichment
 
-### Phase 3: Life-area expansion (fill the hubs)
-- [ ] [[music]]: FUCHS-SOUND, the 28 artist collaborations, current career status
-- [ ] [[money]]: independence goal, accountant picture, 20% savings target, income streams
-- [ ] [[body]]: health context (2025 tests stay tier-2), training, 75 Hard arc
-- [ ] [[people]]: family + Qiu depth (per Noam's flagged decision)
-- [ ] [[mind]]: learning, 15 books/year, sem2-coach bridge (Noam asked 2026-05-07: "שאתה תדע הכללללל" about sem2)
-- [ ] dreams/travel from the dream list
+### Phase 3: Life-area expansion (done 2026-06-12)
+- [x] [[music]]: full career arc + real artist list from the Ableton archive + what the letters say about him
+- [x] [[money]]: goals with sources, work history, accountant pointers (numbers stay in source docs)
+- [x] [[body]]: training history, 75 Hard, dream-list sport goals (2025 medical tests stay tier-2, referenced only)
+- [x] [[people]] hub built; family enrichment + [[qiu-qiqian]] via the WhatsApp deep mine (Phase 2)
+- [x] [[mind]]: goals/story wired in, education thread, sem2-coach bridge (CLAUDE.md router placed in the coach folder)
+- [x] dreams/travel live inside [[goals]]
 
 ### Phase 4: Live connections
 - [ ] Noam requests Instagram export (Accounts Center, "Download your information") and LinkedIn export (Settings, "Get a copy of your data"). Only he can do this.

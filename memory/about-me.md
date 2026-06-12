@@ -1,19 +1,21 @@
 ---
 name: About Me
-description: Identity, situation, role, active projects. Pre-filled 2026-05-09 from existing vault context AND prior Claude project memories. "(confirm?)" tags mark inferences.
-updated: 2026-05-22
+description: Identity, situation, role, active projects, backstory. Expanded 2026-06-12 from Noam's own documents (levelup Phase 1). "(confirm?)" tags mark inferences.
+updated: 2026-06-12
 ---
 
 # About Me
 
 ## Identity
-- **Name:** Noam Fuchs
+- **Name:** Noam Fuchs (נעם פוקס)
 - **Preferred name:** Noam
+- **Born:** 2000-04-08 (Facebook export)
 - **Email:** fooxsound@gmail.com
 - **Nationality:** Israeli
 - **Location:** Herzliya (מגורים במעונות רייכמן)
 - **Timezone:** Asia/Jerusalem
-- **WhatsApp (business):** +972 55-932-2359 — REA business line only. Has a separate personal WhatsApp number (not yet recorded here; ask when needed).
+- **WhatsApp (business):** +972 55-932-2359 — REA business line only.
+- **WhatsApp (personal):** +972 52-644-8875 (Facebook export 2014 + the CRM test-lead note) ^[inferred]
 
 ## Education / current studies
 - **University:** Reichman University (IDC)
@@ -24,9 +26,19 @@ updated: 2026-05-22
 
 ## Languages
 - **Native:** Hebrew
+- **English:** C1 (CV)
+- **French:** A2, learned in Geneva 2023-2024 (CV)
 - **Default for Claude/technical work:** English (per his explicit preference in sem2-coach + REA CRM contexts)
 - **Default on Telegram bot:** match his message — Hebrew in → Hebrew out, English in → English out (he mixes freely mid-message)
 - **Outbound to others:** Hebrew for Israeli contacts; English otherwise.
+
+## Backstory (full arc in [[story]], goals in [[goals]])
+- Grew up in Tamra (Wadi Ara) then Zikhron Yaakov; homeschooled grades 3-8; left school at 16 for the music industry.
+- **FUCHS-SOUND** (founded 2020-09): producer, keyboardist, live-show programmer for top Israeli artists (Static, Ivri Lider, Ninet Tayeb, Noa Kirel and more; see [[music]]). Rimon school 2018, SAE Institute 2022.
+- Lived: Tamra → Zikhron Yaakov → Tel Aviv loft (2021-2023) → Geneva (Oct 2023, ~10 months, war period, relatives Constantine and [[camilla]]) → Herzliya dorms.
+- Bagrut completed May 2024 in 5 months, GPA 96. Accepted to Ben Gurion, Technion, Reichman; chose Reichman.
+- OD SIFRA (2025-05 to 2025-11): investor relations in US residential real estate; the bridge to REA. ^[inferred]
+- Family: [[mom]], [[paps]], brother [[shai-my-brother]], sister [[hila-my-sister]] (in army), [[babi]]; cousins [[tom-fox]] and Jonathan Fuchs; Geneva relatives Constantine and [[camilla]]. (Ran of [[ran]]: brother label unconfirmed, see his note.) ^[ambiguous]
 
 ## Role / what he does
 - **Entrepreneur & operations** — running a real-estate education business with two partners.

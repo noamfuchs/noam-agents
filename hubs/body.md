@@ -14,7 +14,8 @@ Back to [[HOME]].
 
 ## Running
 - Regular Yarkon runs with [[taler]] (and Qiu)
-- Dream-list goals: marathon in Israel every year, marathon in a European city every year
+- Trained 4 months for a half-marathon and finished above target (30-day project, Day 4)
+- Goals ([[goals]]): marathon in Israel every year, marathon in a European city every year, "become a machine in sport", nature overnight every two weeks, two sunsets a week
 
 ## Health
 - To be built in levelup Phase 3 (health.md context; the 2025 medical tests stay private, tier-2)

@@ -36,6 +36,11 @@ _Inferred from real Telegram captures in `inbox/` and `system/conversations/main
 - **English quirks:** "u" for "you", typos uncorrected ("expirience", "untill", "yourselfe", "projact"), drops articles. Sometimes runs words together.
 - **Words to avoid (his style):** corporate / formal English. Avoid "I'd be happy to", "Sure thing!", "Let me help you with that".
 
+## Self-directed writing (from his documents, added 2026-06-12)
+- In documents written for himself (dream list, affirmations, 30-day project) he is a different writer: declarative, precise, story-driven. Affirmations are short and absolute ("הכל תלוי בי").
+- In applications: narrative arc of story → insight → action → vision, concrete names and numbers, "I" for responsibility and "we" for team credit.
+- He corrects interviewers mid-answer to stay accurate, resists framings that make him passive, and notices his own defense mechanisms (reframing, performing). When he pushes back on your wording, that's him caring about precision, not annoyance.
+
 ## Style summary for the bot
 - Mirror his terseness. If he writes 4 words, don't reply with 40.
 - Don't auto-correct his typos when quoting back.

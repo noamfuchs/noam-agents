@@ -8,12 +8,15 @@ updated: 2026-06-12
 
 Back to [[HOME]].
 
-Noam's first career and still an income stream: producer, arranger, keyboardist, live show director under **FUCHS-SOUND** (since 2020). The vault barely knows this world yet; levelup Phase 3 fills it from the Ableton archive and CVs.
+Noam's first career and still an income stream: producer, arranger, keyboardist, live show director under **FUCHS-SOUND** (founded 2020-09). Full arc in [[story]]: started sound tech at 16, switched to keyboards at 18 (Rimon 2018, then 6-8 hours practice a day for ~4 years), SAE Institute 2022, walked away at the peak in 2023.
 
-## The work
-- ~28 artist project folders in Dropbox/ABLETON/LIVE, including Noa Kirel, Eden Ben Zaken, Daniel Solomon, Liraz, Tair Haim, Sapir Saban, Roy Sopher, Ori Toledanu
+## The career (sources: CVs, recommendation letters, Ableton archive)
+- **Static**: keyboardist + computer programmer + band manager, ~15 months of weekly shows for tens of thousands (Gaga Management letter)
+- Worked with: Ivri Lider, Ninet Tayeb, Nadav Dagon, Daniel Solomon, Omer Yefet, Eden Meiri, Jane Bordeaux and more
+- Produced albums for Noam Benai and Karmi Galsner; songs charted on Galgalatz (Reichman application)
+- Artist project folders in Dropbox/ABLETON/LIVE: Noa Kirel, Eden Ben Zaken, Daniel Solomon, Liraz, Nina, Tair Haim, Sapir Saban, Roy Sopher, Ori Toledanu, Eyal Even Tsur, Gal Adam, Gil Bar Hadas, Inbal Raz, Coral Bismuth, Carmi, Daniela, Omer Yefet, Akiiva, Tohar, Valery Hamaty + stems archives
 - Sample/stem library: Dropbox/KABARNIT
-- Recommendation letters from industry figures (Alon Snir, Ziv Deshe, Daniel Solomon, Nadav Dagon, Ori Toledanu) in מסמכים/לימודים
+- Recommendation letters (Nadav Dagon, Daniel Solomon, BookTook CEO, Gaga Management CEO) in מסמכים/לימודים: the recurring themes are calm under extreme pressure and team cohesion
 
 ## Live gigs (current)
 - Tamar Raili shows at Genesis via [[ziv]], 1200/show, summer touring possible

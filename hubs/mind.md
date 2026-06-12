@@ -11,13 +11,14 @@ Back to [[HOME]].
 ## Identity
 - [[about-me]] - who Noam is right now
 - [[voice]] - how he actually writes and talks
-- [[goals]] - every stated goal with date and status (to be built in levelup Phase 1 from the dream list)
-- [[story]] - life timeline (to be built in levelup Phase 1)
+- [[goals]] - every stated goal with source and status (built 2026-06-12 from the dream list, the 30-day project, and applications)
+- [[story]] - life timeline, identity arc, how others see him, inner world (built 2026-06-12)
 
 ## Reflection
 - journal/ - daily entries, the temporal hub of the vault
 - [[learned-this-week]] - observations awaiting Sunday review
-- Raw sources to distill (Phase 1): מסמכים/30 days projact (7-day self-interview), הצהרות הלב, Byron Katie worksheets, רשימת החלומות שלי.docx (Dropbox root)
+- Distilled sources: רשימת החלומות שלי.docx, 30 days projact (note: project date ambiguous, 2024 or 2026; if it's running NOW alongside 75 Hard, treat it as live and re-distill when new days appear), הצהרות הלב, Byron Katie worksheets
+- Education thread: Rimon (2018), SAE Institute (2022), bagrut-in-5-months (2024), Reichman (now)
 
 ## Learning
 - IDC / Reichman, semester 2: coached separately at ~/Dropbox/IDC/SEM 2/MY SEM 2 COACH/ (Noam wants the brain to know all of it; bridge planned in Phase 3)
