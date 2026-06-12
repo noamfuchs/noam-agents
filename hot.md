@@ -22,10 +22,11 @@ updated: 2026-06-12
 - The two Itays and two Amits are four DIFFERENT people (notes disambiguated).
 - Financial independence: mostly achieved, some support remains. Qiu: already in the M.Sc.
 
-## Still waiting on NOAM
-1. Instagram + LinkedIn data exports (then Phase 4 ingestion)
-2. Full Disk Access for the terminal if iMessage mining is wanted
-3. One name left: Sinai Tzarfati's real name (confirmed nickname; Noam will supply when it comes up)
+## In flight (Noam acted, waiting on externals)
+1. Instagram + LinkedIn exports requested; ingest when the download emails arrive
+2. Gmail + Google Calendar connectors: Noam authorizing via claude.ai Settings → Connectors; once tools appear in a session, wire morning-preview to real calendar data
+3. Full Disk Access for the terminal still open if iMessage mining is wanted
+4. One name left: Sinai Tzarfati's real name (confirmed nickname; Noam will supply when it comes up)
 (Resolved 2026-06-12 evening: parents = Tal + Tomer; ONE Itay and ONE Amit, notes merged; "Bitton" confirmed as the name in use; finance/gym deleted; privacy tier-2 confirmed)
 
 ## Watch

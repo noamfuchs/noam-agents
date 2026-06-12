@@ -78,11 +78,11 @@ Navigation, token-cheap read order: **hot.md** (500-word recent cache) then **[[
 - [x] dreams/travel live inside [[goals]]
 
 ### Phase 4: Live connections
-- [ ] Noam requests Instagram export (Accounts Center, "Download your information") and LinkedIn export (Settings, "Get a copy of your data"). Only he can do this.
-- [ ] Process exports on arrival: own posts/captions feed voice.md and [[instagram-growth]]
-- [ ] Parse the 2024 Facebook export (low priority)
-- [ ] Google Workspace MCP (calendar + Gmail) per existing Phase 3b plan
-- [ ] Cross-project routers: REA CRM, sem2-coach, and other repos get a CLAUDE.md pointer at this vault (hot then index read protocol), one shared brain across all sessions
+- [x] Instagram + LinkedIn exports REQUESTED by Noam 2026-06-12; waiting for the download emails
+- [ ] Process exports on arrival: own posts/captions feed voice.md and [[instagram-growth]]; LinkedIn fills the professional-network layer
+- [x] Facebook 2024 export parsed (done in Phase 1: profile anchors, education timeline, interest phases)
+- [ ] Gmail + Google Calendar: IN MOTION 2026-06-12 — Noam connecting via claude.ai Settings → Connectors (same first-party path as the working Google Drive connector); tools appear in new sessions once authorized
+- [x] Cross-project routers placed (REA CRM, sem2-coach)
 
 ### Phase 5: Capabilities and cadence (done 2026-06-12, activation with Noam)
 - [x] /audit skill created AND proven manually (first run 2026-06-12, report in system/logs/audit.log)
