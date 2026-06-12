@@ -23,10 +23,11 @@ updated: 2026-06-12
 - Financial independence: mostly achieved, some support remains. Qiu: already in the M.Sc.
 
 ## In flight (Noam acted, waiting on externals)
-1. Instagram + LinkedIn exports requested; ingest when the download emails arrive
-2. Gmail + Google Calendar connectors: Noam authorizing via claude.ai Settings → Connectors; once tools appear in a session, wire morning-preview to real calendar data
+1. **Gmail + Google Calendar CONNECTED 2026-06-12** (claude.ai connectors, verified ✔). This was done mid-session, so the tools appear from the NEXT session on. First task next session: live test — read today's calendar + recent emails, produce Noam's first real morning preview, then propose wiring /morning-preview to real data.
+2. Instagram + LinkedIn exports requested; ingest when the download emails arrive
 3. Full Disk Access for the terminal still open if iMessage mining is wanted
 4. One name left: Sinai Tzarfati's real name (confirmed nickname; Noam will supply when it comes up)
+5. Noticed in the connector list: **Notion connected** (ask Noam if anything lives there worth mining) and **Strava needs one re-auth click** (would feed real runs into [[body]] and the marathon goals)
 (Resolved 2026-06-12 evening: parents = Tal + Tomer; ONE Itay and ONE Amit, notes merged; "Bitton" confirmed as the name in use; finance/gym deleted; privacy tier-2 confirmed)
 
 ## Watch
