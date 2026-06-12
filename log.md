@@ -6,6 +6,8 @@ updated: 2026-06-12
 
 # 📜 Log (newest first)
 
+- 2026-06-12: Levelup Phases 1-5 executed in one run: [[goals]] + [[story]] distilled from מסמכים, about-me/voice expanded (birthday, backstory, family), Facebook 2024 export distilled, WhatsApp deep-mine (6 new people incl. [[qiu-qiqian]]; Boss=[[gilad-klein]], Ran=brother confirmed, babi=business partner), hubs filled with real content, 4 skills created (/audit /level-up /grill-me /voice-to-tasks), cross-project routers placed (REA CRM, sem2-coach), first /audit run (ATTENTION: duplicate itay/amit notes proposed for merge, commitments overdue triage). Remaining: Noam's activation commands + 7 open questions (see [[hot]]).
+
 - 2026-06-12: Second-brain levelup Phase 0.5 done: hot.md + log.md created, provenance convention adopted (CLAUDE.md + nightly WhatsApp sync prompt), CLAUDE.md rewired as router. qmd install pending Noam.
 - 2026-06-12: Deep research on Obsidian+Claude best practices (21 sources, 24 verified claims) filed to [[second-brain-research-2026-06]]; plan upgraded to v2.
 - 2026-06-12: Levelup Phase 0 done: 23 inbox items processed, 11 phone-number people files renamed + linked, [[HOME]] + 6 hubs created, wa-people-sync repaired and caught up (94 messages; updated [[dafne-bennatan]], [[gal-halfon]]).

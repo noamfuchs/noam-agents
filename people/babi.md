@@ -9,7 +9,7 @@ last_interaction: "2026-03-16"
 
 # Babi
 
-> **Identity check (2026-06-12):** despite the grandmother-sounding label "BABI", he is confirmed male and a financing-side business partner, not family — in the Gilad Klein ("Boss") chat he is the one with authority to order the appraiser on the זמרי deal ("הוא אמר שרק הוא יכול להזמין [שמאי]"), and Noam coordinates payments/links between Babi and Gilad. Works alongside [[boss|Gilad Klein]] and [[ori-elmaliah|Ori Elmaliah]] on the same closings.
+> **Identity check (2026-06-12):** despite the grandmother-sounding label "BABI", he is confirmed male and a financing-side business partner, not family — in the Gilad Klein ("Boss") chat he is the one with authority to order the appraiser on the זמרי deal ("הוא אמר שרק הוא יכול להזמין [שמאי]"), and Noam coordinates payments/links between Babi and Gilad. Works alongside [[gilad-klein|Gilad Klein]] and [[ori-elmaliah|Ori Elmaliah]] on the same closings.
 
 **Relationship:** Babi is Noam's partner in real estate financing operations. They work together on loan origination, underwriting coordination, and deal closing. Babi handles the lending/underwriting side and manages relationships with lenders, title companies, insurance agents, and notaries. The dynamic is collaborative and brotherly, with both of them problem-solving around deal obstacles together.
 

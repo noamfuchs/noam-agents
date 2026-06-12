@@ -17,7 +17,7 @@ The map of content for the whole brain. Created as part of [[second-brain-levelu
 - [[music]] - FUCHS-SOUND, production career, gigs
 
 ## Memory core (who Noam is, how to work with him)
-[[about-me]] · [[preferences]] · [[boundaries]] · [[voice]] · [[commitments]] · [[decisions]] · [[recurring]] · [[working-with-noam]] · [[learned-this-week]]
+[[about-me]] · [[preferences]] · [[boundaries]] · [[voice]] · [[goals]] · [[story]] · [[commitments]] · [[decisions]] · [[recurring]] · [[working-with-noam]] · [[learned-this-week]]
 
 ## Indexes
 - [[relationships]] - all people, ranked by message volume

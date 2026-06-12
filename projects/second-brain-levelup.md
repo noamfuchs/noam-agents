@@ -61,12 +61,13 @@ Navigation, token-cheap read order: **hot.md** (500-word recent cache) then **[[
 - [x] Bonus: Facebook 2024 export distilled (profile anchors, Rimon 2018 / SAE 2022, interest phases)
 - Note: the 30-day project's date is ambiguous (2024 vs 2026); if it's running now, re-distill as days accumulate ^[ambiguous]
 
-### Phase 2: People and relationships (WhatsApp deep mine)
-- [ ] Mine top ~30 chats by volume + all family from whatsapp.db into person notes (with provenance tags)
-- [ ] Create missing core people: [[qiu-qiqian]] first, then closest friends not yet covered
-- [ ] Fix known digest errors: [[bitton]] real name, [[shir]] relationship label; resolve [[boss]]; confirm Ran is a brother
-- [ ] Every person linked to projects, meetings, journal mentions; relationships.md stays a pure index
-- [ ] Second pass: iMessage + Apple Contacts enrichment
+### Phase 2: People and relationships (done 2026-06-12, one item gated)
+- [x] Top-30 DM chats mined; 6 new notes ([[qiu-qiqian]], [[sinai-tzarfati]], [[roman-shumunov]], [[yuval-avramov]], [[gal-fadlon]], [[yonatan-automations]]); existing top-30 notes verified current
+- [x] [[qiu-qiqian]] built from ~75 cross-chat mentions (she lives on WeChat, no WhatsApp DM); visa/finance/medical excluded per tier rules
+- [x] Identities: Boss = Gilad Klein (OD SIFRA invoice + 3 independent namings) ^[inferred]; [[ran]] = biological brother Ran Fuchs (confirmed); [[babi]] = business partner (appraiser), not family; [[bitton]] joke-name removed, real first name still unknown ^[ambiguous]; mom/paps first names absent from archive ^[ambiguous]
+- [x] relationships.md rebuilt as index + new "Active groups" table (ההכשרה course group = 2,279 Noam messages); boss.md renamed gilad-klein.md; hubs and about-me corrected
+- [ ] iMessage + Contacts second pass: BLOCKED by macOS (iMessage needs Full Disk Access granted by Noam; Contacts is iCloud-only with no local db)
+- First /audit ran (verdict ATTENTION): proposed merging probable duplicates itay.md/itay-liani.md and amit.md/amit-schleffer.md (contradictory roles, needs Noam), commitments.md triage (overdue items), watch tonight's wa-sync
 
 ### Phase 3: Life-area expansion (done 2026-06-12)
 - [x] [[music]]: full career arc + real artist list from the Ableton archive + what the letters say about him
@@ -83,13 +84,13 @@ Navigation, token-cheap read order: **hot.md** (500-word recent cache) then **[[
 - [ ] Google Workspace MCP (calendar + Gmail) per existing Phase 3b plan
 - [ ] Cross-project routers: REA CRM, sem2-coach, and other repos get a CLAUDE.md pointer at this vault (hot then index read protocol), one shared brain across all sessions
 
-### Phase 5: Capabilities and cadence (cadence LAST, after skills prove out manually)
-- [ ] /audit skill: weekly lint (orphans, stale claims, contradictions, duplicates, provenance check); replaces the earlier /graph-gardener idea
-- [ ] /level-up skill: weekly "what should this system do better" review
-- [ ] /grill-me skill: targeted interview for gaps the documents could not answer
-- [ ] Voice-to-tasks: Noam's voice messages into a clear task list (asked 2026-05-06)
-- [ ] Codify-as-you-go habit: after a productive session, turn what worked into a skill; update skills every time they're used
-- [ ] Only then schedule: morning preview, evening review, Sunday digest + /audit via launchd
+### Phase 5: Capabilities and cadence (done 2026-06-12, activation with Noam)
+- [x] /audit skill created AND proven manually (first run 2026-06-12, report in system/logs/audit.log)
+- [x] /level-up skill created (includes the codify-as-you-go habit)
+- [x] /grill-me skill created (sources-before-interviews, files answers with provenance)
+- [x] /voice-to-tasks skill created (whisper.cpp Metal preferred, CPU warn per preferences)
+- [x] Sunday 18:00 weekly digest + audit: runner at ~/brain-weekly/run.sh + launchd plist written. ACTIVATION needs Noam (agent blocked from self-scheduling, correctly): `launchctl load ~/Library/LaunchAgents/com.user.secondbrain.weekly-audit.plist`
+- Morning preview / evening review stay manual until Google Workspace (calendar) lands in Phase 4
 
 ## Decisions flagged for Noam
 
