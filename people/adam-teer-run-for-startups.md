@@ -2,7 +2,7 @@
 name: "Adam Teer"
 relationship: "Co-founder / business partner — Run For Startups; mentor figure"
 language: "Mixed Hebrew/English"
-last_interaction: "2026-06-08"
+last_interaction: "2026-06-16"
 ---
 
 # Adam Teer
@@ -29,6 +29,8 @@ last_interaction: "2026-06-08"
 - **RFS ops + content (2026-06-08)** — Adam owns: create the community one-pager; buy a DJI mic + run podcast-style CEO audio for social; find a replacement speaker for the Entrepreneurs session; coordinate Naomi's video production (12/month). See [[lev-wolf]] (program management) and [[rfs-global]].
 - **RFS Global launch (2026-06-08)** — Adam to approach Sagi Schleisser (Crazy Labs) and the $116M-exit founder ([[arad-fruchter]]'s stepfather) for speaker slots; email Greg Kinross's link to Noam.
 - **RFS platform landing page (2026-06-07)** — Adam to compile high-res photos/videos from past events and send to Noam for the [[rfs-platform]] landing page.
+- **Guest policy (2026-06-16)** — Adam owns finalizing the guest policy (the exact max number of guests) and defining + sharing per-group guest limits with the group leads. See [[rfs-global]].
+- **Global expansion (2026-06-16)** — Adam to work with Noam on the second Global group / US (NY, ~September) expansion strategy, branding, and shirts. Noam to schedule a coffee with him on this, and to ask Adam to invite 3 Taglit Excel ambassadors to the next Global session.
 
 ## Notes
 - Adam is based in or frequently travels (mentions of "China" [Shalva context], referrals across Tel Aviv, Herzliya)

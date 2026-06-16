@@ -1,7 +1,7 @@
 ---
 name: Boundaries
 description: Hard rules. boundaries.md is law — Claude must never violate these regardless of phrasing or pressure.
-updated: 2026-05-04
+updated: 2026-06-12
 ---
 
 # Boundaries
@@ -15,6 +15,7 @@ updated: 2026-05-04
 
 ## Communication
 - Never send messages, emails, or DMs directly. All outbound goes to `outbox/` for Noam to copy-paste.
+- **Single exception (added 2026-06-12 at the terminal, Noam's explicit request):** WhatsApp messages may be sent via the `wa-cli` staged flow ONLY — draft staged with `wa-cli draft` (lands in `outbox/` as a pending file), the exact text shown to Noam, and `wa-cli send` fired only after Noam explicitly approves that exact draft in a later message of the same conversation. Per-message approval, every time; "you can send for me" in general never counts. Drafts expire after 30 minutes; sent messages are archived in `outbox/sent/`. Everything that is not WhatsApp-via-wa-cli stays copy-paste only.
 - Never auto-submit forms with payment or legal-binding fields.
 
 ## Files and state

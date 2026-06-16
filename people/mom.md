@@ -7,7 +7,7 @@ language: "Mixed Hebrew/English"
 last_interaction: "2026-05-09"
 ---
 
-# Mom (Fuchs) ^[first name ambiguous]
+# Mom (Fuchs — Tal)
 
 **Relationship:** Noam's mother. They live separately (Noam in Reichman dorms in Herzliya, she at the family home in Zichron Yaakov with his father), but maintain very close daily contact. She is actively involved in his life — offering practical support (food, logistics, household items), emotional care, medical advice, and warm parental guidance. The dynamic is affectionate, warm, and highly engaged.
 
@@ -42,7 +42,7 @@ last_interaction: "2026-05-09"
 
 ## Notes
 
-- **Family structure (corrected 2026-06-12):** parents (Mom + [[paps]]), eldest brother [[shai-my-brother|Shai]] (~30), Noam (~25), sister [[hila-my-sister|Hila]], younger brother [[ran|Ran]]. Qiu Qiqian ([[qiu-qiqian]]) is now integrated into family life. Earlier guesses in this note ("mother Tal", "father Tomer/Ran", "brother Run/אוסקר") had no message evidence and are retracted; parents' first names remain unconfirmed in the archive. ^[ambiguous]
+- **Family structure (corrected 2026-06-12):** parents (Mom Tal + [[paps|Paps Tomer]]), eldest brother [[shai-my-brother|Shai]] (~30), Noam (~25), sister [[hila-my-sister|Hila]], younger brother [[ran|Ran]]. Qiu Qiqian ([[qiu-qiqian]]) is now integrated into family life. Names confirmed by Noam directly 2026-06-12 (earlier archive guesses retracted).
 - **Location dynamics:** Parents live in one location (mentioned grocery shopping, home base); Noam lives in Reichman dorms in Herzliya with Qiu. Frequent travel between locations.
 - **Medical practitioners she's connected him with:**
   - Igor (sports therapist, Tel Aviv south clinic) — for rib/shoulder injury.

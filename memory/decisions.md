@@ -8,6 +8,22 @@ updated: 2026-05-04
 
 _Format: each decision is a level-2 heading with date and reasoning. Add new ones at the top._
 
+## 2026-06-16 — RFS guest policy (2–4 max, observe-only)
+**Decision:** Limit guests across all Run For Startups groups to **2–4 per session**; guests must **observe, not lead/dominate** the conversation, register via a **Manda link**, and are **not** provided coffee.
+**Why:** Guests were monopolizing the CEO's attention and making core members feel ignored and disengaged. The policy protects group intimacy and keeps the CEO's focus on the core members. Finalization of the exact per-group cap is owned by Adam. See [[rfs-global]]. From 2026-06-16 leadership sync [[Meetings/2026-06-16 - Impromptu Google Meet Meeting (155349341)]].
+
+## 2026-06-16 — Mandatory structured format for group-only meetings
+**Decision:** All group-only meetings (no CEO present) must use a **mandatory structured format** with timed activities (e.g. 1-min intros, "speed dating").
+**Why:** Unstructured group-only meetings fail — a few members monopolize time and the rest disengage. A ready-to-use plan ensures equitable participation and removes last-minute prep. See [[rfs-global]]. From 2026-06-16 leadership sync [[Meetings/2026-06-16 - Impromptu Google Meet Meeting (155349341)]].
+
+## 2026-06-16 — Noam + Dafne proactively lead RFS Global expansion (NY first)
+**Decision:** Noam and [[dafne-bennatan]] take the initiative on Run For Startups' global expansion — starting with a **New York** group (targeting a firm launch date, ~September) and later Miami — positioning themselves as the de facto leaders of global expansion. Supporting moves: elevate speakers from "filler" to high-impact founders/CEOs; build a distinct "RFS Global" brand (unique colors/shirts); pursue NY sponsorship via Or Segal (Base44); recruit using Taglit Excel alumni as ambassadors.
+**Why:** The org is decentralized with no formal command center, and Adam is pushing rapid expansion but lacks capacity to execute on all fronts. Demonstrating initiative lets Noam + Dafne establish a clear center of control. See [[rfs-global]]. From 2026-06-16 strategy meeting [[Meetings/2026-06-16 - Impromptu Google Meet Meeting (155364484)]].
+
+## 2026-06-15 — Back Dafne's push for more team autonomy (RFS Global)
+**Decision:** Support [[dafne-bennatan]]'s push for greater autonomy in running RFS Global, rather than keeping decisions tightly centralized.
+**Why:** Noam views the autonomy as a positive driver for engagement and progress; the recent event validated the approach — it ignited passion for the project and clarified team dynamics. See [[rfs-global]].
+
 ## 2026-06-11 — RFS platform: testing-first, split by role and device
 **Decision:** Bug discovery takes priority over new features. Testing is split by permission level and device: Noam tests exclusively as a mobile "community member", Yonatan as a desktop "C-suite" user (highest permissions). All bugs and improvement suggestions go into a shared Notion table — the single source of truth — preferably via the in-app bug reporter (auto page/device context). Dev access opens via Ori's setup package + Claude/Codex prompt (due Sunday 2026-06-14); parallel development must be coordinated to avoid conflicts.
 **Why:** Role/device split gives comprehensive coverage across permission levels; centralized Notion tracking prevents lost reports; bugs-first protects the release. See [[rfs-platform]].

@@ -49,6 +49,9 @@ started: 2026-04
 - **Timeline:** landing page ready for review by end of the following week; ad creative finalized before that.
 - Open: Noam → send landing-page URL to Neria. Amit → upload photos to shared drive, get testimonials (incl. Omer), send incorporation docs to Neria.
 
+## Group coaching sessions
+- **2026-06-14 — Four core investment strategies** (Itay-led Zoom; see [[Meetings/2026-06-14 - Impromptu Zoom Meeting (154909262)]]): BRRRR, Flips, Hold-Tail, Joint Ventures. BRRRR buys at 65–70% ARV, fixes systems (roof/HVAC/electrical/plumbing) before cosmetics, and refinances with a DSCR loan (65–70% LTV for non-US citizens, 75–80% for citizens; ~$6–8k fees). Flips target owner-occupied curb-appeal neighborhoods, swap wood windows for vinyl (FHA/VA approval), and lean on staging + pro photography. Hold-Tail buys deep-discount properties with a large as-is value gap, does minimal work, lists on the MLS. JVs profit without capital via a 50/50 partnership or an assignment fee (needs an investor-friendly attorney). Participant homework: analyze 5 high-quality local flips (define a renovation style); contact 3 title companies (confirm JV policy). Action owners — [[people/lev-wolf|Lev]]: source DSCR lenders + appraisers in the group, then call them; [[people/itay-liani|Itay]]: email Daniel.K a Fort Wayne flip example. Next session: advanced comp analysis for ARV.
+
 ## Notes
 - Output language: Hebrew
 - Tone: conversational, sharp, direct, not academic

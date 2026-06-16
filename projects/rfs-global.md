@@ -14,7 +14,22 @@ started: 2026-06
 **Fee:** 500 NIS for community events + admin. Attendance mandatory (3 absences = removal).
 **Recruitment:** target was 17; group closed at ~15–16 runners (~50% Israelis with strong English, ~50% olim). Filled largely via personal referrals — marketing to the olim community was hard without an existing community hype.
 
+## Leadership sync (2026-06-16) — group dynamics + new policies
+From [[Meetings/2026-06-16 - Impromptu Google Meet Meeting (155349341)]] (RFS weekly leadership sync; Lev, Adam, Noam + group leads).
+- **Guest policy (new):** 2–4 guests max per session; guests observe (don't lead/dominate); register via a Manda link; no coffee provided. Protects core-group intimacy + CEO focus. Adam finalizes the exact cap; all group leaders implement immediately. Noam owes Lev the Manda link.
+- **Structured group-only format (new):** mandatory format with timed activities (1-min intros, speed-dating) for all no-CEO meetings — unstructured ones fail. Lev adds it to the weekly group-leader update.
+- **Group updates:** Reichman session with CEO Erez Gamon landed well (hands-on marketing exercise); seeking an indoor A/C venue + fixing late coffee (Shaked & Jonathan). Entrepreneurs (Yazamim) session with marketing expert Kira praised as practical/"at eye level". Wounded-soldiers (Pitzuei Tzahal) cohort: current ends July 5 (Asaf Granit), next starts July 12 — 14 high-quality applicants (vs. 50–60 weak last round), registration closes in ~1 week → vetting late June; Jeremy to run a broader marketing campaign.
+
+## Expansion & new-group pipeline (2026-06-16)
+From [[Meetings/2026-06-16 - Impromptu Google Meet Meeting (155364484)]] (Noam + Dafne strategy) and the leadership sync.
+- **Global expansion → New York first** (firm launch date, ~September), later Miami. Noam + Dafne take the initiative as de facto leaders of global expansion (org is decentralized; Adam pushing growth but capacity-limited). GTM plan uses **Taglit Excel alumni as NY ambassadors**.
+- **NY sponsorship:** target **Or Segal (Base44)** — has a real sponsorship budget, strong interest; but cancelled a partnership last-minute before, so Dafne to assess seriousness + require a firm commitment. Critical for funding travel/operations.
+- **Brand:** push the distinct "RFS Global" identity further — unique color scheme + shirts (Dafne coordinates with the main team); differentiate from the local Israeli chapter.
+- **Speaker quality:** shift from "filler" speakers to high-impact founders/CEOs to match the group's caliber (Noam vets the existing pipeline; Dafne researches new targets via LinkedIn + leverages the "צוות מוביל" leadership-team WhatsApp group for warm intros).
+- **Other new groups in early planning:** a **Talpiot** group (seeking Talpiot-alum leadership via the Yazami community), a **Taglit Excel** cohort (more flexible format), and a **second Global group** focused on US expansion. Marketing strategy needed to differentiate the growing set of specialized groups and re-engage the waitlisted-applicant pool.
+
 ## Open items
+- Follow up with speaker **Sherer** (from the recent event) to clarify his preferred comms channel (LinkedIn vs. direct), establishing a clear protocol for participants to engage him directly — Noam + Dafne (2026-06-15). [name per Fathom transcript]
 - Recruit ~5 more members to hit 17.
 - Branding: stand up `@RFSGlobal` Instagram + `rfs.global@gmail.com` (Dafne); use IG Collabs with main RFS account.
 - CEO/speaker pipeline: Shi Bargil (Sequent), Hila Ron (Dafne pursuing); Sari, AI R&D manager at Decart-AI (Noam pursuing).
@@ -23,6 +38,9 @@ started: 2026-06
 
 ## Launch event (2026-06-10)
 Festive, high-energy launch to signal investment in the community: photographer, pink balloons (Dafne), large JBL speaker (Arad brings, charged), extra snacks. New Instagram page with a consistent **pink-themed** visual identity, distinct from the main RFS account; Noam adds Adam + Dafne as managers.
+
+## Event debrief (2026-06-15)
+The recent event was a success — positive feedback from all participants; it ignited passion for the project and clarified team dynamics. Follow-ups: (1) clarify speaker Sherer's preferred comms channel (his closing "connect on LinkedIn" left it ambiguous for participants); (2) Dafne to vet new candidate David (referred by [[gal-fadlon]]). Noam is leaning into giving Dafne more autonomy as an engagement/progress driver. ^[which event isn't named in the recording — likely the 2026-06-10 launch]
 
 ## War / safety contingency (decided 2026-06-08)
 Context: a previous conflict caused heavy attrition (12 of 20 runners left). New approach: keep close one-on-one contact with each runner; publish a Google Map of the run route with all shelter locations. **Alarm protocol:** 1 alarm → run as planned; 2 alarms → start 07:00; 3 alarms → cancel the run.
@@ -38,9 +56,11 @@ Context: a previous conflict caused heavy attrition (12 of 20 runners left). New
 - **Accepted:** Zak Feingold (CS student, Reichman; service startup + robotics club), Alan Mekibel ([[alan-mekibel]], community builder + referrals).
 - **Decision pending:** Dana Gerichter (Reichman business student, personal trainer, ex-8200; building "Second Desk", an AI platform of 4–5 agents automating ops for non-technical solo founders). Wants the English-only group to practice the language + learn from international founders; fast-tracked via a referral from Redan. Group is full (17) — Noam + Dafne to decide. _Decision: 2026-06-08._
 - **Resolved:** Eitan Solow (ex-8200 dev turned sales) — was decision-due by Motzash (2026-06-05).
+- **Lead (vetting):** David — referred by [[gal-fadlon]] (an alum from the first RFS group ^[inferred identity — "Gal Padlon" per Fathom transcript]). Profile: current McKinsey consultant; Taglit Excel program alumnus; native English speaker; raised $3M in donations for tactical drones for his army unit after Oct 7th (showcased them to visiting philanthropists). Dafne to vet for inclusion; Noam to send Dafne his LinkedIn profile, then add him to the group. _Lead: 2026-06-15._
 
 ## Speaker pipeline
-Strategy shift (2026-06-08): move the pipeline from VC-heavy toward **founders/entrepreneurs**. Leads:
+First Global session was a success with CEO **Shari Lador** (Key Capital) — note: he spoke softly, hard to hear; ask future speakers to project. Next Global CEOs: **[[gal-halfon]]** (Wed 2026-06-18) and **Ben Levy** (2026-06-16).
+Strategy shift (2026-06-08): move the pipeline from VC-heavy toward **founders/entrepreneurs**; reinforced 2026-06-16 — drop "filler" speakers for high-impact founders/CEOs only. Leads:
 - Sari Hillel — early employee/founder at Descartes AI (raised $400M). Noam to email re: a slot.
 - Sagi Schleisser — founder, Crazy Labs. Adam to approach after an interview.
 - Arad's contact — founder who sold a company to ServiceNow ($80M). Arad to get the name → pipeline.
@@ -48,6 +68,10 @@ Strategy shift (2026-06-08): move the pipeline from VC-heavy toward **founders/e
 - Greg Kinross — Adam to email the link to Noam.
 
 ## Decisions
+- 2026-06-16 — Noam + Dafne proactively lead RFS global expansion (NY first ~September, then Miami), positioning as de facto leaders; elevate speakers to high-impact founders/CEOs; distinct RFS Global brand/shirts; NY sponsorship via Or Segal (Base44).
+- 2026-06-16 — Guest policy: 2–4 guests max per session, observe-only, Manda-link registration, no coffee.
+- 2026-06-16 — Mandatory structured format (timed activities) for all group-only meetings.
+- 2026-06-15 — Back Dafne's push for greater team autonomy as a positive driver for engagement and progress (validated by the recent event).
 - 2026-06-08 — Speaker pipeline shifts from VC-heavy toward founders/entrepreneurs.
 - 2026-06-08 — War/alarm run-safety protocol (1→run, 2→07:00, 3→cancel) + shelter-map + 1:1 retention.
 - 2026-06-08 — Standardized weekly ops + program management under [[lev-wolf]].

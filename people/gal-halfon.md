@@ -2,7 +2,7 @@
 name: "Gal Halfon"
 relationship: "Run For Startups Global group guest (community speaker)"
 language: "Hebrew / English"
-last_interaction: "2026-06-11"
+last_interaction: "2026-06-16"
 ---
 
 # Gal Halfon
@@ -16,6 +16,7 @@ last_interaction: "2026-06-11"
 ## Open threads
 - _(resolved 2026-06-11: the mystery operations role was Hardoor — full history below)_
 - Confirmed guest for RFS Global session Wednesday 2026-06-18; one-pager distributed to the group 2026-06-11.
+- Noam owes: call Gal re: his session intro/presenter, coordinating with [[yonatan-buntzel]] (2026-06-16). From [[Meetings/2026-06-16 - Impromptu Google Meet Meeting (155364484)]].
 
 ## Notes
 Full career timeline (from his LinkedIn, pasted by Noam 2026-06-11; newest first):

@@ -36,6 +36,15 @@ _Format: one bullet per commitment. Auto-updated when Noam mentions one in conve
 - Send the community/group rosters with member emails to Ori (with Yonatan) — from 2026-06-11 meeting [[Meetings/2026-06-11 - RFS Systems (154300397)]] — added 2026-06-11
 - Use Claude to automate bug discovery on the RFS platform; once Ori's dev setup package lands (due Sunday 2026-06-14), explore the UX/UI overhaul — from 2026-06-11 meeting [[Meetings/2026-06-11 - RFS Systems (154300397)]] — added 2026-06-11
 - Send the RFS one-pager to the team; ping Yonatan if no reply — from 2026-06-11 meeting [[Meetings/2026-06-11 - RFS Systems (154300397)]] — added 2026-06-11
+- Send Dafne candidate David's LinkedIn profile, then add him to the RFS Global group (after she vets him) — from 2026-06-15 meeting [[Meetings/2026-06-15 - Impromptu Zoom Meeting (155137740)]] — added 2026-06-15
+- Schedule a follow-up with speaker Sherer (with Dafne) to clarify his preferred comms channel (LinkedIn vs. direct) for the group — from 2026-06-15 meeting [[Meetings/2026-06-15 - Impromptu Zoom Meeting (155137740)]] — added 2026-06-15
+- Send the Manda guest-registration link to Lev (for the new RFS guest policy); then Lev adds it to the weekly group-leader format — from 2026-06-16 meeting [[Meetings/2026-06-16 - Impromptu Google Meet Meeting (155349341)]] — added 2026-06-16
+- Vet the existing RFS Global speaker pipeline; identify gaps + high-impact targets — from 2026-06-16 meeting [[Meetings/2026-06-16 - Impromptu Google Meet Meeting (155364484)]] — added 2026-06-16
+- Schedule a planning coffee with Dafne for Sunday (RFS Global expansion: NY launch, branding, speakers) — from 2026-06-16 meeting [[Meetings/2026-06-16 - Impromptu Google Meet Meeting (155364484)]] — added 2026-06-16
+- Schedule a coffee with Adam re: RFS Global branding, shirts, and the NY launch / global expansion plan — from 2026-06-16 meeting [[Meetings/2026-06-16 - Impromptu Google Meet Meeting (155364484)]] — added 2026-06-16
+- Call Gal Halfon re: his session intro/presenter; coordinate with Yonatan — from 2026-06-16 meeting [[Meetings/2026-06-16 - Impromptu Google Meet Meeting (155364484)]] — added 2026-06-16
+- Ask Adam to invite 3 Taglit Excel ambassadors to the next RFS Global session — from 2026-06-16 meeting [[Meetings/2026-06-16 - Impromptu Google Meet Meeting (155364484)]] — added 2026-06-16
+- Compile and send the 2026-06-16 expansion-meeting summary to Dafne — from 2026-06-16 meeting [[Meetings/2026-06-16 - Impromptu Google Meet Meeting (155364484)]] — added 2026-06-16
 - _e.g. "Send chapter 4 draft to Amit by 2026-05-10"_
 
 ## Recurring

@@ -2,7 +2,7 @@
 name: "Itay Liani"
 relationship: "Business partner — Real Estate Academy course & CRM"
 language: "Mixed Hebrew/English"
-last_interaction: "2026-06-07"
+last_interaction: "2026-06-14"
 ---
 
 # Itay Liani
@@ -27,6 +27,7 @@ last_interaction: "2026-06-07"
 - **Scheduling & logistics** — meetings, Zoom links, availability windows, webinar timing
 
 ## Open threads (latest activity)
+- **REA group coaching — US RE strategies** (2026-06-14) — Ran a Zoom session for the REA group on the four core strategies: BRRRR (buy at 65–70% ARV; systems before cosmetics; DSCR refinance), Flips (owner-occupied curb-appeal areas; vinyl windows for FHA/VA approval; staging + pro photos), Hold-Tail (deep-discount buy, minimal work, MLS-list on an as-is value gap), and Joint Ventures (50/50 partnership or assignment fee; needs an investor-friendly attorney). His to-dos: email Daniel.K a Fort Wayne flip comps/style example, and send Daniel the contact for the successful Fort Wayne flipper. Next session: advanced comp analysis for ARV. From [[Meetings/2026-06-14 - Impromptu Zoom Meeting (154909262)]].
 - **Real-estate process coaching** (2026-06-07) — Pre-meeting chat before a group session. Itay clarified two wholesaling points for Noam: an MoU is for the **seller**, not the wholesaler; an EMD is **refundable** (Itay planned to demo the refund live). Session attendance improving (1 no-show vs 3-4 last time). Noam to tag Lev in a post about the meeting's music.
 - **CRM question mark bug** (2026-05-10) — Itay cannot type "?" in the CRM chat; Noam said it's a keyboard-shortcut conflict, will fix.
 - **Lead status categorization** (2026-05-10) — Itay wants responded-to leads moved from "Replied" to "Unreplied" for follow-up clarity; Noam clarifying the logic.

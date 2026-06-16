@@ -29,3 +29,4 @@ last_interaction: "2026-04-29"
 ## Notes
 - Religious or traditional register shows occasionally ("ברוך ה׳"). ^[inferred — light signal only]
 - Knows Qiu by the inner-circle nickname "פי".
+- Possible RFS connection: a "Gal Padlon" — described as an alum from the first Run For Startups group — referred a strong candidate (David, McKinsey consultant) to RFS Global on 2026-06-15. Likely the same Gal Fadlon (פדלון ↔ "Padlon" is a Fathom transcription variant), but not confirmed. See [[rfs-global]]. ^[inferred — identity match unconfirmed; ask Noam]

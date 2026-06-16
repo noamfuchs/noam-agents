@@ -376,3 +376,9 @@ Run the meeting-processing pipeline on Meetings/ (fold unprocessed Fathom notes 
 
 ## Assistant (terminal) — 2026-06-11T19:05:18+0300
 Processed 1 meeting: 2026-06-11 RFS Systems (Ori, Yonatan). Testing kickoff — Noam tests as mobile community member, Yonatan desktop C-suite, all reports to a shared Notion table; Ori delivers dev setup package by Sunday 2026-06-14. Filed: 5 commitments, 1 decision (testing-first / role split), updated rfs-platform + ori-rozental + yonatan-buntzel, created journal/2026-06-11.md, marked the meeting processed.
+
+## Noam (terminal) — 2026-06-15T19:00:00+03:00
+Read the process-meetings skill and follow it exactly: process any Meetings/ notes marked processed: false, fold each into the second brain, mark processed.
+
+## Assistant (terminal) — 2026-06-15T19:00:00+03:00
+Couldn't read the process-meetings skill file (permission-denied, outside the vault) even via an Explore subagent — same block prior sessions hit, so I followed the established pipeline convention. Only 1 note was unprocessed: 2026-06-15 RFS Global debrief (Noam solo). Folded in: new candidate lead David (McKinsey / Taglit Excel / native English / $3M drone-fundraise after Oct 7) referred by Gal Fadlon (alum from first group — "Gal Padlon" in transcript, identity inferred) → added to rfs-global candidate pipeline; +2 commitments (send Dafne David's LinkedIn then add to group; schedule Sherer comms-channel follow-up with Dafne); +1 decision (back Dafne's push for more team autonomy); updated dafne-bennatan + gal-fadlon, created journal/2026-06-15.md, marked the note processed:true + added Related links. Left uncommitted (unrelated WIP already in the tree). Open Q for Noam: is "Gal Padlon" the same as your Reichman friend Gal Fadlon? Tagged inferred until confirmed.
