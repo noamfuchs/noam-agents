@@ -336,3 +336,91 @@ Open proposals (not applied — outside this session's safe-mechanical scope):
 
 Next audit: watch 75 Hard bot (now critical, 14 days), wa-bridge (job vanished), wa-people-sync ingestion health, Dana identity (3+ weeks stuck), commitments triage (0 closures in 2 consecutive audits). Compare graph against this session's count: 157 total / 61 core / 0 isolated.
 ==================== end 2026-07-05 ====================
+
+==================== 2026-07-12 /audit (weekly) ====================
+Verdict: ATTENTION (steady/slightly worse on pipelines and commitments; graph health clean through a major structural change)
+
+--- 1. Graph health ---
+Vault restructured today (2026-07-12, see log.md): hubs/ (6 files) folded into a single HOME.md; 📓 Journal/ (Noam's own writing) moved to the vault root as a separate space; CLAUDE.md rewritten.
+Total .md files (excl .git/.obsidian/.claude/.archive): 153 (was 157 at 2026-07-05 — net decrease from consolidating hubs/ into HOME.md and moving Notion Command Center / roadmap docs into system/).
+Core wiki (people/ 42 + projects/ 13, excl _template.md; HOME.md itself replaces the 6 former hubs as the single index): 55 addressable core notes + 1 index (HOME.md).
+Full vault-wide wikilink sweep (not just HOME.md/relationships.md — every .md file checked for inbound `[[name]]` references) found 1 file with zero inbound and zero outbound links: `people/_sync-log.md` — a plain CRM sync log, excluded per the templates/logs carve-out. No real orphans.
+HOME.md coverage verified: all 13 core projects are linked (RFS group, REA group, new ventures, brand — cross-checked against `ls projects/*.md`). People coverage is via `[[relationships]]` (one hop) rather than a flat list like the old hubs/people.md, but the full-vault sweep confirms every person note still has at least one inbound link from somewhere (relationships.md's "By circle" section, HOME.md's named list, or elsewhere) — 0 orphans, so no hub/index link additions were needed this session.
+Stale self-reference found and fixed: hot.md line 2's "read [[HOME]] and the hubs" pointed at a folder that no longer exists — corrected as part of this session's hot.md refresh (see log.md commit for wording).
+Dangling `hubs/` references remain in dated journal/log entries (journal/2026-06-14.md, 2026-06-21.md, 2026-06-28.md, 2026-07-05.md, log.md) — these are historical records of what happened at the time and were intentionally left untouched per today's restructure commit message; not a live-link problem, no action needed.
+NOTE (carried from restructure commit, log.md 2026-07-12): the external `/audit` skill file (~/.claude/skills/audit.md) still references checking "hubs/ coverage" / "each hub" — that terminology is now stale (hubs/ doesn't exist). This session substituted a HOME.md-coverage + full-vault-orphan-sweep check instead. Flagging for Noam to update the skill file itself (outside vault scope, not touched this session).
+
+--- 2. Provenance ---
+Spot-check (people/ notes, most recently touched): dafne-bennatan.md read in full — well-sourced, dated open-threads log, no untagged inferences spotted.
+Broader provenance sweep (grepped `\^\[(ambiguous|inferred)...\]` across people/projects/memory, not just the strict `\^\[ambiguous\]` form, per the 2026-06-12 baseline's own warning about variant tag forms): all variant-tagged inferences found (sinai-tzarfati x2, rfs-global "Gal Padlon" identity, lev-wolf REA assignment, medical-data-marketplace thesis, gal-fadlon x2, yuval-klein identity, story.md OD SIFRA causal link) are properly tagged. No untagged guesses found this pass.
+NEW SYSTEMIC FINDING: cross-checked frontmatter `last_interaction` against the body prose "**Last interaction:**" line across all 12 people/ notes that carry both fields (most notes only have the frontmatter field). 4 of 12 (33%) disagree:
+  - people/arad-fruchter.md: frontmatter 2026-06-28 vs body 2026-06-08 (known since 2026-07-05, still not fixed).
+  - people/dafne-bennatan.md: frontmatter 2026-06-28 vs body 2026-06-04 (NEW).
+  - people/lev-wolf.md: frontmatter 2026-06-16 vs body 2026-06-08 (NEW).
+  - people/gal-halfon.md: frontmatter 2026-06-16 vs body 2026-06-11 (NEW).
+  All 4 have the same shape: frontmatter was updated by a later meeting-processing pass, body prose was not. This is very likely a bug in the meeting-processing pipeline/prompt (updates frontmatter, skips the body line) rather than 4 independent data-entry errors. PROPOSED: fix the 4 body lines to match frontmatter, and check the pipeline prompt/template for why the body line isn't updated alongside frontmatter. NOT APPLIED — these are body-text corrections, not hub/index link additions, outside this session's safe-mechanical scope.
+^[ambiguous] open questions — re-checked all 4 from 2026-07-05 plus a fresh full-vault grep:
+  1. "Dana" identity (Biliyo / medical-data-marketplace / RFS's Dana Gerichter) — STILL OPEN, unchanged, no new data (second straight quiet week). Now 4+ weeks stuck.
+  2. people/sinai-tzarfati.md — real first name still unknown. STILL OPEN.
+  3. memory/relationships.md [[bitton]] — first name unknown. STILL OPEN.
+  4. qiu-qiqian Sept-2026 M.Sc question — SECOND consecutive audit unable to locate supporting text in people/qiu-qiqian.md. Recommend asking Noam directly whether this question is still live; if he can't place it either, drop it.
+  5. NEW: projects/rfs-platform.md:72 — the relationship between [[ori-rozental|Ori]]'s earlier core-platform build and the new from-scratch Etay+Yuval team (kicked off 2026-06-22) was never clarified, and — unlike the other 4 — was not carried in either the 2026-06-28 or 2026-07-05 audits' open-questions list, i.e. it was missed for two audit cycles despite being live in the file the whole time. Surfacing now. Related: the still-active commitment "Join the RFS platform build via Git once Ori's foundation is stable" (added 2026-06-08) may now be moot given the 06-22 pivot — worth Noam confirming either way.
+Net: 4 open questions → 5 (1 newly surfaced from an audit gap, not from new data).
+
+--- 3. Staleness ---
+hot.md (last updated 2026-07-05, so 7 days stale) → FIXED: fully refreshed to 2026-07-12 reality this session, including the restructure and the stale hubs/ self-reference.
+commitments.md: 48 active items, identical set to 2026-07-05 (verified — no additions, no removals, nothing moved to Resolved). This is now the THIRD consecutive weekly audit with zero closures (2026-06-28 → 2026-07-05 → 2026-07-12), escalating from "hasn't happened" to "established pattern." Same top-overdue items, all +7 days:
+  - Chapter 4 to Amit: 65 days (was 58) 🚨
+  - User stories + wireframes for RFS platform: due 2026-06-23, now 19 days overdue (was 12) — Etay + Yuval still blocked.
+  - Zak Feingold acceptance email: 37 days (was 30).
+  - Eitan Solow admission decision: ~37 days (was ~30).
+  - Dana Gerichter admission / Sari Hillel speaker email / RFS Global Instagram setup: 34 days each (was 27).
+75 Hard/: STILL ATTENTION — no daily files since 2026-06-21 (now 21 consecutive days, up from 14). Tracker.md unchanged, still shows Day 01. NEW: ~/Library/Logs/75hard-sync.err.log shows repeated `fatal: ... Could not resolve host: github.com` — the sync job's git push is failing on DNS resolution, not crashing outright. This doesn't prove the daily check-in itself is blocked (that may be a separate, Noam-side habit question), but it does mean the backup/sync leg of the pipeline has a concrete, diagnosable failure mode worth fixing regardless.
+Projects dormant (untouched >7 days as of 2026-07-12, all figures +7 from last week, same set):
+  - instagram-growth: 35 days since strategy (was 28), still 0 reels posted against a 2/week plan.
+  - nona / rfs-guest-onepagers / rfs-mentor-shortlist / instagram-unfollow: 39 days each (was 32) — recommend Noam explicitly mark paused or archive; this proposal has now been repeated 2 audits running.
+  - crm-rea: 64+ days (was 57+).
+  - crohns-companion-israel / real-estate-course: 20-21 days (was 13-14) — creeping past the "normal RFS-adjacent cadence" range flagged last week; worth watching, not yet urgent.
+  - rfs-global: 13 days — still within normal range.
+Person notes >60 days claiming "active" threads: same as last audit (babi.md, ohad-ozalvo.md) — re-checked, neither claims an active thread. OK, no action.
+memory/relationships.md: still a 2026-06-12 snapshot for the "Active groups" message-volume table (unchanged this session) but its "By circle" section is now the CURRENT canonical people-grouping view as of today's restructure (replaces the old hubs/people.md content, see log.md). The message-volume table's staleness proposal from last week (relabel or refresh) still stands, unapplied.
+system/conversations/main.md: still not appended to since 2026-06-15 (now 27 days), despite this being a substantive terminal session. Same hygiene gap as last week — flagging again, not backfilling (would risk fabricating turns).
+
+--- 4. Duplicates ---
+No new duplicates found this session. The 2026-07-05 memory/relationships.md-vs-people/*.md staleness note (see §3) is a staleness issue, not a duplicate-fact issue — restating here for continuity, not re-flagging as new.
+
+--- 5. Pipelines ---
+wa-people-sync: launchctl shows idle/last-exit-0, but ~/Library/Logs/wa-people-sync.log shows the watermark frozen at maxts=1781423491000 for EVERY run 2026-07-06 through 2026-07-12 (count=0 all 7 days) — now 16 consecutive days frozen (was 9 at 2026-07-05). Still looks like an ingestion-side stall, not genuine zero WhatsApp activity for over two weeks.
+wa-bridge: still not registered in launchctl at all (confirmed again — absent from `launchctl list` output entirely). ~/Library/Logs/secondbrain-wa-bridge.err.log / .out.log last modified 2026-06-30, consistent with the job having stopped around then and never restarted — likely the root cause of the wa-people-sync freeze above (wa-bridge probably feeds the digests wa-people-sync reads). 12+ days dead now.
+weekly-audit / brain-weekly: launchctl shows com.user.secondbrain.weekly-audit running (pid present, exit 0) at the time of this session — consistent with this being the scheduled Sunday 18:00 automated run (~/Library/Logs/brain-weekly.log confirms a 2026-07-12 18:00:05 entry). PASS.
+brain-bot (Telegram): launchctl showed the prior run's exit as -9 (SIGKILL) before a restart. brain-bot.err.log shows a recurring pattern all day 2026-07-12: repeated `Failed to resolve 'api.telegram.org'` DNS errors, each followed by "recovered after N failures" within seconds to minutes — the bot is self-healing from transient DNS resolution failures, not truly down. A clean restart ("shutdown signal received" / "bot starting up") happened at 17:04-17:05, likely unrelated to this session. PASS with a caveat: flapping, not broken.
+NEW cross-pipeline observation: brain-bot's DNS failures (api.telegram.org) and 75hard-sync's DNS failures (github.com) are the same failure signature (NameResolutionError / "Could not resolve host") on the same Mac. Worth Noam checking system-level DNS/network health directly rather than debugging each pipeline in isolation — could be one fix for multiple symptoms.
+75hard-sync / notion-sync.75hard: idle in launchctl (last exit 0) but see §3 — git push is failing on DNS resolution every run per the error log.
+Meetings/: no new Fathom recordings since 2026-06-28 (2 weeks now) — consistent with the quiet-week pattern, not itself a new pipeline failure.
+
+--- 6. Hygiene ---
+inbox/: PASS (empty).
+outbox/: PASS (empty).
+HOME.md drift: PASS — full project + people coverage confirmed post-restructure (see §1).
+git: could not check `git status`/`git log` this session (git commands were not approved in this run, same limitation noted in the 2026-07-05 automated run per brain-weekly.log) — hot.md's standing "uncommitted files from multiple sessions" item should be treated as still open; a future session with git access should check and commit.
+system/conversations/main.md: 27-day gap — see §3, same unresolved hygiene debt.
+
+Fixes applied (1 — safe mechanical, in-scope this session):
+  1. hot.md: fully refreshed to 2026-07-12 reality, including fixing the stale "[[HOME]] and the hubs" self-reference (hubs/ no longer exists post-restructure).
+  (No hub/index link additions were needed in HOME.md itself or relationships.md — the 2026-07-12 restructure already left full coverage; verified via full-vault orphan sweep, see §1.)
+
+Open proposals (not applied — outside this session's safe-mechanical scope):
+  - people/arad-fruchter.md, dafne-bennatan.md, lev-wolf.md, gal-halfon.md — fix body "Last interaction:" lines to match frontmatter (4 instances of the same pipeline bug, see §2); also worth checking the meeting-processing pipeline/prompt itself so this stops recurring.
+  - projects/second-brain-levelup.md:62 — remove/update the stale ^[ambiguous] 30-day-project tag (proposed 2 audits running now, still not applied).
+  - projects/rfs-platform.md:72 — clarify Ori vs. Etay/Yuval relationship with Noam; check whether the 2026-06-08 "join Ori's build" commitment is now moot.
+  - memory/relationships.md — refresh or relabel the "Active groups" message-volume table as a 2026-06-12 snapshot (its "By circle" section is current as of today, the table is not).
+  - instagram-growth / nona / rfs-guest-onepagers / rfs-mentor-shortlist / instagram-unfollow / crm-rea: ask Noam to explicitly mark active vs paused (proposed 2 audits running now).
+  - 75 Hard bot: 21 days stalled; 75hard-sync's git-push DNS failures are a concrete, fixable piece of this, but don't fully explain a 21-day gap in daily files — worth Noam checking both the network issue and whether he's doing daily check-ins at all.
+  - wa-bridge: still dead 12+ days; likely the root cause of the wa-people-sync freeze.
+  - Network/DNS: brain-bot and 75hard-sync show the same DNS-resolution-failure signature — recommend a system-level check rather than per-pipeline fixes.
+  - system/conversations/main.md: resume appending from the next terminal session (no backfill attempted, same as last week).
+  - ~/.claude/skills/audit.md: still references "hubs/" coverage checks; the terminology is stale post-restructure (not fixed this session — outside vault scope).
+  - git: status/log unchecked this session (no approval); "uncommitted files" item in hot.md carried forward unverified.
+
+Next audit: watch commitments triage (0 closures, 3 consecutive audits — this is now the top risk, worse than any single pipeline), 75 Hard bot + wa-bridge + wa-people-sync (check whether DNS fixes unstick any of them), the 4 last_interaction mismatches (fixed or not), rfs-platform Ori question, Dana identity (5+ weeks by then). Compare graph against this session's count: 153 total / 55 core + HOME.md index / 0 real isolated (excl. _sync-log.md).
+==================== end 2026-07-12 ====================
