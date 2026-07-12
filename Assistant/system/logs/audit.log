@@ -1,0 +1,338 @@
+==================== 2026-06-12 /audit (first run — baseline) ====================
+Verdict: ATTENTION (expected post-upgrade drift; graph itself is healthy)
+
+--- 1. Graph health (BASELINE for future runs) ---
+Total .md files (excl .git/.obsidian/.claude/.archive): 126
+Core wiki notes (excl templates, _sync-log, system/, journal/, Meetings/, 75 Hard/, agents, log/README/CLAUDE): 74
+Fully isolated core notes (no inbound + no outbound wikilinks): 1 — finance/recurring.md
+  (referenced in prose by hubs/money.md; keep-or-delete decision already with Noam — no link forced)
+Broken wikilinks found in maintained areas: 4
+  FIXED: hot.md [[boss]] -> [[gilad-klein|boss]]
+  FIXED: projects/second-brain-levelup.md [[boss]] -> [[gilad-klein|boss]]
+  FIXED: people/babi.md [[boss|Gilad Klein]] -> [[gilad-klein|Gilad Klein]]
+  NOT counted: CLAUDE.md "[[wikilinks]]" (illustrative text, not a link target)
+Out of scope (never-modify): 9 pseudo-links in 🤖 Agents/ (Base44/* function refs, escaped brackets in Home.md) — not vault notes, left as-is.
+Isolation rate (core): 1/74 = 1.4% (levelup target <10% — PASS)
+
+--- 2. Provenance ---
+^[ambiguous] (deduped, full list as questions in report): bitton first name; sinai-tzarfati first name; 30-day project date 2024-vs-2026; goals.md Day-6 "true partnership" referent; financial independence status (goals.md + hubs/money.md); qiu-qiqian Sept-2026 finishing-vs-master's; mom/paps first names (mom.md "^[first name ambiguous]" + hubs/people.md prose).
+NOTE: variant tag forms exist (^[ambiguous — ...], ^[inferred — ...], ^[from ran.md context], ^[origin inferred], ^[birth order inferred...]). Strict grep for "^[ambiguous]" misses them — future audits must grep for "\^\[".
+Spot-check of 3 pipeline-written notes:
+  qiu-qiqian.md — EXEMPLARY: inline source citations, ambiguity tagged.
+  dafne-bennatan.md — clean & sourced; one internal inconsistency (body "Last interaction: 2026-06-04" vs frontmatter 2026-06-11 — sync advanced frontmatter only). PROPOSED fix.
+  gal-halfon.md — clean; sources named, disambiguation note included.
+  Minor: itay-liani.md / amit-schleffer.md contain hedged untagged guesses ("likely a partner/client", "seems to handle bizdev", "context unclear but likely...") — should carry ^[inferred]. PROPOSED.
+
+--- 3. Staleness ---
+hot.md (written 12:46, vault changed 13:13):
+  STALE: "boss identity unclear / Ran brother label confirm" — both resolved by deep-mine (gilad-klein.md identity chain; ran.md verified biological brother). Link fixed; line rewrite PROPOSED for next hot.md refresh.
+  STALE: "Next: Phase 1 ... Phase 2 (create qiu-qiqian)" — Phase 1 marked done in levelup note; Phase 2 deep-mine evidently executed (7 new people notes exist untracked in git: qiu-qiqian, gilad-klein, gal-fadlon, roman-shumunov, sinai-tzarfati, yonatan-automations, yuval-avramov) but Phase 2 checkboxes in second-brain-levelup.md still unticked. PROPOSED: tick completed Phase-2 items + refresh hot.md + commit the uncommitted deep-mine changes (12 modified + 7 untracked files sitting in git working tree).
+memory/commitments.md:
+  PAST DUE: "Send chapter 4 draft to Amit by 2026-05-08" (5 weeks; ch4 still active front per hot.md — date needs renegotiation or archive).
+  PAST DUE: "Decide Eitan Solow's RFS admission by Motzash" (from 2026-06-05 meeting; Motzash was ~2026-06-06).
+  ~20 commitments from 2026-06-02..06-11 meetings, none ever moved to Resolved — likely several already done (e.g., coffee-order app exists, Instagram setup, one-pager sent). PROPOSED: triage pass in next evening review.
+  Frontmatter "updated: 2026-05-04" stale (entries through 06-11). PROPOSED.
+Person notes >60 days + "active" claims: none (oldest last_interaction is babi 2026-03-16, ~88 days, but note claims no active threads — OK).
+Hubs: no dead references found; body hub hand-lists 75 Hard dailies (06-07..06-11) which will drift daily — PROPOSED: link tracker/folder instead of enumerating days.
+
+--- 4. Duplicates ---
+MAJOR: people/itay.md vs people/itay-liani.md — both frontmatter name "Itay Liani". Curated note says SALES from Costa Rica, "no direct speaker role"; mined note says content delivery/VIDEO PRODUCTION/ops; amit-schleffer.md calls him "Instructor". Role claims conflict and are untagged. PROPOSED: canonical = itay-liani.md, fold curated facts in, tag role conflict ^[ambiguous] until Noam clarifies, then retire itay.md.
+MAJOR: people/amit.md ("Amit Shalfar") vs people/amit-schleffer.md ("Amit Schleffer") — almost certainly the same person (שלפר transliteration variants; both REA co-founder/speaker, 'partners Amit & Itay' everywhere else). hubs/people.md currently lists them as TWO people with different roles ("[[amit]] (course speaker) · [[amit-schleffer]] (production)") — propagated error. PROPOSED: confirm with Noam, merge to amit-schleffer.md, fix hub line. (relationships.md's "curated profiles stay separate" policy is what created both pairs — revisit policy.)
+Minor: relationships.md last-interaction column drifts from note frontmatter (amit-schleffer 05-11 vs 06-02; itay-liani 05-10 vs 06-07). PROPOSED: nightly sync updates index too, or drop dates from index.
+Minor: dafne-bennatan.md internal date mismatch (see check 2).
+
+--- 5. Pipelines ---
+wa-people-sync: 01:00 run FAILED (API ConnectionRefused, claude exit 1, watermark not advanced); manual rerun 12:29 OK (94 msgs, dafne + gal-halfon updated, watermark advanced). launchctl still shows last exit 1 for com.user.secondbrain.wa-people-sync. WATCH tonight's 01:00 run.
+wa-bridge: running (pid present). brain-bot: running, exit 0.
+Meetings/: latest 2026-06-11 (sync at 9/14/19h — normal, no meetings landed today yet). OK.
+75 Hard/: tracker + logs updated today 10:23 (day 2 of restart #3; 06-12 daily not due yet). OK.
+
+--- 6. Hygiene ---
+inbox/: 0 items (empty audio/ subdir only). OK.
+outbox/: empty. OK.
+Index drift FIXED: HOME.md "Memory core" was missing [[goals]] and [[story]] (created today) — added.
+People hub: all 42 person notes present incl. all 7 deep-mine notes. Projects: all 10 in work hub. OK.
+Git: 12 modified + 7 untracked files uncommitted (deep-mine session didn't commit) — PROPOSED: commit at next session end per CLAUDE.md protocol.
+
+Fixes applied (4): 3 broken [[boss]] links repointed to gilad-klein.md; HOME.md memory-core index updated with goals/story.
+Everything else proposed, not done.
+Next audit: compare against baseline above (126 total / 74 core / 1 isolated / 0 broken links in maintained areas).
+==================== end 2026-06-12 ====================
+
+==================== 2026-06-14 /audit (weekly) ====================
+Verdict: ATTENTION (same level as baseline 2026-06-12; old proposals unresolved, no new critical failures)
+
+--- 1. Graph health ---
+Baseline (2026-06-12): 126 total .md / 74 core wiki / 1 isolated / 0 broken links in maintained areas.
+Today: no new orphan notes detected. No new broken wikilinks found.
+Duplicate merge proposals still pending (see §4): itay.md + itay-liani.md; amit.md + amit-schleffer.md.
+
+--- 2. Provenance ---
+^[ambiguous] tags in people/ (unchanged from 2026-06-12):
+  - sinai-tzarfati.md: real first name still unknown (Noam will supply)
+  - mom.md: heading + notes section still carried ^[first name ambiguous] / ^[ambiguous] even though:
+    (a) frontmatter already said name "Tal (Mom)", (b) line 50 says "confirmed by Noam 2026-06-12",
+    (c) hot.md "Resolved 2026-06-12 evening: parents = Tal + Tomer"
+    → FIXED: removed stale ambiguous tags from mom.md heading and notes (safe — Noam confirmed directly)
+Open ^[ambiguous] questions (for Noam to resolve):
+  1. sinai-tzarfati — real first name
+  2. 30-day project date in goals.md — 2024 or 2026?
+  3. goals.md Day-6 "true partnership" referent
+  4. financial independence status (goals.md vs hubs/money.md discrepancy)
+  5. qiu-qiqian Sept-2026 — finishing M.Sc. or entering?
+
+--- 3. Staleness ---
+hot.md (last updated 2026-06-12):
+  - "wa-people-sync failure WATCH" → NOW RESOLVED: 06-13 and 06-14 ran clean (0 msgs, no activity — not failures). launchctl shows exit 0 for com.user.secondbrain.wa-people-sync. Hot.md watch item is stale → PROPOSED: remove or downgrade.
+  - "RFS Platform dev access opens 06-14" → TODAY — status unknown at audit time. Update once confirmed.
+  - "75 Hard restarted 06-11" → tracker shows restart #4, Day 01 on 06-12 (🟡); no files for 06-13 or 06-14 → stale.
+commitments.md: 10+ active items from 2026-06-05 with zero Resolved movement. Past-due list: chapter-4-to-Amit (6+ weeks), Eitan Solow decision (~8 days), Zak Feingold acceptance email (~9 days), and 7 more from the same 06-05 batch. Triage pass needed.
+75 Hard/: ATTENTION — no daily file for 2026-06-13 or 2026-06-14. Tracker last update 2026-06-12 (🟡 Day 01 in-progress). Either bot failure or challenge not tracked.
+Person notes >60 days claiming "active" threads: none new.
+
+--- 4. Duplicates ---
+Still pending (proposed 2026-06-12, not yet resolved):
+  - people/itay.md vs people/itay-liani.md — role conflict, two notes for same person
+  - people/amit.md vs people/amit-schleffer.md — transliteration variant, almost certainly same person
+  Both blocked on Noam's confirmation. No action taken.
+
+--- 5. Pipelines ---
+wa-people-sync: PASS (launchctl exit 0; 06-13 ran clean — 0 msgs; 06-14 ran clean — 0 msgs)
+wa-bridge: PASS (pid 23944, running)
+weekly-audit: PASS (launchctl exit 0; triggered this audit run)
+Meetings/: latest file 2026-06-11 (no meetings logged 06-12 to 06-14 — normal for weekend). OK.
+75 Hard bot: ATTENTION — no daily file for 06-13 or 06-14. Tracker frozen. Investigate.
+brain-bot (Telegram): was PASS as of 2026-06-12 evening after rewiring; not re-verified today.
+
+--- 6. Hygiene ---
+inbox/: PASS (empty — only audio/ subdir)
+outbox/: PASS (empty)
+No new index drift detected in HOME.md or hubs/.
+Git: working tree from 2026-06-12 session (12 modified + 7 untracked deep-mine files) still uncommitted per CLAUDE.md protocol — no new commits since. → PROPOSED: commit at next terminal session.
+
+Fixes applied (2 — safe mechanical):
+  1. mom.md: removed ^[first name ambiguous] from H1 heading; removed ^[ambiguous] from Notes entry — Tal confirmed by Noam directly 2026-06-12, corroborated by frontmatter name field.
+  2. journal/2026-06-14.md: created with weekly digest + audit verdict under ## Weekly Digest and ## Audit headings.
+
+Everything else proposed, not done.
+Next audit: compare against 2026-06-12 baseline (126 total / 74 core / 1 isolated / 0 broken links maintained areas). Priority: 75 Hard bot, commitments triage, merge approvals.
+==================== end 2026-06-14 ====================
+
+==================== 2026-06-21 /audit (weekly) ====================
+Verdict: ATTENTION (unprocessed meeting, wa-bridge history, stale hot.md, hub drift — no new critical graph failures)
+
+--- 1. Graph health ---
+Baseline (2026-06-12): 126 total .md / 74 core wiki / 1 isolated / 0 broken links in maintained areas.
+New files since 2026-06-14 audit: journal/ (06-15, 06-16, 06-18, 06-21); projects/ (+medical-data-marketplace, +crohns-companion-israel); 75 Hard/ daily files (06-16 through 06-21); Meetings/ (06-15, 06-16×2, 06-18, 06-19). Estimated total ~140+ .md.
+Hub drift detected: hubs/work.md (updated 2026-06-12) missing [[medical-data-marketplace]] (created 06-18) and [[crohns-companion-israel]] (created 06-21). FIXED this session (see below).
+No new broken wikilinks detected in maintained areas.
+Duplicate merge proposals still pending (proposed 2026-06-12, blocked on Noam confirmation):
+  - people/itay.md vs people/itay-liani.md
+  - people/amit.md vs people/amit-schleffer.md
+
+--- 2. Provenance ---
+^[ambiguous] tags active (deduped grep across vault):
+  1. people/sinai-tzarfati.md: real first name still unknown (Noam to supply)
+  2. hubs/people.md L24: [[bitton]] first name unknown
+  3. projects/second-brain-levelup.md: 30-day project date 2024 vs 2026
+  4. projects/medical-data-marketplace.md: "Dana" identity unconfirmed (2 entries); "Dana's father vs Noam's father" for medical expert
+  5. journal/2026-06-18.md: "Dana" not matched to person file
+  6. Carry-over open (from 2026-06-14): goals.md Day-6 "true partnership" referent; financial independence status conflict; qiu-qiqian Sept-2026 finishing/entering M.Sc
+  7. NEW: two "Dana" meetings this week (06-18 medical data, 06-19 Biliyo) — same person unclear ^[ambiguous]
+Untagged inference check: gal-fadlon.md "inferred identity" in journal/2026-06-15 is tagged; medical-data-marketplace.md properly tags ^[inferred] on thesis + ^[ambiguous] on Dana. OK.
+
+--- 3. Staleness ---
+hot.md (last updated 2026-06-14 — 7 days stale):
+  STALE: "Next: [[gal-halfon]] Wed 06-18" — session ran, now past.
+  STALE: "RFS Platform: dev access from ori-rozental is due TODAY (06-14)" — 7 days ago.
+  STALE: "75 Hard: restart #4 began 06-12 (Day 01 🟡)" — now restart #9 (Day 01 🟡, 06-21).
+  STALE: "Backlog alert — 10 stuck commitments" — now 25+ commitments untouched.
+  STALE: "wa-bridge: running (pid 23944)" — new PID 54448, last exit 1 (previous crash). Running now.
+  → FIXED: hot.md refreshed this session.
+commitments.md: 25+ active items, zero moved to Resolved since 2026-06-14 audit. Chapter-4-to-Amit (7+ weeks), Zak Feingold acceptance (16 days), Eitan Solow decision (16 days) are top overdue.
+75 Hard/: ATTENTION (mild) — Tracker.md last entry = ❌ Day 01 2026-06-18; daily files exist through 06-21 (🟡 Day 01 in-progress). Tracker bot not updating Tracker.md for 06-19 through 06-21 runs. 8 restarts recorded in tracker; current state = restart #9. Investigate bot sync.
+Person notes >60 days + active claims: babi.md (last_interaction 2026-03-16, ~96 days) — no active threads claimed. OK.
+Projects potentially dormant:
+  - instagram-growth: strategy set 2026-06-07 (14 days); no reels posted per journal record. ATTENTION.
+  - nona: no journal/log activity since ~2026-05. ATTENTION — mark as paused or confirm active.
+  - real-estate-course: Chapter 4 blocked 7+ weeks.
+
+--- 4. Duplicates ---
+No new duplicates detected. Pending from 2026-06-12:
+  - itay.md vs itay-liani.md (role conflict)
+  - amit.md vs amit-schleffer.md (transliteration variant)
+Both blocked on Noam confirmation. No action taken.
+
+--- 5. Pipelines ---
+wa-people-sync: PASS (launchctl exit 0; 06-19, 06-20, 06-21 01:00 runs clean — 0 new messages, watermark stable)
+wa-bridge: ATTENTION — launchctl shows pid 54448 (running), last exit 1 (previous crash). Not a new failure (job is running), but history suggests instability. Monitor.
+weekly-audit: PASS (launchctl exit 0, pid 79854)
+Meetings/: latest file 2026-06-19 (unprocessed — see §6). OK for ingestion; not yet folded into vault.
+75 Hard bot: ATTENTION — daily files written but Tracker.md not updated for 06-19 through 06-21. Tracker script needs investigation.
+brain-bot (Telegram): not re-verified; was PASS post-rewire 2026-06-12.
+
+--- 6. Hygiene ---
+inbox/: PASS (empty — only audio/ subdir)
+outbox/: PASS (empty)
+Unprocessed meeting: Meetings/2026-06-19 - Impromptu Google Meet Meeting (156639636).md (processed: false) — Dana pitches Biliyo (AI agent for subscription cancellation + insurance claims); seeks technical co-founder; MVP deadline 2026-08-04 for Stiko Ventures investor. Needs: people/dana.md (identity TBD), decision on partnership interest, possible commitments.
+Git: working tree likely still has 06-12 uncommitted files + new files from this week. Commit needed.
+
+Fixes applied (2 — safe mechanical):
+  1. hubs/work.md: added [[medical-data-marketplace]] and [[crohns-companion-israel]] to Active ventures.
+  2. hot.md: fully refreshed to 2026-06-21 reality.
+
+Everything else proposed, not done.
+Next audit: compare against baseline + watch wa-bridge stability, 75 Hard bot tracker sync, Biliyo/Dana decision, itay/amit merge approval.
+==================== end 2026-06-21 ====================
+
+==================== 2026-06-28 /audit (weekly) ====================
+Verdict: ATTENTION (persistent issues from 2026-06-21; 75 Hard bot 7 days silent, wa-bridge exit-1 history, hot.md stale, hub drift)
+
+--- 1. Graph health ---
+Baseline (2026-06-12): 126 total .md / 74 core wiki / 1 isolated / 0 broken links.
+New since 2026-06-21 audit: people/etay-zaslavsky.md + people/yuval-klein.md (RFS dev team, from 2026-06-22 kickoff); journal/2026-06-28.md; Meetings/2026-06-22 + 2026-06-28.
+People hub (hubs/people.md, last updated 2026-06-12): missing etay-zaslavsky + yuval-klein under RFS section → FIXED this session.
+Work hub (hubs/work.md): missing [[biliyo]] from New ventures (projects/biliyo.md exists since ~06-19) → FIXED this session.
+No new broken wikilinks detected in maintained areas.
+RESOLVED (carry-over from 2026-06-12/06-14/06-21): people/itay.md vs itay-liani.md and people/amit.md vs amit-schleffer.md — both duplicates already deleted; people/ directory confirms only itay-liani.md and amit-schleffer.md remain. People hub says "One Amit, one Itay — merged 2026-06-12 per Noam." Prior audit entries listing these as "pending" were stale → closing both issues.
+
+--- 2. Provenance ---
+^[ambiguous] open questions (unchanged from 2026-06-21; none resolved this week):
+  1. "Dana" identity — ESCALATED: now ≥3 separate "Dana" threads in vault (Biliyo Dana, medical-data-marketplace Dana, Dana Gerichter). 2026-06-28 journal explicitly flags this again. Must resolve before more commitments pile on.
+  2. people/sinai-tzarfati.md — real first name still unknown (Noam to supply)
+  3. hubs/people.md [[bitton]] — first name unknown ^[ambiguous]
+  4. projects/second-brain-levelup.md — 30-day project date: 2024 or 2026?
+  5. goals.md Day-6 "true partnership" referent
+  6. goals.md vs hubs/money.md — financial independence status conflict
+  7. qiu-qiqian — Sept-2026: finishing M.Sc. or entering?
+Spot-check (3 recent pipeline notes):
+  etay-zaslavsky.md — new, not spot-checked yet. PROPOSED: verify on next pass.
+  yuval-klein.md — new, not spot-checked yet.
+  medical-data-marketplace.md — previously PASS (properly tagged ^[inferred] + ^[ambiguous] on Dana).
+
+--- 3. Staleness ---
+hot.md (last updated 2026-06-21 — 7 days stale) → FIXED: fully refreshed this session.
+commitments.md: 25+ active items; zero moved to Resolved since last audit. Critical overdue:
+  - Chapter 4 to Amit: 7+ weeks (2026-05-08 due date)
+  - Zak Feingold acceptance email: 23 days (person already accepted — no reply sent)
+  - Eitan Solow admission decision: 23 days (was due Motzash 2026-06-06)
+  - User stories + wireframes for RFS platform: DUE 2026-06-23, now 5 days past — dev team (Etay + Yuval) is BLOCKED
+  - RFS Global Instagram setup: 20 days (2026-06-08)
+  - Dana Gerichter admission decision: 20 days (2026-06-08)
+  - Sari Hillel speaker email: 20 days (2026-06-08)
+75 Hard/: ATTENTION (escalated) — no daily files for 2026-06-22 through 2026-06-28 (7 consecutive days of silence). Tracker.md still shows 🟡 Day 01 2026-06-21 (same as last audit). Bot either crashed or challenge paused — investigate.
+Person notes >60 days + active claims: babi.md (last_interaction 2026-03-16, 103 days). No active threads claimed — OK.
+Projects dormant:
+  - instagram-growth: 21 days since strategy, 0 reels posted (plan: 2/week). ATTENTION.
+  - nona: no activity visible for weeks. Consider marking paused.
+
+--- 4. Duplicates ---
+RESOLVED: itay.md vs itay-liani.md → merged 2026-06-12, itay.md deleted. Closing.
+RESOLVED: amit.md vs amit-schleffer.md → merged 2026-06-12, amit.md deleted. Closing.
+No new duplicates detected.
+
+--- 5. Pipelines ---
+wa-people-sync: PASS — exit 0; 2026-06-22 through 2026-06-28 daily runs clean (0 new messages, watermark stable at maxts=1781423491000).
+wa-bridge: ATTENTION — launchctl pid 69229, last exit 1 (same pattern as 2026-06-21; running but crash history). Monitor.
+weekly-audit: PASS — launchctl exit 0, pid 83222.
+Meetings/: latest files 2026-06-22 + 2026-06-28; both reflected in journal entries — OK.
+75 Hard bot: ATTENTION (escalated) — 7 days of no daily files. Tracker frozen at 🟡 Day 01 2026-06-21. Investigate bot process.
+brain-bot (Telegram): not re-verified; was PASS post-rewire 2026-06-12.
+
+--- 6. Hygiene ---
+inbox/: PASS (empty — only audio/ subdir)
+outbox/: PASS (empty)
+Hub drift FIXED (2 mechanical fixes — see §1).
+
+Fixes applied (3 — safe mechanical):
+  1. hubs/people.md: added [[etay-zaslavsky]] + [[yuval-klein]] to RFS section.
+  2. hubs/work.md: added [[biliyo]] to New ventures line.
+  3. hot.md: fully refreshed to 2026-06-28 reality.
+
+Open proposals (not applied):
+  - etay-zaslavsky.md + yuval-klein.md: spot-check provenance tags on next pass.
+  - instagram-growth: mark as PAUSED or commit to first reel (21 days silence).
+  - nona: confirm active or paused.
+  - 75 Hard bot: investigate why no daily files since 2026-06-21.
+  - wa-bridge: investigate exit-1 history.
+
+Next audit: watch 75 Hard bot (critical — 7 days gone), Dana identity resolution, wa-bridge stability, commitments triage (dev team blocked on wireframes). Compare graph against baseline 126 total / 74 core / 1 isolated.
+==================== end 2026-06-28 ====================
+
+==================== 2026-07-05 /audit (weekly) ====================
+Verdict: ATTENTION (worse on pipelines, better on graph health)
+
+--- 1. Graph health ---
+Total .md files (excl .git/.obsidian/.claude/.archive): 157 (was 126 at 2026-06-12 baseline; growth = new journals/meetings/people this cycle).
+Core wiki (people/ 42 + projects/ 13 + hubs/ 6, excl _template.md): 61.
+Fully isolated core notes (no inbound + no outbound wikilinks): 0. The 2026-06-12 baseline orphan (finance/recurring.md) no longer exists — the finance/ folder was deleted (per log.md 2026-06-12, "finance/gym deleted"). RESOLVED/moot — closing this line item.
+Verified via full people/projects/hubs sweep: etay-zaslavsky.md + yuval-klein.md (flagged last week as "not spot-checked") both have live inbound links (hubs/people.md, hot.md, decisions.md, journals, each other) and outbound links (rfs-platform, yonatan-buntzel) — not orphans.
+Hub coverage: hubs/work.md links all 13 core projects; hubs/people.md links all 42 core people notes. 100% coverage — no drift. The 2026-06-28 fixes (etay-zaslavsky, yuval-klein, biliyo) held.
+No mechanical hub/index fixes needed this session (nothing new to add).
+
+--- 2. Provenance ---
+Spot-check (3 pipeline-written notes): etay-zaslavsky.md — clean, properly scoped, no untagged guesses. yuval-klein.md — clean, identity link to the 06-21 "Five Fingers" candidate correctly tagged ^[inferred]. arad-fruchter.md — FOUND ISSUE: frontmatter says `last_interaction: "2026-06-28"` but the body prose still says "**Last interaction:** 2026-06-08" — internal contradiction, frontmatter was updated on the 06-28 RFS Global session but the body line wasn't. PROPOSED fix (not applied — not a hub/index link): update body line to 2026-06-28.
+^[ambiguous] open questions — re-audited all 7 from last week against current file contents:
+  1. "Dana" identity — STILL OPEN, unchanged. ≥3 threads (Biliyo, medical-data-marketplace, Dana Gerichter/RFS). No new data this week (quiet week). Now stuck 3+ weeks.
+  2. people/sinai-tzarfati.md — real first name still unknown. STILL OPEN.
+  3. hubs/people.md [[bitton]] — first name unknown. STILL OPEN.
+  4. projects/second-brain-levelup.md:62 — 30-day project date "ambiguous (2024 vs 2026)". FOUND ALREADY RESOLVED ELSEWHERE: memory/goals.md line 39 states it's running now, June 2026, confirmed by Noam 2026-06-12 — matches log.md's 2026-06-12 entry ("30-day project is LIVE, Day 6 = Qiu"). second-brain-levelup.md's tag is now a stale, contradicting claim, not a live question. CLOSING as an open question; PROPOSED cleanup of the stale line (not applied).
+  5. goals.md Day-6 "true partnership" referent — FOUND ALREADY RESOLVED: goals.md:39 explicitly names [[qiu-qiqian]] as the referent. Not actually ambiguous. CLOSING.
+  6. goals.md vs hubs/money.md financial-independence conflict — CHECKED BOTH FILES: both state the identical status verbatim ("mostly achieved, some support remains", confirmed 2026-06-12). No conflict exists. CLOSING.
+  7. qiu-qiqian — Sept-2026 M.Sc finishing/entering — could not locate supporting text in people/qiu-qiqian.md this pass (only "in the M.Sc now" found, no Sept-2026 mention). Carrying forward as open but flagging: worth asking Noam directly what this question refers to, may be stale itself.
+Net: 7 open ambiguous questions → 4 open (3 closed this session as already-resolved-in-vault).
+
+--- 3. Staleness ---
+hot.md (last updated 2026-06-28 — 7 days stale) → FIXED: fully refreshed this session to 2026-07-05 reality.
+commitments.md: 48 active items (recount from 25+/30+ approximations in prior logs), zero moved to Resolved since last audit — now two consecutive audits with no closures. Critical overdue (age as of 2026-07-05):
+  - Chapter 4 to Amit: 58 days (2026-05-08 due date) 🚨
+  - User stories + wireframes for RFS platform: DUE 2026-06-23, now 12 days past — dev team (Etay + Yuval) still BLOCKED.
+  - Zak Feingold acceptance email: 30 days (person already accepted — still no reply sent).
+  - Eitan Solow admission decision: ~30 days (was due Motzash 2026-06-06).
+  - Dana Gerichter admission / Sari Hillel speaker email / RFS Global Instagram setup: 27 days each.
+  - Several 2026-06-22-dated items (Zoom/coffee invites for that day's meetings) are now moot/expired and were never moved to Resolved — hygiene gap, not urgent but adds noise to the active list.
+75 Hard/: ATTENTION (escalated again) — no daily files 2026-06-22 through 2026-07-05 (14 consecutive days, doubled from last week's 7). Tracker.md unchanged, still shows 🟡 Day 01 2026-06-21. Bot appears fully stalled — recommend Noam check the process directly.
+Person notes >60 days + active claims: babi.md (2026-03-16, 111 days) and ohad-ozalvo.md (2026-03-31, 96 days) both checked — neither claims an active thread. OK, no action.
+Projects dormant (untouched >7 days as of 2026-07-05):
+  - instagram-growth: 28 days since strategy, 0 reels posted (plan: 2/week). ATTENTION — escalated from 21 days last week.
+  - nona / rfs-guest-onepagers / rfs-mentor-shortlist / instagram-unfollow: all last touched 2026-06-03 (32 days) — pattern suggests these are genuinely dormant side-projects; propose Noam explicitly mark paused or archive.
+  - crm-rea: last touched 2026-05-09 (57+ days) — likely dormant.
+  - crohns-companion-israel / real-estate-course: 13-14 days, within normal range for RFS-adjacent cadence.
+NEW: memory/relationships.md is a stale snapshot — built 2026-06-12 and never refreshed. Its "Last interaction" column has drifted from the authoritative people/*.md files (e.g. dafne-bennatan.md now shows 2026-06-28 vs relationships.md's 2026-06-11; itay-liani.md now 2026-06-21 vs relationships.md's 2026-05-10). See §4.
+NEW: system/conversations/main.md (the cross-channel turn log CLAUDE.md mandates for substantive terminal turns) has not been appended to since 2026-06-15 (20 days), despite multiple substantive terminal sessions since (06-16, 06-19, 06-21, 06-22, 06-28 per log.md). Hygiene/pipeline gap — flagging for Noam, not auto-fixed (outside safe-mechanical scope).
+
+--- 4. Duplicates ---
+NEW: memory/relationships.md (WhatsApp-derived index, frozen 2026-06-12) vs individual people/*.md files (kept current by the meeting pipeline) — last-interaction dates have diverged for at least dafne-bennatan and itay-liani, likely more. Canonical home should be each person's own file; relationships.md should either be relabeled as a point-in-time snapshot or get a refresh pass. PROPOSED, not applied.
+RESOLVED (carry-over, re-confirmed): itay/amit merges remain clean, no regression.
+No other new duplicates detected.
+
+--- 5. Pipelines ---
+wa-people-sync: technically PASS (launchctl exit 0) but ATTENTION on the data itself — watermark frozen at maxts=1781423491000 for 9+ consecutive daily runs (2026-06-26 through 2026-07-05, all "count=0"). Zero WhatsApp messages across 9 real days is implausible for Noam's usual volume; more likely the ingestion isn't picking up new export files than that traffic genuinely stopped. Recommend Noam check the underlying export pipeline, not just the sync job's exit code.
+wa-bridge: ESCALATED to ATTENTION — the launchd job (com.user.wa-bridge or similar) no longer appears in `launchctl list` at all. Last week it was running with a crash history (pid 69229, exit 1); now it's not registered/running. Either intentionally stopped or crashed out of launchd — needs Noam to check.
+weekly-audit: PASS — launchctl exit 0, pid 57185.
+Meetings/: no new Fathom recordings since 2026-06-28 — consistent with the quiet week overall, not itself a pipeline failure.
+75 Hard bot / notion-sync.75hard / 75hard-sync: ATTENTION (escalated) — 14 days of no daily files, tracker frozen. launchctl shows these jobs registered but idle ("-" pid, last exit 0) — investigate whether the trigger itself fired.
+brain-bot (Telegram): pid 668, exit 0 — running and responsive (answered the 2026-07-02 "You here?" check-in). PASS.
+
+--- 6. Hygiene ---
+inbox/: PASS (empty — only audio/ subdir).
+outbox/: PASS (empty).
+Hub drift: PASS — full coverage confirmed, no fixes needed this session (see §1).
+system/conversations/main.md: 20-day gap — see §3. Flagging as hygiene debt, not fixing directly (would require reconstructing 5 sessions' worth of turns after the fact, which risks fabricating content — better for the next terminal session to just resume appending going forward).
+
+Fixes applied (1 — safe mechanical / explicitly in-scope this session):
+  1. hot.md: fully refreshed to 2026-07-05 reality.
+  (No hub/index link additions were needed — 2026-06-28's fixes already gave full coverage.)
+
+Open proposals (not applied — outside this session's safe-mechanical scope):
+  - projects/second-brain-levelup.md:62 — remove/update the stale ^[ambiguous] 30-day-project tag (resolved elsewhere, see §2).
+  - people/arad-fruchter.md — fix body "Last interaction: 2026-06-08" to match frontmatter's 2026-06-28.
+  - memory/relationships.md — refresh or relabel as a 2026-06-12 snapshot (see §4).
+  - instagram-growth / nona / rfs-guest-onepagers / rfs-mentor-shortlist / instagram-unfollow / crm-rea: ask Noam to explicitly mark active vs paused.
+  - 75 Hard bot: investigate full stall (14 days, doubled since last audit).
+  - wa-bridge: investigate why the launchd job disappeared entirely.
+  - wa-people-sync: verify the export/ingestion side, not just the sync job's exit code — 9-day zero-message streak looks like a stall, not real silence.
+  - system/conversations/main.md: resume appending from the next terminal session (no backfill attempted).
+
+Next audit: watch 75 Hard bot (now critical, 14 days), wa-bridge (job vanished), wa-people-sync ingestion health, Dana identity (3+ weeks stuck), commitments triage (0 closures in 2 consecutive audits). Compare graph against this session's count: 157 total / 61 core / 0 isolated.
+==================== end 2026-07-05 ====================

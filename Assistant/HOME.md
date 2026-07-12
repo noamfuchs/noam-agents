@@ -7,8 +7,9 @@ updated: 2026-07-12
 # 🏠 HOME — Noam's Second Brain
 
 ## What this vault is for
-1. **Claude's memory of Noam** — everything about him, filed so it can be pulled back fast and context is never lost. Lives in `memory/`, `people/`, `projects/`, `Meetings/`.
-2. **Noam's space** — where he logs his thinking. Lives in `journal/`.
+The vault root has two clean areas (restructured 2026-07-12):
+1. **Noam's space** — `📓 Journal/` at the vault root: his own writing. The assistant reads it for context, never clutters it.
+2. **The Assistant workspace** — this `Assistant/` folder: Claude's memory of Noam, filed so context is never lost — `memory/`, `people/`, `projects/`, `Meetings/`, plus its own daily-log `journal/` and the `system/` machinery.
 
 **Where things go** (per the [[notion-command-center|Notion doctrine]], 2026-06-16):
 - Thinking, memory, history, CRM, transcripts → **here (Obsidian)**.
@@ -52,10 +53,9 @@ Full index (ranked by volume + grouped by circle): [[relationships]] · one file
 ### 🎹 Music
 - [[music]] — the FUCHS-SOUND career (first career, still an income stream)
 
-## Journal — Noam's space
-`journal/` holds dated entries. Two kinds, told apart by their header:
-- **Noam's entries** — his own writing / morning pages (latest: [[journal/2026-07-12|2026-07-12]]).
-- **Claude digests** — weekly summaries + audits the assistant writes on Sundays.
+## Journals — two separate places
+- **Noam's own writing** → `../📓 Journal/` at the vault root (his space; read for context, never write there).
+- **The assistant's daily-log** → `journal/` here (meeting notes + weekly digests + audits the assistant writes).
 
 ## Data flowing in (automated)
 - `Meetings/` — Fathom meeting summaries (auto)
