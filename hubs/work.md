@@ -1,7 +1,7 @@
 ---
 name: Work hub
 description: Everything Noam is building, one hop away.
-updated: 2026-06-12
+updated: 2026-06-21
 ---
 
 # 💼 Work
@@ -15,6 +15,7 @@ Back to [[HOME]].
 - **Personal brand:** [[instagram-growth]] (1k to 5k by 2027-06) · [[instagram-unfollow]]
 - **This system:** [[second-brain-levelup]]
 - **Podcast** (with [[roey-kalifi]] and [[yoni-klipi]]) - no project note yet, lives in their people notes
+- **New ventures (validation):** [[biliyo]] (AI agent, sub cancellation + insurance claims, MVP 2026-08-04) · [[medical-data-marketplace]] ("cable" model, real-time hospital data) · [[crohns-companion-israel]] (iOS app w/ [[ran]], 2026-06-21)
 
 ## Operating layer
 - [[commitments]] - what Noam owes right now

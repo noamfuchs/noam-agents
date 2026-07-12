@@ -1,10 +1,10 @@
 {
   "start_date": "2026-06-07",
   "timezone": "Asia/Jerusalem",
-  "current_day": 2,
-  "current_date": "2026-06-13",
-  "best_streak": 1,
-  "resets": 4,
+  "current_day": 1,
+  "current_date": "2026-06-21",
+  "best_streak": 2,
+  "resets": 8,
   "days": {
     "2026-06-07": {
       "day": 1,
@@ -173,14 +173,14 @@
     },
     "2026-06-13": {
       "day": 2,
-      "water_ml": 2800,
-      "workouts": 1,
+      "water_ml": 6585,
+      "workouts": 2,
       "outdoor": true,
       "reading_pages": 10,
-      "photo": false,
+      "photo": true,
       "diet_ok": true,
       "alcohol_free": true,
-      "complete": false,
+      "complete": true,
       "failed": false,
       "notes": [
         "💧 +280 ml water",
@@ -194,9 +194,127 @@
         "💧 +280 ml water",
         "💧 +280 ml water",
         "💧 +280 ml water",
+        "💧 +280 ml water",
+        "📸 progress photo",
+        "💧 +3785 ml water",
+        "🏋️ logged a workout"
+      ]
+    },
+    "2026-06-14": {
+      "day": 3,
+      "water_ml": 1060,
+      "workouts": 0,
+      "outdoor": false,
+      "reading_pages": 0,
+      "photo": true,
+      "diet_ok": true,
+      "alcohol_free": true,
+      "complete": false,
+      "failed": true,
+      "notes": [
+        "📸 progress photo",
+        "💧 +280 ml water",
+        "💧 +280 ml water",
+        "💧 +500 ml water"
+      ]
+    },
+    "2026-06-16": {
+      "day": 1,
+      "water_ml": 3810,
+      "workouts": 2,
+      "outdoor": true,
+      "reading_pages": 10,
+      "photo": true,
+      "diet_ok": true,
+      "alcohol_free": true,
+      "complete": true,
+      "failed": false,
+      "notes": [
+        "💧 +280 ml water",
+        "💧 +1060 ml water",
+        "🏋️ logged a workout",
+        "📸 progress photo",
+        "💧 +280 ml water",
+        "💧 +280 ml water",
+        "💧 +280 ml water",
+        "💧 +280 ml water",
+        "💧 +280 ml water",
+        "💧 +280 ml water",
+        "💧 +280 ml water",
+        "💧 +280 ml water",
+        "🏋️ logged a outdoor workout",
+        "💧 +200 ml water",
+        "💧 +30 ml water",
+        "📖 +10 pages"
+      ]
+    },
+    "2026-06-17": {
+      "day": 2,
+      "water_ml": 840,
+      "workouts": 1,
+      "outdoor": true,
+      "reading_pages": 0,
+      "photo": false,
+      "diet_ok": true,
+      "alcohol_free": true,
+      "complete": false,
+      "failed": true,
+      "notes": [
+        "💧 +280 ml water",
+        "💧 +280 ml water",
+        "💧 +280 ml water",
+        "🏋️ logged a outdoor workout"
+      ]
+    },
+    "2026-06-18": {
+      "day": 1,
+      "water_ml": 560,
+      "workouts": 0,
+      "outdoor": false,
+      "reading_pages": 0,
+      "photo": false,
+      "diet_ok": true,
+      "alcohol_free": true,
+      "complete": false,
+      "failed": true,
+      "notes": [
+        "💧 +280 ml water",
         "💧 +280 ml water"
+      ]
+    },
+    "2026-06-19": {
+      "day": 1,
+      "water_ml": 280,
+      "workouts": 0,
+      "outdoor": false,
+      "reading_pages": 0,
+      "photo": false,
+      "diet_ok": true,
+      "alcohol_free": true,
+      "complete": false,
+      "failed": true,
+      "notes": [
+        "💧 +280 ml water"
+      ]
+    },
+    "2026-06-21": {
+      "day": 1,
+      "water_ml": 560,
+      "workouts": 1,
+      "outdoor": false,
+      "reading_pages": 0,
+      "photo": true,
+      "diet_ok": true,
+      "alcohol_free": true,
+      "complete": false,
+      "failed": false,
+      "notes": [
+        "💧 +280 ml water",
+        "🏋️ logged a workout",
+        "💧 +280 ml water",
+        "📸 progress photo"
       ]
     }
   },
-  "active_date": "2026-06-13"
+  "active_date": "2026-06-21"
 }

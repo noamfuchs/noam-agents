@@ -33,6 +33,7 @@ last_interaction: "2026-05-11"
 
 ## Open threads (latest activity)
 
+- **Medtech intros for the medical-data marketplace** (2026-06-28): Tomer owes Noam + Dana intros to **medtech AI startups + data-acquisition managers** to validate the subscription "cable" data-marketplace concept. Noam to ping him, then schedule a call with Dana + Tomer on next steps. See [[medical-data-marketplace]], [[Meetings/2026-06-28 - Impromptu Google Meet Meeting (158840046)]].
 - **Pricing strategy for WhatsApp personal assistant app** (2026-05-11): Father suggested freemium model ($20/mo for 3 months trial, then $99) with gradual onboarding to reduce user churn. Mentioned Dan Amir as potential advisor for adoption & trust issues.
 - **Tel Aviv apartment inquiry** (2026-04-26): Noam asked whether to contact Doron directly or if father should. Father was traveling to Tel Aviv by train; promised to call upon arrival.
 - **Claude + Obsidian integration** (2026-04-27): Noam struggling with the Obsidian + Claude system from Tom's workshop—not truly plug-and-play. Father suggested patience, viewing it as team-building process, not magic. Noam considering paying $200 to rebuild it from scratch.

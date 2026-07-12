@@ -2,7 +2,7 @@
 name: "Arad Fruchter"
 relationship: "Run For Startups — Global/Olim group co-manager"
 language: "Hebrew"
-last_interaction: "2026-06-08"
+last_interaction: "2026-06-28"
 ---
 
 # Arad Fruchter
@@ -17,6 +17,10 @@ last_interaction: "2026-06-08"
 - Owns: get the name of his contact (founder who sold a company to ServiceNow for $80M) and add to the CEO pipeline.
 - Owns: bring a large, charged JBL speaker to the launch run.
 - His stepfather (founder, sold a company for $116M) is a warm speaker lead — Adam to contact.
+- Owns content role: **Instagram/LinkedIn posts** together with Noam (2026-06-28). See [[rfs-global]].
+- Referred an **HR-exec guest lead** (15 yrs experience; potential monetization partner via recruitment fees); owns telling the lead to expect Dafne's call (2026-06-28).
+- Referred the **Jumpstart CEO** as a guest-speaker lead; owns introducing Dafne to him (2026-06-28).
+- Noam owes him + Dafne: the Ben interview video re-exported without the opening question (2026-06-28).
 
 ## Notes
 - See [[rfs-global]]. Group launches 2026-06-10.

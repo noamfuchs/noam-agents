@@ -1,10 +1,18 @@
 ---
 name: log
 description: Append-only event log, newest first. One line per event. Sessions append here; never rewrite history.
-updated: 2026-06-12
+updated: 2026-06-21
 ---
 
 # 📜 Log (newest first)
+
+- 2026-07-05 (Sunday maintenance): quiet week (no new journal/meetings/decisions since 06-28); weekly digest + audit written to journal/2026-07-05.md; 48 stuck commitments (0 closed for 2 audits running), RFS wireframes now 12 days overdue; audit ATTENTION — 75 Hard bot escalated to 14 days silent, wa-bridge job vanished from launchctl entirely, wa-people-sync watermark frozen 9+ days (likely ingestion stall), system/conversations/main.md 20 days stale; graph health improved to PASS (0 isolated notes, full hub coverage, no link fixes needed); closed 3 of 7 open ^[ambiguous] questions as already-resolved-in-vault (30-day project date, Day-6 partnership referent, financial-independence conflict); found + proposed (not applied) fixes for arad-fruchter.md last_interaction contradiction and a stale ambiguous tag in second-brain-levelup.md; hot.md refreshed.
+
+- 2026-06-28 (Sunday maintenance): weekly digest + audit written to journal/2026-06-28.md; 1 decision (RFS website from-scratch, 06-22); learned-this-week.md empty (nothing to flush); 30+ stuck commitments (dev team blocked on wireframes due 06-23); audit ATTENTION — 75 Hard bot 7 days silent, wa-bridge exit-1, "Dana" 3-thread ambiguity unresolved; safe fixes: etay-zaslavsky + yuval-klein added to people hub, biliyo added to work hub; hot.md refreshed.
+
+- 2026-06-22: processed 3 Fathom meetings (06-19 Biliyo pitch, 06-21 RFS prototype demo, 06-21 REA lesson postponed). New project [[projects/biliyo]]; updated [[projects/rfs-platform]], [[projects/real-estate-course]], [[people/yonatan-buntzel]], [[people/itay-liani]]; +4 Noam commitments; journals 06-19 + 06-21 appended; all 3 marked `processed: true`; hot.md refreshed. Open Qs for Noam: (1) is "Dana" the same across Biliyo / medical-data / Dana Gerichter? (2) Yuval "Five Fingers" — worth a person file? (3) confirm hospitalized "Itay" = Itay Liani.
+
+- 2026-06-21 (Sunday maintenance): weekly digest + audit written to journal/2026-06-21.md; 4 decisions (Dafne autonomy, guest policy, structured format, NY expansion), 25+ stuck commitments flagged; audit ATTENTION — Biliyo meeting (06-19) unprocessed, wa-bridge exit-1 history, 75 Hard tracker stale, instagram 14 days silent, 2 new projects (Crohn's Companion + medical-data-marketplace) added to work hub; hot.md refreshed.
 
 - 2026-06-15: processed [[Meetings/2026-06-15 - Impromptu Zoom Meeting (155137740)]] (RFS Global event debrief, Noam solo). New candidate lead David (McKinsey / Taglit Excel / $3M drones fundraise) referred by [[gal-fadlon]] (alum from first group — identity inferred from "Gal Padlon"); added to [[projects/rfs-global]] pipeline. +2 commitments (send Dafne David's LinkedIn; Sherer comms follow-up), +1 decision (back Dafne's autonomy). Updated [[people/dafne-bennatan]] + [[people/gal-fadlon]], journal/2026-06-15.md, marked `processed: true`. Open Q for Noam: is Gal Padlon = Gal Fadlon? Could not read the process-meetings skill (permission-denied, outside vault) — followed the established pipeline convention.
 

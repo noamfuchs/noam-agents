@@ -2,7 +2,7 @@
 name: "Dafne Bennatan"
 relationship: "Run For Startups co-organizer (Global cohort)"
 language: "Hebrew"
-last_interaction: "2026-06-16"
+last_interaction: "2026-06-28"
 ---
 
 # Dafne Bennatan
@@ -31,6 +31,13 @@ last_interaction: "2026-06-16"
 - Owns: schedule the meeting with **Or Segal (Base44)** re: NY-group sponsorship; assess his seriousness and require a firm commitment (he cancelled a partnership last-minute before) (2026-06-16).
 - Owns: coordinate with the main team on "RFS Global" shirt designs / unique color scheme (2026-06-16).
 - Noam owes her: send the 2026-06-16 expansion-meeting summary; sit for a planning coffee Sunday (2026-06-16).
+- Owns content role: **Instagram Stories** + community engagement (2026-06-28). See [[rfs-global]].
+- Owns: launch the RFS Global **LinkedIn** page (today) + schedule first posts for tomorrow; adapt the finalized video to LinkedIn 2026-06-29 AM (2026-06-28).
+- Owns: contact Adam's guest leads to confirm participation (2026-06-28).
+- Owns: call + vet the **HR-exec** guest lead (15 yrs experience, via Arad; potential monetization partner via recruitment fees) — call set for 2026-06-28 5 PM (2026-06-28).
+- Owns: call + vet the **Jumpstart CEO** guest lead (via Arad); if not a fit for the main group, pass to the "Warm Intro" group (2026-06-28).
+- Re-edited the "persistence" quote video in CapCut (removed confusing opening question, added word-by-word captions) and posted it to Instagram with a Run For Startups collab tag (2026-06-28).
+- Noam owes her + Arad: the Ben interview video re-exported without the opening question (2026-06-28).
 
 ## Notes
 - Works closely with [[adam-teer-run-for-startups]] on payments and exceptions, and now [[arad-fruchter]] (Global/Olim co-manager).

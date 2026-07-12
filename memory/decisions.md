@@ -8,6 +8,14 @@ updated: 2026-05-04
 
 _Format: each decision is a level-2 heading with date and reasoning. Add new ones at the top._
 
+## 2026-06-28 — RFS Global takes social-media editing in-house, with defined content roles
+**Decision:** The RFS Global team takes over Instagram **video editing** from Dana (who keeps Stories + community engagement), standardizing on a reusable video template (intro/middle/outro) and ≥2 Reels/week. Content roles are split: **[[dafne-bennatan|Dafne]] → Instagram Stories**, **Noam + [[arad-fruchter|Arad]] → Instagram/LinkedIn posts**. A dedicated LinkedIn page launches alongside Instagram.
+**Why:** Dana's edits followed a different aesthetic vision, causing constant revisions and team friction; she felt her work wasn't appreciated. Defining clear roles ensures brand consistency, removes the feedback-loop friction, and frees Dana for the work she's best placed to own. See [[rfs-global]]. From the 2026-06-28 social-strategy sessions [[Meetings/2026-06-28 - Impromptu Google Meet Meeting (158846476)]] + [[Meetings/2026-06-28 - Impromptu Google Meet Meeting (158848973)]].
+
+## 2026-06-22 — RFS website MVP built from scratch by a dedicated dev team
+**Decision:** Build the new RFS website MVP **from scratch** with a dedicated two-developer team ([[etay-zaslavsky|Etay Zaslavsky]] + [[yuval-klein|Yuval Klein]], overseen by [[yonatan-buntzel|Yonatan]]); **reject** piloting on Noam's existing Vercel prototype. MVP scope = onboarding/auth + group management/permissions + CEO directory/contact (mentoring out of scope). Architecture = backend/frontend separation in a monorepo, so a native app can later replace the web UI without rebuilding core logic.
+**Why:** The prototype's backend logic is unknown and its UX isn't polished enough for the core CEO-connection flow; the team's recurring failure mode has been rebuilding projects twice on weak foundations. Building fresh on a clean, scalable foundation is worth the extra time. Dev is blocked until Noam + Yonatan deliver user stories + wireframes (due 2026-06-23). See [[rfs-platform]]. From 2026-06-22 kickoff [[Meetings/2026-06-22 - התנעת אתר RFS (157161442)]].
+
 ## 2026-06-16 — RFS guest policy (2–4 max, observe-only)
 **Decision:** Limit guests across all Run For Startups groups to **2–4 per session**; guests must **observe, not lead/dominate** the conversation, register via a **Manda link**, and are **not** provided coffee.
 **Why:** Guests were monopolizing the CEO's attention and making core members feel ignored and disengaged. The policy protects group intimacy and keeps the CEO's focus on the core members. Finalization of the exact per-group cap is owned by Adam. See [[rfs-global]]. From 2026-06-16 leadership sync [[Meetings/2026-06-16 - Impromptu Google Meet Meeting (155349341)]].

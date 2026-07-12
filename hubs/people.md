@@ -34,4 +34,4 @@ Back to [[HOME]]. Ranked index: [[relationships]].
 - (One Amit, one Itay — the duplicate notes were merged 2026-06-12 per Noam.)
 
 ## RFS
-- [[dafne-bennatan]] · [[adam-teer-run-for-startups]] · [[lev-wolf]] · [[arad-fruchter]] · [[ori-rozental]] · [[yonatan-buntzel]] · [[sarel-eldor]] · [[alan-mekibel]]
+- [[dafne-bennatan]] · [[adam-teer-run-for-startups]] · [[lev-wolf]] · [[arad-fruchter]] · [[ori-rozental]] · [[yonatan-buntzel]] · [[sarel-eldor]] · [[alan-mekibel]] · [[etay-zaslavsky]] · [[yuval-klein]]

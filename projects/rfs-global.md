@@ -28,6 +28,14 @@ From [[Meetings/2026-06-16 - Impromptu Google Meet Meeting (155364484)]] (Noam +
 - **Speaker quality:** shift from "filler" speakers to high-impact founders/CEOs to match the group's caliber (Noam vets the existing pipeline; Dafne researches new targets via LinkedIn + leverages the "צוות מוביל" leadership-team WhatsApp group for warm intros).
 - **Other new groups in early planning:** a **Talpiot** group (seeking Talpiot-alum leadership via the Yazami community), a **Taglit Excel** cohort (more flexible format), and a **second Global group** focused on US expansion. Marketing strategy needed to differentiate the growing set of specialized groups and re-engage the waitlisted-applicant pool.
 
+## Social strategy + September event timeline (2026-06-28)
+From two same-day Google Meet working sessions [[Meetings/2026-06-28 - Impromptu Google Meet Meeting (158846476)]] + [[Meetings/2026-06-28 - Impromptu Google Meet Meeting (158848973)]].
+- **September event deadline — firm: mid-September.** Rationale: avoid freezing Nov/Dec outdoor temps. Creates a tight ~2.5-month window → immediate action. Workstreams: (1) **Media** — create new content to replace the outdated original "Run for Startup" video; (2) **NY reps** — source NYC group leaders now; (3) **Israel leader** — pick a local leader to start promoting in ~2 weeks. (Firms up the previously "~September" NY launch.)
+- **Social media taken in-house** (decision): team takes over IG **video editing** from Dana (different aesthetic vision → constant revisions + friction; she also felt unappreciated). Standardize on a reusable video **template** (intro/middle/outro), post **≥2 Reels/week**. Dana keeps **Stories** + community engagement. Content roles: **[[dafne-bennatan|Dafne]] → IG Stories**; **Noam + [[arad-fruchter|Arad]] → IG/LinkedIn posts**.
+- **LinkedIn page launched** (Dafne, 2026-06-28); first posts scheduled for 2026-06-29. The "persistence"-quote video (speaker Joseph) was re-edited in CapCut — removed the confusing opening question, added word-by-word captions — and posted to Instagram with a Run For Startups collab tag; same video adapted to LinkedIn 2026-06-29 AM.
+- **Competitor alert:** **"Sprint - Run the Future"** — a new direct **Hebrew-language** imitation of the Run For Startups model, out of **Reichman University**. Team to monitor and plan a strategic response.
+- **New guest leads** (both via Arad → Dafne vets for English fluency + energy): an **HR exec** (15 yrs experience) — unique perspective + possible monetization channel via recruitment fees; and the **CEO of Jumpstart**. Noam to supply a guest-onboarding **one-pager** to accelerate onboarding. Fallback: leads that don't fit the main group route to the "Warm Intro" group.
+
 ## Open items
 - Follow up with speaker **Sherer** (from the recent event) to clarify his preferred comms channel (LinkedIn vs. direct), establishing a clear protocol for participants to engage him directly — Noam + Dafne (2026-06-15). [name per Fathom transcript]
 - Recruit ~5 more members to hit 17.
@@ -68,6 +76,7 @@ Strategy shift (2026-06-08): move the pipeline from VC-heavy toward **founders/e
 - Greg Kinross — Adam to email the link to Noam.
 
 ## Decisions
+- 2026-06-28 — Social-media editing taken in-house (team edits IG videos, Dana keeps Stories + community); content roles split: Dafne → IG Stories, Noam + Arad → IG/LinkedIn posts; standardize on a video template + ≥2 Reels/week.
 - 2026-06-16 — Noam + Dafne proactively lead RFS global expansion (NY first ~September, then Miami), positioning as de facto leaders; elevate speakers to high-impact founders/CEOs; distinct RFS Global brand/shirts; NY sponsorship via Or Segal (Base44).
 - 2026-06-16 — Guest policy: 2–4 guests max per session, observe-only, Manda-link registration, no coffee.
 - 2026-06-16 — Mandatory structured format (timed activities) for all group-only meetings.

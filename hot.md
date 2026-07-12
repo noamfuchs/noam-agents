@@ -1,49 +1,48 @@
 ---
 name: hot
 description: Recent-context cache. Read me FIRST every session. Refreshed at session end. Keep under 500 words.
-updated: 2026-06-14
+updated: 2026-07-05
 ---
 
-# 🔥 Hot (as of 2026-06-14, Sunday maintenance)
+# 🔥 Hot (as of 2026-07-05, Sunday maintenance)
 
 ## This week's reality
-- **RFS Global live.** Session 1 ran 06-10 ([[sarel-eldor]]). Next: [[gal-halfon]] Wed 06-18. [[dafne-bennatan]] coffee pending.
-- **RFS Platform:** dev access from [[ori-rozental]] is due TODAY (06-14). [[yonatan-buntzel]] testing as desktop C-suite.
-- **REA course:** chapter 4 draft to Amit is 6+ weeks overdue (was due 2026-05-08) — needs renegotiation.
-- **75 Hard:** restart #4 began 06-12 (Day 01 🟡). No bot entries for 06-13 or 06-14 — investigate tracker.
-- **Studies:** catch-up mode, coach at ~/Dropbox/IDC/SEM 2/MY SEM 2 COACH/.
+- **Quiet week (06-29 to 07-05):** no new journal entries, no new Fathom meetings, no new decisions. Only activity: a one-line Telegram check-in (07-02) with no follow-up. Everything below is unchanged from 06-28 unless noted.
+- **RFS website — dev STILL BLOCKED.** Team: [[etay-zaslavsky|Etay Zaslavsky]] + [[yuval-klein|Yuval Klein]], overseen by [[yonatan-buntzel|Yonatan]]. User stories + wireframes were due 2026-06-23 — **now 12 days overdue**, no movement this week.
+- **"Dana" identity STILL unresolved** — 3 threads (Biliyo, medical-data-marketplace, Dana Gerichter) may or may not be the same person. Stuck 3+ weeks with zero new data. Needs a one-line answer from Noam.
+- **Biliyo** — AI agent for subscription cancellation + insurance claims. MVP deadline 2026-08-04 (Stiko Ventures / Danny Cohen, Dallas) — now under a month out. Co-founder decision still pending.
+- **Medical-data marketplace** — "cable" (subscription/streaming) model as of 06-28, no update since.
+- **75 Hard** — Tracker frozen at 🟡 Day 01 2026-06-21, now **14 days** of bot silence (doubled from last week). Likely fully stalled, not just paused — worth Noam checking the process directly.
+- **Instagram** — 0 reels posted since strategy set 2026-06-07 (**28 days**). Plan was 2/week.
 
-## [[second-brain-levelup]]: Phases 0-5 executed 2026-06-12
-- Vault has: HOME + hubs, hot/log navigation, provenance convention, [[goals]], [[story]], expanded about-me/voice, 6 new people notes incl. [[qiu-qiqian]], 4 skills, cross-project routers, first audit done.
-- Confirmed: Boss = [[gilad-klein]]; [[ran]] = biological brother; [[babi]] = appraiser biz partner.
+## Commitment backlog — CRITICAL, worsening
+48 active commitments, **zero closed in two consecutive weekly audits**. Dev team still blocked on:
+- **User stories + wireframes (RFS platform)** — DUE 2026-06-23, 12 days overdue 🚨
+Top personal overdue:
+- Chapter 4 to Amit — 58 days
+- Zak Feingold acceptance email — 30 days (person already accepted!)
+- Eitan Solow admission decision — ~30 days
+- Dana Gerichter admission / Sari Hillel speaker email / RFS Global Instagram setup — 27 days each
+→ Close at least 5 before adding new commitments. This is the second week this ask hasn't happened.
 
-## Backlog alert — 10 stuck commitments from 2026-06-05
-All of these have seen NO movement (~9 days old):
-- Zak Feingold acceptance email
-- Alan Mekibel info packet + WhatsApp group with Dafne
-- Eitan Solow admission decision (was due Motzash 06-06)
-- Landing-page URL to Neria (REA)
-- Calendly to Dafne
-- Call Adam re: Eitan Irsh fee + Lia Cronwell
-- Contact Sari Hillel (Decart-AI speaker)
-- Call RFS alumni for referrals
-→ Triage these first next session.
+## In flight (decisions pending / waiting on externals)
+1. **Biliyo / Dana** — co-founder decision (MVP by 08-04, Stiko — getting close)
+2. **Dana identity** — resolve the 3-thread ambiguity (no progress)
+3. **Or Segal (Base44)** — NY sponsorship, Dafne assessing
+4. **NY launch** — ~September; Noam + Dafne leading
+5. Instagram + LinkedIn exports — ingest when available
+6. Git: uncommitted files from multiple sessions
 
-## In flight (waiting on externals)
-1. **Gmail + Google Calendar CONNECTED 2026-06-12** — tools live next session onward.
-2. Instagram + LinkedIn exports requested; ingest when download emails arrive.
-3. Full Disk Access for terminal still open if iMessage mining is wanted.
-4. Sinai Tzarfati's real name — Noam will supply when it comes up.
-5. Notion connected — ask Noam if anything worth mining lives there.
-6. Strava needs one re-auth click (would feed real runs into [[body]]).
+## Pipelines (as of 2026-07-05) — degrading
+- **wa-people-sync:** launchctl exit 0, but watermark frozen 9+ days straight (zero WhatsApp messages) — likely an ingestion stall, not real silence. Worth checking the export side.
+- **wa-bridge:** ESCALATED — launchd job has disappeared entirely (was crash-looping last week, now not registered at all).
+- **weekly-audit:** PASS — exit 0.
+- **75 Hard bot:** ATTENTION (escalated) — 14 days of no daily files.
+- **Telegram bot:** running (pid 668), responded to the 07-02 check-in. PASS.
+- **system/conversations/main.md:** not appended to since 2026-06-15 (20 days) despite several substantive terminal sessions since — resume appending going forward.
 
-## Pipelines (as of 2026-06-14)
-- **wa-people-sync:** PASS — exit 0; ran clean 06-13 + 06-14 (zero WhatsApp activity, not failures).
-- **wa-bridge:** running (pid 23944).
-- **weekly-audit:** PASS — exit 0 (triggered today's maintenance).
-- **Telegram bot:** rewired 2026-06-12; live test still pending from Noam.
-- **75 Hard bot:** ATTENTION — no daily file for 06-13/06-14. Tracker frozen. Investigate.
-- **Git:** 12 modified + 7 untracked files from 06-12 deep-mine still uncommitted. Commit at next terminal session.
+## Vault hygiene note
+Graph health is now clean (0 isolated notes, full hub coverage) — the 06-28 fixes held. 3 of last week's 7 open ^[ambiguous] questions turned out to already be resolved in-file (30-day project date, Day-6 "true partnership" referent, financial-independence status) — down to 4 real open questions. Full detail in `system/logs/audit.log` (2026-07-05 entry).
 
-## How to read this vault (for any session)
+## How to read this vault
 1. This file. 2. [[HOME]] and the hubs. 3. Drill into specific notes. Never load the whole vault.
