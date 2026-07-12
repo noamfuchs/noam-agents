@@ -1,12 +1,10 @@
 ---
-name: Music hub
-description: The music career - production, artists, gigs.
-updated: 2026-06-12
+name: Music
+description: Noam's FUCHS-SOUND career — production, artists, gigs. His first career and still an income stream. Canonical context (moved here from hubs/ 2026-07-12).
+updated: 2026-07-12
 ---
 
 # 🎹 Music
-
-Back to [[HOME]].
 
 Noam's first career and still an income stream: producer, arranger, keyboardist, live show director under **FUCHS-SOUND** (founded 2020-09). Full arc in [[story]]: started sound tech at 16, switched to keyboards at 18 (Rimon 2018, then 6-8 hours practice a day for ~4 years), SAE Institute 2022, walked away at the peak in 2023.
 

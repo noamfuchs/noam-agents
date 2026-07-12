@@ -1,67 +1,23 @@
-# Noam's Personal Assistant — Vault
+# Noam's Second Brain
 
-This is the daily-use brain. Open it via:
+The daily-use vault. Two jobs:
+1. **Claude's memory of Noam** — everything about him, filed so it can be pulled back fast and context is never lost.
+2. **Noam's space** — where he logs his thinking (`journal/`).
+
+Open it via:
 ```
 cd ~/second-brain && claude
 ```
-(The vault lives at `~/Dropbox/MY BRAIN` and is synced via Dropbox. `~/second-brain` and `~/MY BRAIN` are symlinks pointing to it, so those paths still work everywhere. Note: a separate, abandoned copy exists at `~/Desktop/MY BRAIN`, it is NOT this vault, ignore it.)
+Canonical location: `~/Dropbox/MY BRAIN/` (Dropbox-synced). `~/second-brain` and `~/MY BRAIN` are symlinks to it. A separate abandoned copy at `~/Desktop/MY BRAIN` is NOT this vault — ignore it.
 
-## Quick map
-- `CLAUDE.md` — operating manual, read first by every session
-- `memory/` — what Claude remembers about Noam
-- `inbox/` — captured items from phone/voice/quick-text, pending classification
-- `people/` — one file per person Noam interacts with
-- `projects/` — active projects
-- `outbox/` — drafts Noam copy-pastes (assistant never sends directly)
-- `system/automations/` — Telegram bot, launchd plists
-- `_References/` — Noam's reference material (CV, profile, etc.)
-- `🤖 Agents/` — Noam's existing personal agents
-- `.archive/` — deprecated content; never touched by Claude
+## Start here
+- **HOME.md** — the map of the whole vault (for Noam).
+- **CLAUDE.md** — the operating manual (read first by every Claude session).
+- **hot.md** — recent-context cache Claude reads at the start of a session.
 
-## MCP servers configured (Claude Code CLI, user scope)
-| Name | Purpose |
-|---|---|
-| `filesystem-brain` | Read/write inside this vault |
-| `sequential-thinking` | Step-by-step reasoning for complex tasks |
-| `fetch` | HTTP fetch for research |
-| `git-brain` | Git operations on this vault |
+## Where things live
+- `memory/` — canonical facts about Noam · `people/` — one file per person · `projects/` — active projects
+- `journal/` — Noam's own writing + Claude's weekly digests (dated) · `Meetings/` — Fathom summaries (auto) · `75 Hard/` — challenge tracker (auto)
+- `system/` — automations, logs, roadmap, Notion doctrine · `_References/` — CV, profile, research · `🤖 Agents/` — agent team
 
-Run `claude mcp list` to verify health.
-
-**Skipped:**
-- `apple-mcp` — archived January 2026, no longer maintained. AppleScript via Bash if Calendar/Reminders/Mail needed locally.
-- Memory MCP — using plain markdown in `memory/` instead (simpler, Obsidian-readable).
-- Whisper-cpp — iOS native transcription handles voice on capture path.
-
-**Pending:**
-- Google Workspace MCP (Gmail + Calendar + Drive + Docs + Sheets) — Phase 3b, needs OAuth.
-- Playwright — Phase 7 if research skill needs headless browsing.
-
-## Phase status
-- [x] Phase 1 — folder structure
-- [x] Phase 2 — CLAUDE.md operating manual
-- [x] Phase 3a — core MCP servers (filesystem, sequential-thinking, fetch, git)
-- [x] Phase 7 — Core skills written (capture, morning-preview, evening-review, weekly-digest, person-prep, draft-message, decision-recall)
-- [ ] Phase -1 — FileVault (Noam to enable in System Settings)
-- [ ] Phase 3b — Google Workspace MCP (needs Noam's OAuth)
-- [ ] Phase 4 — Tailscale + Termius (iPhone live SSH)
-- [ ] Phase 5 — Telegram bot
-- [ ] Phase 6 — iPhone Shortcuts capture
-- [ ] Phase 7b — Skills deferred: research, vault-query (Phase 9), form-fill (Phase 9)
-- [ ] Phase 8 — Onboarding interview (gives the assistant real personality)
-- [ ] Phase 9 — Personal vault import (REQUIRES FileVault complete)
-- [ ] Phase 10 — Scheduled rhythms via launchd + Time Machine + GitHub backup
-
-## Skills available
-Each is a single file at `~/.claude/skills/{name}.md`. Invoke with `/{name}` in Claude Code.
-
-| Skill | Purpose |
-|---|---|
-| `/capture` | Process inbox/ items — classify, file, link, log |
-| `/morning-preview` | 7am: today's calendar + top 3 priorities + open inbox |
-| `/evening-review` | 9pm: what shipped, what's open, things learned about Noam |
-| `/weekly-digest` | Sunday 6pm: this week's decisions, flushes learned-this-week |
-| `/person-prep` | Pre-meeting brief on a specific person |
-| `/draft-message` | Draft 2-3 variants of a message → outbox/ (never sends) |
-| `/decision-recall` | Find past decisions on similar questions |
-| `/copywrite` | Hebrew marketing/course copy (existing) |
+Tasks / status / goals live in **Notion** (the daily front-of-house), not here — see `system/notion-command-center.md`. Build history and phase status: `system/roadmap.md`.

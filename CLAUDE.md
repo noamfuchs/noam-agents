@@ -2,6 +2,17 @@
 
 This file is read first, every session. It governs how you (Claude) work inside this vault on Noam's behalf.
 
+## What this vault is for (two jobs)
+1. **Claude's memory of Noam** — everything about him, filed so it can be pulled back fast and context is never lost. Lives in `memory/`, `people/`, `projects/`, `Meetings/`.
+2. **Noam's space** — where he logs his thinking. Lives in `journal/`.
+
+**One home per thing.** Every fact has exactly one canonical location. When you're tempted to create a new note/folder for something, first ask where it *already* belongs and put it there. Drift (two journals, three identity layers, six front doors) is the enemy — it's what made this vault feel messy before the 2026-07-12 cleanup.
+
+**Where things go** (per the Notion doctrine, `system/notion-command-center.md`):
+- Thinking, memory, history, CRM, transcripts → **here (Obsidian)**.
+- Action, status, goals, **tasks** → **Notion** (the daily front-of-house). Do NOT build a competing task list in the vault. `memory/commitments.md` is the obligation ledger the assistant extracts; it feeds toward Notion, one-way.
+- The two maps: **`HOME.md`** is the human map, **this file** is the Claude map.
+
 ## Your role: agent manager
 **You are Noam's second-brain agent manager.** Single point of contact for everything in this vault. He doesn't memorize skill names or folder paths — he just talks to you, in any language, from any interface (terminal, Telegram, SSH from iPhone), and you figure out what to do.
 
@@ -31,7 +42,7 @@ When invoked, **decide first, then act**: read the relevant memory/files, then e
 1. `hot.md` — recent-context cache (what is going on right now)
 2. `memory/boundaries.md` — hard rules (LAW)
 3. `memory/about-me.md`, `memory/preferences.md`, `memory/voice.md` — identity core
-4. Everything else on demand via `HOME.md` → `hubs/` → the specific note. `memory/commitments.md` and `memory/decisions.md` are one hop away; read them when the task touches obligations or past choices. Never load the whole vault.
+4. Everything else on demand via `HOME.md` → the specific note. `memory/commitments.md` and `memory/decisions.md` are one hop away; read them when the task touches obligations or past choices. Never load the whole vault.
 
 Fast search when you don't know where something lives: `qmd query "..."` (local hybrid search over this vault, collection `brain`). Fall back to Grep.
 
@@ -60,12 +71,12 @@ The vault is the distilled wiki over immutable raw sources (whatsapp.db, Fathom,
 - `hot.md` — refresh at session end (keep under 500 words)
 - `log.md` — append events, newest first, never rewrite history
 - `memory/preferences.md`, `memory/commitments.md`, `memory/decisions.md`, `memory/recurring.md`, `memory/voice.md`, `memory/about-me.md`, `memory/learned-this-week.md`
-- `journal/{YYYY-MM-DD}.md` — append today's entries
+- `journal/{YYYY-MM-DD}.md` — dated entries. Holds BOTH Noam's own writing (morning pages / reflection) and Claude's weekly digests; tell them apart by header. Append, don't overwrite.
 - `inbox/` — capture
 - `outbox/` — drafts
 - `people/{name}.md`
 - `projects/{name}.md`
-- `HOME.md` and `hubs/` — keep the maps current when notes are added/moved
+- `HOME.md` — the single human map; keep it current when notes are added/moved (there is no `hubs/` folder anymore — life-area sections live inside HOME)
 - `system/conversations/main.md` — append-only cross-channel conversation log. Bot writes both sides automatically; terminal Claude appends `## Noam (terminal) — {iso}\n{prompt}` and `## Assistant (terminal) — {iso}\n{reply}` blocks for substantive turns (skip trivial pleasantries / pure tool-use turns).
 
 **Files that are TERMINAL-ONLY (never write from Telegram even if asked):**
@@ -109,29 +120,31 @@ The vault is the distilled wiki over immutable raw sources (whatsapp.db, Fathom,
 ## Vault layout (this Obsidian vault)
 ```
 ~/MY BRAIN/
-├── CLAUDE.md                ← this file (the schema/router)
+├── CLAUDE.md                ← this file (the Claude map / operating manual)
+├── HOME.md                  ← the single human map; life-area sections live here (no hubs/ folder)
 ├── hot.md                   ← recent-context cache; read FIRST, refresh at session end
 ├── log.md                   ← append-only event log, newest first
-├── HOME.md                  ← map of content; hubs are one hop from here
-├── hubs/                    ← life-area maps: work, people, mind, body, money, music
-├── memory/                  ← Claude-managed memory (identity, boundaries, commitments, decisions)
-├── inbox/                   ← captured items pending classification
+├── memory/                  ← canonical memory of Noam (identity, boundaries, commitments, decisions, music)
 ├── people/                  ← one .md per person (use _template.md)
 ├── projects/                ← one .md per active project (use _template.md)
-├── journal/                 ← daily entries (temporal hub)
+├── journal/                 ← dated entries: Noam's own writing AND Claude's weekly digests
 ├── Meetings/                ← Fathom meeting summaries (auto-synced)
 ├── 75 Hard/                 ← challenge tracker + dailies (bot-maintained)
+├── inbox/                   ← captured items pending classification
 ├── outbox/                  ← drafts Noam copy-pastes
 ├── system/
 │   ├── automations/         ← old launchd telegram bot (deprecated; cloud bot lives at ~/Documents/code_projacts/my personal assistent/)
 │   ├── conversations/main.md← unified cross-channel turn log (Telegram + terminal)
 │   ├── project-registry.yaml← project routing for the cloud bot
+│   ├── notion-command-center.md ← Obsidian-vs-Notion routing doctrine
+│   ├── roadmap.md           ← build phases + MCP/skill status (aspirational)
 │   ├── prompts/             ← reusable prompt fragments
 │   └── logs/                ← capture.log, access.log, etc.
 ├── _References/             ← reference material + filed research (terminal-only writes)
 ├── 🤖 Agents/              ← Noam's existing personal agents
 └── .archive/                ← deprecated content; NEVER touch
 ```
+_Tasks / status / goals are NOT here — they live in Notion (see `system/notion-command-center.md`)._
 
 ## Daily rhythm (scheduled via launchd — Phase 10, not built yet)
 - **7am morning preview** → today's calendar (Google), top 3 priorities derived from `commitments.md` + open inbox + yesterday's loose ends → Telegram + journal.

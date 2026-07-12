@@ -6,7 +6,7 @@ updated: 2026-06-12
 
 # Story
 
-Sources: CVs 2024-2026, Reichman application (yazamut-2025), HEC Lausanne letter, recommendation letters, 30 days projact, הצהרות הלב (all under מסמכים/). Linked from [[mind]].
+Sources: CVs 2024-2026, Reichman application (yazamut-2025), HEC Lausanne letter, recommendation letters, 30 days projact, הצהרות הלב (all under מסמכים/). Linked from [[HOME]].
 
 ## Timeline
 - **Childhood:** grew up in Tamra (Wadi Ara) then Zikhron Yaakov. Homeschooled grades 3-8. (Reichman application)

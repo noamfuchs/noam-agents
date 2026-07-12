@@ -6,7 +6,7 @@ updated: 2026-06-12
 
 # Goals
 
-Sources: רשימת החלומות שלי.docx (Dropbox root, "dream list"), 30 days projact Day 7 (מסמכים), Reichman application (yazamut-2025), HEC Lausanne motivation letter (2025-02). Linked from [[mind]].
+Sources: רשימת החלומות שלי.docx (Dropbox root, "dream list"), 30 days projact Day 7 (מסמכים), Reichman application (yazamut-2025), HEC Lausanne motivation letter (2025-02). Linked from [[HOME]].
 
 ## Financial
 - Net worth above $10M. Wrote it as "certain", then noticed fear saying it aloud. (Day 7)
@@ -26,15 +26,15 @@ Sources: רשימת החלומות שלי.docx (Dropbox root, "dream list"), 30 
 - Marathon in Israel every year. Marathon in a different European city every year. (dream list)
 - Nature trip with an overnight every two weeks. (dream list)
 - Two sunsets a week at a good spot. (dream list)
-- "Become a machine in sport." (Day 7) Current expression: 75 Hard, see [[body]].
+- "Become a machine in sport." (Day 7) Current expression: 75 Hard, see [[75 Hard Tracker]].
 
 ## Mind and learning
-- B.A., probably economics. (dream list) In progress at Reichman, see [[mind]].
+- B.A., probably economics. (dream list) In progress at Reichman, see [[HOME]].
 - 15 books a year. (dream list) No reading log exists yet.
 - Live in the US for a while. (Day 7 certainty list)
 
 ## Relationships and lifestyle
-- Family date once a month. (dream list) See [[people]].
+- Family date once a month. (dream list) See [[relationships]].
 - Big birthday celebration with many friends. (dream list)
 - A true partnership: his own words shifted from "girlfriend" to "true partner" about [[qiu-qiqian]] after she stayed through a hard period. (Day 6 of the 30-day project, which is running now, June 2026; confirmed by Noam 2026-06-12)
 - "Retire from wage slavery by 40." (dream list)
