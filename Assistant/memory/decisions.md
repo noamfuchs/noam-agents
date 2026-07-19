@@ -1,12 +1,16 @@
 ---
 name: Decisions
 description: Decisions Noam has made, with date and reasoning. Searched by decision-recall skill when a similar question comes up.
-updated: 2026-05-04
+updated: 2026-07-19
 ---
 
 # Decisions
 
 _Format: each decision is a level-2 heading with date and reasoning. Add new ones at the top._
+
+## 2026-07-19 — RFS Global team restructure for expansion
+**Decision:** Restructure the RFS Global leadership for expansion: **[[arad-fruchter|Arad]]** moves out of the 3-person leadership arrangement into a **focused, project-based role** — Noam will speak with him to define it (per [[dafne-bennatan|Dafne]]'s advice, first prompt [[adam-teer-run-for-startups|Adam]], who brought Arad in, to talk to him). **Elinor** leads NY collaborations (local presence, proactive sourcing — e.g., found a runner with 10k followers). **Mika + Eitan** lead the new Israel group launching early October.
+**Why:** A 3-person leadership team is inefficient for decision-making, and Arad's undefined role had become a bottleneck (e.g., delayed forming the Mika/Eitan group). A defined, focused role leverages his engagement while unblocking expansion. See [[rfs-global]]. From [[Meetings/2026-07-19 - Impromptu Zoom Meeting (165053320)]].
 
 ## 2026-06-28 — RFS Global takes social-media editing in-house, with defined content roles
 **Decision:** The RFS Global team takes over Instagram **video editing** from Dana (who keeps Stories + community engagement), standardizing on a reusable video template (intro/middle/outro) and ≥2 Reels/week. Content roles are split: **[[dafne-bennatan|Dafne]] → Instagram Stories**, **Noam + [[arad-fruchter|Arad]] → Instagram/LinkedIn posts**. A dedicated LinkedIn page launches alongside Instagram.

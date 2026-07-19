@@ -1,13 +1,14 @@
 ---
 name: hot
 description: Recent-context cache. Read me FIRST every session. Refreshed at session end. Keep under 500 words.
-updated: 2026-07-12
+updated: 2026-07-19
 ---
 
-# 🔥 Hot (as of 2026-07-12, Sunday maintenance)
+# 🔥 Hot (as of 2026-07-19, meeting processing)
 
 ## This week's reality
-- **Second quiet week in a row (07-06 to 07-12):** no new journal entries, no new Fathom meetings, no new decisions, learned-this-week.md still empty. Today Noam wrote in his own journal for the first time in a while — reflective/grateful morning pages, no new operational facts.
+- **NEW (07-19): RFS Global expansion sync (Noam + Dafne).** Decision: team restructure — [[arad-fruchter|Arad]] → focused project-based role (Noam to talk to him, Adam prompted first); **Elinor** leads NY; **Mika + Eitan** lead an early-Oct Israel group. **URGENT: Sari (Decart) unresponsive → Noam needs a replacement speaker for Wednesday's run (07-22).** Dafne away until 07-29. 3 open IDs: Elinor=Linoi?, who are Mika/Eitan?, which Tomer (job-search intro)? See journal/2026-07-19.
+- **Quiet streak broken 07-19** after two quiet weeks (07-06 to 07-12: no new meetings/decisions; 07-12 had reflective morning pages only).
 - **Vault restructured today (2026-07-12):** hubs/ (6 files) folded into a single [[HOME]]; Noam's own writing moved to `../📓 Journal/` at the vault root (read-only to the assistant); CLAUDE.md rewritten. Graph health verified clean post-restructure — 0 real orphans, HOME.md covers all 13 core projects + people (via [[relationships]]).
 - **RFS website — dev STILL BLOCKED.** Team: [[etay-zaslavsky|Etay]] + [[yuval-klein|Yuval]], overseen by [[yonatan-buntzel|Yonatan]]. Wireframes due 2026-06-23 — **now 19 days overdue**.
 - **NEW open question:** `projects/rfs-platform.md` — relationship between [[ori-rozental|Ori]]'s earlier build and the new from-scratch Etay+Yuval team (since 06-22) never clarified — missed by the last 2 audits. The active commitment "join Ori's build" (06-08) may be moot.
@@ -17,7 +18,7 @@ updated: 2026-07-12
 - **Instagram** — 35 days, 0 reels since strategy set (plan: 2/week).
 
 ## Commitment backlog — CRITICAL, now a 3-audit pattern
-48 active commitments, **zero closed in THREE consecutive weekly audits** (06-28 → 07-05 → 07-12). This is the top risk in the vault right now, ahead of any single pipeline issue.
+**53** active commitments (48 + 5 new from the 07-19 meeting), **zero closed in THREE consecutive weekly audits** (06-28 → 07-05 → 07-12). This is the top risk in the vault right now, ahead of any single pipeline issue.
 Top overdue: Chapter 4 to Amit — 65 days · RFS wireframes — 19 days overdue 🚨 · Zak Feingold acceptance email — 37 days (already accepted, just not told) · Eitan Solow decision — ~37 days · Dana Gerichter / Sari Hillel / RFS Global IG setup — 34 days each.
 → Close at least 5 before adding new ones. Third week this ask hasn't landed.
 

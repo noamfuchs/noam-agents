@@ -1,10 +1,12 @@
 ---
 name: log
 description: Append-only event log, newest first. One line per event. Sessions append here; never rewrite history.
-updated: 2026-07-12
+updated: 2026-07-19
 ---
 
 # 📜 Log (newest first)
+
+- 2026-07-19: processed [[Meetings/2026-07-19 - Impromptu Zoom Meeting (165053320)]] (RFS Global expansion sync, Noam + Dafne — Fathom tagged only Noam). +1 decision (team restructure: Arad → focused project-based role, Elinor leads NY, Mika+Eitan lead early-Oct Israel group); +5 Noam commitments (Arad role talk, replacement speaker for 07-22 run — Sari/Decart unresponsive, NY Ambassadors WhatsApp group, NY website GTM, Oct-group planning); updated [[people/dafne-bennatan]] (last_interaction → 07-19, both fields synced; away until 07-29; owes Noam a Tomer job-search intro) + [[people/arad-fruchter]] (role-restructure note); new section + decision in [[projects/rfs-global]]; journal/2026-07-19.md created; marked `processed: true`. Open Qs for Noam: (1) Elinor = Linoi? (no people file created pending answer) (2) who are Mika + Eitan? (3) which Tomer for the job-search intro?
 
 - 2026-07-12 (Sunday maintenance, post-restructure): third quiet week pattern continues (no new journal/meetings/decisions this week; Noam's own journal got its first entry in a while today). Weekly digest + audit written to journal/2026-07-12.md. Verified graph health clean through today's earlier restructure (0 real orphans, HOME.md covers all 13 projects + people via relationships.md) — fixed hot.md's stale "hubs" self-reference as the only mechanical fix needed. 48 commitments, **zero closed for a THIRD straight audit** (top risk in the vault right now); RFS wireframes now 19 days overdue. Found a systemic provenance bug: 4/12 people notes (arad-fruchter, dafne-bennatan, lev-wolf, gal-halfon) have frontmatter/body last_interaction date mismatches, all in the same shape — proposed pipeline-prompt fix, not applied. Surfaced a previously-missed ^[ambiguous] question: projects/rfs-platform.md's unclarified Ori-vs-new-dev-team relationship (open since 06-22, skipped by the last 2 audits). Pipelines: wa-people-sync watermark frozen 16 days (was 9), wa-bridge still dead from launchctl 12+ days; found a likely shared root cause for brain-bot + 75hard-sync failures — both hitting DNS resolution errors (api.telegram.org / github.com) on the same Mac. hot.md refreshed. Git status/log unchecked (commands not approved this session, same as 07-05's automated run).
 

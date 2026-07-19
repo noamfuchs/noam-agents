@@ -21,6 +21,8 @@ last_interaction: "2026-06-28"
 - Referred an **HR-exec guest lead** (15 yrs experience; potential monetization partner via recruitment fees); owns telling the lead to expect Dafne's call (2026-06-28).
 - Referred the **Jumpstart CEO** as a guest-speaker lead; owns introducing Dafne to him (2026-06-28).
 - Noam owes him + Dafne: the Ben interview video re-exported without the opening question (2026-06-28).
+- Noam owes him: a direct conversation to define a new, focused role (2026-07-19). See Notes.
 
 ## Notes
 - See [[rfs-global]]. Group launches 2026-06-10.
+- **Role restructure pending (2026-07-19):** his undefined role in the 3-person leadership became a decision-making bottleneck (e.g., delayed forming the Mika/Eitan group). Noam will speak with him to define a focused, project-based role that leverages his engagement; Dafne advised prompting [[adam-teer-run-for-startups|Adam]] to talk to him first (Adam brought him in). From [[Meetings/2026-07-19 - Impromptu Zoom Meeting (165053320)]].

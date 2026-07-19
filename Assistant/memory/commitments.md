@@ -1,7 +1,7 @@
 ---
 name: Commitments
 description: Things Noam has committed to — to other people, to himself, with dates. Source of truth for morning preview "what you owe today."
-updated: 2026-05-04
+updated: 2026-07-19
 ---
 
 # Commitments
@@ -57,6 +57,11 @@ _Format: one bullet per commitment. Auto-updated when Noam mentions one in conve
 - Create the RFS Global guest-onboarding one-pager and send it to [[people/adam-teer-run-for-startups|Adam]] re: the HR-exec lead ("Shi") — from 2026-06-28 meeting [[Meetings/2026-06-28 - Impromptu Google Meet Meeting (158846476)]] — added 2026-06-29
 - Export the Ben interview video without the confusing opening question and send it to [[people/dafne-bennatan|Dafne]] + [[people/arad-fruchter|Arad]] — from 2026-06-28 meeting [[Meetings/2026-06-28 - Impromptu Google Meet Meeting (158846476)]] — added 2026-06-29
 - Add the tags to the new RFS Global Instagram post and send it to the team to repost — from 2026-06-28 meeting [[Meetings/2026-06-28 - Impromptu Google Meet Meeting (158848973)]] — added 2026-06-29
+- Speak with [[people/arad-fruchter|Arad]] to define his new, focused role (first prompt [[people/adam-teer-run-for-startups|Adam]] to talk to him, per Dafne), then update [[people/dafne-bennatan|Dafne]] — from 2026-07-19 meeting [[Meetings/2026-07-19 - Impromptu Zoom Meeting (165053320)]] — added 2026-07-19
+- Secure a replacement guest speaker for Wednesday's run (2026-07-22) — Sari (Decart) unresponsive — from 2026-07-19 meeting [[Meetings/2026-07-19 - Impromptu Zoom Meeting (165053320)]] — added 2026-07-19
+- Open the NY Ambassadors WhatsApp group; add Linoi + 2 contacts; share updates there — from 2026-07-19 meeting [[Meetings/2026-07-19 - Impromptu Zoom Meeting (165053320)]] — added 2026-07-19
+- Launch the NY group GTM — start promoting the new website to gather sign-ups/leads — from 2026-07-19 meeting [[Meetings/2026-07-19 - Impromptu Zoom Meeting (165053320)]] — added 2026-07-19
+- Begin planning the early-October Israel group with Mika + Eitan — from 2026-07-19 meeting [[Meetings/2026-07-19 - Impromptu Zoom Meeting (165053320)]] — added 2026-07-19
 - _e.g. "Send chapter 4 draft to Amit by 2026-05-10"_
 
 ## Recurring

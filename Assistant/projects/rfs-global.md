@@ -36,11 +36,20 @@ From two same-day Google Meet working sessions [[Meetings/2026-06-28 - Impromptu
 - **Competitor alert:** **"Sprint - Run the Future"** — a new direct **Hebrew-language** imitation of the Run For Startups model, out of **Reichman University**. Team to monitor and plan a strategic response.
 - **New guest leads** (both via Arad → Dafne vets for English fluency + energy): an **HR exec** (15 yrs experience) — unique perspective + possible monetization channel via recruitment fees; and the **CEO of Jumpstart**. Noam to supply a guest-onboarding **one-pager** to accelerate onboarding. Fallback: leads that don't fit the main group route to the "Warm Intro" group.
 
+## Expansion sync (2026-07-19) — team structure + NY/Israel launches
+From [[Meetings/2026-07-19 - Impromptu Zoom Meeting (165053320)]] (Noam + [[dafne-bennatan|Dafne]]; Fathom tagged only Noam).
+- **Arad role restructure (decision):** the 3-person leadership team is inefficient for decision-making, and [[arad-fruchter|Arad]]'s undefined role became a bottleneck (e.g., delayed forming the Mika/Eitan group). Noam will speak with Arad to define a **focused, project-based role** that leverages his engagement. Dafne's advice: first prompt [[adam-teer-run-for-startups|Adam]] to speak with Arad (Adam brought him in).
+- **NY launch:** **Elinor** leads NY collaborations — local presence + proactive sourcing (already found a runner with 10k followers). Needs: 2 strong local leaders, local partners (gyms, cafés), sponsorships. Noam launches the NY group and starts promoting the **new website** to gather leads. **NY Ambassadors WhatsApp group** to open — add Linoi + 2 contacts, share updates. ^[ambiguous] "Elinor" (NY lead) vs. "Linoi" (existing member — see the Bit-payment open item) may be the same person with Fathom spelling drift — confirm with Noam.
+- **Israel launch:** a new Israel group in **early October**, led by **Mika + Eitan** (no people files yet — identities unconfirmed).
+- **Ambassador program:** build a WhatsApp group of influencer runners (e.g., the 10k-follower runner Elinor found) to amplify reach.
+- **Speaker gap (urgent):** Sari (Decart founder) went unresponsive — Noam seeking a replacement guest speaker for Wednesday's run (2026-07-22).
+- Dafne returns 2026-07-29; will connect Noam with Tomer for job-search assistance.
+
 ## Open items
 - Follow up with speaker **Sherer** (from the recent event) to clarify his preferred comms channel (LinkedIn vs. direct), establishing a clear protocol for participants to engage him directly — Noam + Dafne (2026-06-15). [name per Fathom transcript]
 - Recruit ~5 more members to hit 17.
 - Branding: stand up `@RFSGlobal` Instagram + `rfs.global@gmail.com` (Dafne); use IG Collabs with main RFS account.
-- CEO/speaker pipeline: Shi Bargil (Sequent), Hila Ron (Dafne pursuing); Sari, AI R&D manager at Decart-AI (Noam pursuing).
+- CEO/speaker pipeline: Shi Bargil (Sequent), Hila Ron (Dafne pursuing); Sari, AI R&D manager at Decart-AI (Noam pursuing — **unresponsive as of 2026-07-19**; Noam seeking a replacement for the 2026-07-22 run).
 - Eitan Irsh (Tzuz manager) fee-exception dilemma — value vs. group equity; Adam handling. See [[adam-teer-run-for-startups]].
 - Linoi payment via Bit (not bank transfer) — Adam handling.
 
@@ -76,6 +85,7 @@ Strategy shift (2026-06-08): move the pipeline from VC-heavy toward **founders/e
 - Greg Kinross — Adam to email the link to Noam.
 
 ## Decisions
+- 2026-07-19 — Team restructure for expansion: Arad moves to a focused, project-based role (Noam to speak with him; Adam prompted first per Dafne); Elinor leads NY collaborations; Mika + Eitan lead the new Israel group (early October).
 - 2026-06-28 — Social-media editing taken in-house (team edits IG videos, Dana keeps Stories + community); content roles split: Dafne → IG Stories, Noam + Arad → IG/LinkedIn posts; standardize on a video template + ≥2 Reels/week.
 - 2026-06-16 — Noam + Dafne proactively lead RFS global expansion (NY first ~September, then Miami), positioning as de facto leaders; elevate speakers to high-impact founders/CEOs; distinct RFS Global brand/shirts; NY sponsorship via Or Segal (Base44).
 - 2026-06-16 — Guest policy: 2–4 guests max per session, observe-only, Manda-link registration, no coffee.
