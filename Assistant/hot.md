@@ -4,41 +4,38 @@ description: Recent-context cache. Read me FIRST every session. Refreshed at ses
 updated: 2026-07-19
 ---
 
-# 🔥 Hot (as of 2026-07-19, meeting processing)
+# 🔥 Hot (as of 2026-07-19, Sunday maintenance)
 
 ## This week's reality
-- **NEW (07-19): RFS Global expansion sync (Noam + Dafne).** Decision: team restructure — [[arad-fruchter|Arad]] → focused project-based role (Noam to talk to him, Adam prompted first); **Elinor** leads NY; **Mika + Eitan** lead an early-Oct Israel group. **URGENT: Sari (Decart) unresponsive → Noam needs a replacement speaker for Wednesday's run (07-22).** Dafne away until 07-29. 3 open IDs: Elinor=Linoi?, who are Mika/Eitan?, which Tomer (job-search intro)? See journal/2026-07-19.
-- **Quiet streak broken 07-19** after two quiet weeks (07-06 to 07-12: no new meetings/decisions; 07-12 had reflective morning pages only).
-- **Vault restructured today (2026-07-12):** hubs/ (6 files) folded into a single [[HOME]]; Noam's own writing moved to `../📓 Journal/` at the vault root (read-only to the assistant); CLAUDE.md rewritten. Graph health verified clean post-restructure — 0 real orphans, HOME.md covers all 13 core projects + people (via [[relationships]]).
-- **RFS website — dev STILL BLOCKED.** Team: [[etay-zaslavsky|Etay]] + [[yuval-klein|Yuval]], overseen by [[yonatan-buntzel|Yonatan]]. Wireframes due 2026-06-23 — **now 19 days overdue**.
-- **NEW open question:** `projects/rfs-platform.md` — relationship between [[ori-rozental|Ori]]'s earlier build and the new from-scratch Etay+Yuval team (since 06-22) never clarified — missed by the last 2 audits. The active commitment "join Ori's build" (06-08) may be moot.
-- **"Dana" identity STILL unresolved** — 3 threads (Biliyo, medical-data-marketplace, Dana Gerichter), stuck 4+ weeks.
-- **Biliyo** — MVP deadline 2026-08-04 (Stiko Ventures), now <4 weeks out. Co-founder decision still pending.
-- **75 Hard** — 21 days of bot silence (was 14). NEW: 75hard-sync's git push is failing on DNS (`Could not resolve host: github.com`) — a real, fixable piece of the stall, though may not be the whole story (check if Noam is still doing daily check-ins).
-- **Instagram** — 35 days, 0 reels since strategy set (plan: 2/week).
+- **NEW (07-19): RFS Global expansion sync (Noam + Dafne), breaks a 2-week quiet streak.** Decision: team restructure — [[arad-fruchter|Arad]] → focused project-based role (Noam to talk to him, Adam first); **Elinor** leads NY; **Mika + Eitan** lead an early-Oct Israel group. **URGENT: Sari (Decart) unresponsive → replacement speaker needed for Wed's run (07-22).** Dafne away until 07-29. Open IDs: Elinor=Linoi?, Mika/Eitan who?, which Tomer? See journal/2026-07-19.
+- **RFS website — dev STILL BLOCKED.** Team: [[etay-zaslavsky|Etay]] + [[yuval-klein|Yuval]], overseen by [[yonatan-buntzel|Yonatan]]. Wireframes due 2026-06-23 — **now 26 days overdue**.
+- **75 Hard** — 28 days of bot silence (was 21). 75hard-sync's git push still failing on DNS (`Could not resolve host: github.com`) — check if Noam is still doing daily check-ins.
+- **Instagram** — 42 days, 0 reels since strategy set (plan: 2/week).
 
-## Commitment backlog — CRITICAL, now a 3-audit pattern
-**53** active commitments (48 + 5 new from the 07-19 meeting), **zero closed in THREE consecutive weekly audits** (06-28 → 07-05 → 07-12). This is the top risk in the vault right now, ahead of any single pipeline issue.
-Top overdue: Chapter 4 to Amit — 65 days · RFS wireframes — 19 days overdue 🚨 · Zak Feingold acceptance email — 37 days (already accepted, just not told) · Eitan Solow decision — ~37 days · Dana Gerichter / Sari Hillel / RFS Global IG setup — 34 days each.
-→ Close at least 5 before adding new ones. Third week this ask hasn't landed.
+## Commitment backlog — CRITICAL, now a 4-audit pattern
+**53** active commitments (48 + 5 new 07-19), **zero real closures in FOUR consecutive weekly audits** (06-28 → 07-05 → 07-12 → 07-19). Top risk in the vault.
+NEW: "Decide Eitan Solow" is stale — [[rfs-global]] marks him **Resolved**, commitments.md still lists it Active. Proposed cleanup, confirm with Noam first.
+Top overdue: Chapter 4 to Amit — 72 days 🚨🚨 · RFS wireframes — 26 days overdue 🚨 · Zak Feingold email — 44 days (accepted, not yet told) · Dana Gerichter / Sari Hillel / RFS Global IG setup — 41 days each.
+→ Close at least 5 before adding new ones. Fourth week unmet.
 
-## NEW: provenance bug found (systemic, not one-off)
-4 of 12 people/ notes with both a frontmatter `last_interaction` and a body "**Last interaction:**" line disagree between the two: arad-fruchter, dafne-bennatan, lev-wolf, gal-halfon. Same shape every time — frontmatter updated by a later meeting pass, body text not. Likely a pipeline/prompt bug, not 4 separate data errors. Proposed fix not yet applied (body-text edit, outside this week's hub-link-only scope).
+## Provenance bug — 1 of 4 fixed
+Frontmatter `last_interaction` vs. body line disagree. **dafne-bennatan FIXED** 07-19 (watch if pipeline-level or one-off). Still open: arad-fruchter, lev-wolf, gal-halfon (proposed, not applied — outside hub-link scope).
 
 ## In flight
-1. Biliyo / Dana — co-founder decision (MVP 08-04, closing in)
-2. Dana identity — unresolved, 4+ weeks
-3. rfs-platform Ori question — new, needs a one-line answer from Noam
+1. **Biliyo** — MVP deadline 08-04 (<3 weeks), co-founder decision pending, untouched 27 days
+2. **"Dana" identity** — Biliyo / medical-data-marketplace / Dana Gerichter, unresolved 5+ weeks
+3. **rfs-platform Ori question** — [[ori-rozental|Ori]]'s build vs. new Etay+Yuval team, unclarified 4 audits; "join Ori's build" (06-08) may be moot
 4. Or Segal (Base44) NY sponsorship — Dafne assessing
 5. NY launch — ~September, Noam + Dafne leading
-6. Git: uncommitted files across sessions — still unverified (git commands not approved in automated runs, 2 weeks running)
+6. Speak with Arad re: new role; replacement speaker for 07-22
 
-## Pipelines — mixed, one likely common root cause found
-- **wa-people-sync:** watermark frozen 16 days straight (was 9) — almost certainly an ingestion stall.
-- **wa-bridge:** still fully gone from launchctl, 12+ days — likely feeds wa-people-sync, likely root cause of the freeze above.
-- **brain-bot (Telegram):** flapping on DNS resolution failures (`api.telegram.org`) all day but self-healing each time. PASS with caveat.
-- **75hard-sync:** DNS failures on `github.com` for git push — same failure signature as brain-bot. **Worth checking Mac-level DNS/network health directly — could explain multiple pipeline symptoms at once.**
-- **weekly-audit:** PASS, ran on schedule today (18:00).
+## Pipelines — mixed, one likely common root cause
+- **wa-people-sync:** frozen 23 days (was 16) — ingestion stall.
+- **wa-bridge:** gone from launchctl 19 days — likely root cause above.
+- **brain-bot:** flapping on DNS (`api.telegram.org`), self-healing. PASS with caveat.
+- **75hard-sync:** DNS failures on `github.com` for git push — same signature as brain-bot. Check Mac DNS/network directly.
+- **weekly-audit:** PASS, ran on schedule.
+- **git:** status/log unchecked 4 weeks running (not approved in automated runs).
 
 ## How to read this vault
 1. This file. 2. [[HOME]] — the single index (no hubs/ anymore). 3. Drill into specific notes. Never load the whole vault.

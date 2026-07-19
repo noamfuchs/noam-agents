@@ -424,3 +424,76 @@ Open proposals (not applied — outside this session's safe-mechanical scope):
 
 Next audit: watch commitments triage (0 closures, 3 consecutive audits — this is now the top risk, worse than any single pipeline), 75 Hard bot + wa-bridge + wa-people-sync (check whether DNS fixes unstick any of them), the 4 last_interaction mismatches (fixed or not), rfs-platform Ori question, Dana identity (5+ weeks by then). Compare graph against this session's count: 153 total / 55 core + HOME.md index / 0 real isolated (excl. _sync-log.md).
 ==================== end 2026-07-12 ====================
+
+==================== 2026-07-19 /audit (weekly) ====================
+Verdict: ATTENTION (same as the last 3 audits — commitments backlog now a 4-audit pattern and two pipeline stalls deepened further; offsetting positives: the 2-week meeting silence broke, graph health stayed clean, and 1 of 4 provenance mismatches self-corrected)
+
+--- 1. Graph health ---
+Total .md files (excl .git/.obsidian/.claude/.archive): 156 (was 153 at 2026-07-12). Core wiki unchanged: people/ 42 + projects/ 13 (excl _template.md) = 55 core notes + HOME.md index.
+Only 2 new files created this week: Meetings/2026-07-19 - Impromptu Zoom Meeting (165053320).md and journal/2026-07-19.md (the +3 vs +2 delta is a minor count-methodology artifact, not a missing/new content file — not investigated further, not material).
+Both new files are already properly cross-linked by this morning's meeting-processing pass: the meeting note is referenced from projects/rfs-global.md (new "## Decisions" line + Members/pipeline updates) and journal/2026-07-19.md; no new people/ or projects/ files were created this week (Elinor/Mika/Eitan people files intentionally withheld pending identity confirmation, per journal/2026-07-19.md).
+Net: 0 real orphans (same as last audit, excl. people/_sync-log.md carve-out). No hub/index link additions needed this session.
+
+--- 2. Provenance ---
+Spot-check (the 2 people/ notes touched this week): people/dafne-bennatan.md and people/arad-fruchter.md both read in full — well-sourced, dated open-threads, no untagged inferences. Note: dafne-bennatan.md:43 ("connect Noam with Tomer for job-search assistance") is correctly tagged `^[which Tomer is unclear — not confirmed to be Noam's father]`.
+Systemic last_interaction bug (frontmatter vs body "**Last interaction:**" line), tracked since 2026-07-05: 1 of 4 now fixed — people/dafne-bennatan.md: both fields synced to 2026-07-19 by today's meeting-processing pass. Still open (unchanged): people/arad-fruchter.md (frontmatter 2026-06-28 vs body 2026-06-08 — he wasn't a meeting attendee today, so his frontmatter wasn't touched; body still lags), people/lev-wolf.md (2026-06-16 vs 2026-06-08), people/gal-halfon.md (2026-06-16 vs 2026-06-11). PROPOSED, not applied (body-text correction, outside this session's hub/index-only scope): fix the 3 remaining body lines; also worth confirming whether today's fix to dafne-bennatan was a one-off correct update or evidence the pipeline bug is now fixed going forward.
+^[ambiguous] full-vault sweep (people/projects/memory, current live tags only — excludes historical journal/log mentions):
+  1. people/sinai-tzarfati.md — real first name still unknown. STILL OPEN, unchanged.
+  2. projects/rfs-platform.md:72 — Ori's earlier build vs. the new Etay+Yuval team (since 06-22) never clarified. STILL OPEN, unchanged, 4th audit running.
+  3. projects/medical-data-marketplace.md:46-47 — "Dana" identity (Biliyo / medical-data-marketplace / RFS's Dana Gerichter) + the Tomer/medical-industry-expert-father sub-question. STILL OPEN, now 5+ weeks.
+  4. memory/relationships.md:81 — bitton first name unknown. STILL OPEN, unchanged.
+  5. NEW: projects/rfs-global.md:42 — "Elinor" (new NY lead) vs. "Linoi" (existing member, Bit-payment thread) may be the same person with Fathom spelling drift. Properly tagged by today's meeting-processing pass — good hygiene, no fix needed.
+RESOLVED — dropped from the open-questions list this session: the "qiu-qiqian Sept-2026 M.Sc" item carried for the last 2 audits ("unable to locate supporting text") was re-checked: people/qiu-qiqian.md:26 states plainly "in the M.Sc now" as settled fact, no ^[ambiguous] tag exists anywhere in the file, and this matches the 2026-06-12 resolution already recorded in log.md ("Qiu already in M.Sc"). This was an audit-tracking artifact carried by mistake, not a live ambiguity.
+Untagged-but-unconfirmed prose (explicit uncertainty language, not a hidden guess, no action needed): projects/rfs-global.md:43 states "Mika + Eitan (no people files yet — identities unconfirmed)" — fine as-is.
+Net: 5 open ^[ambiguous] questions → 5 (dropped 1 phantom, added 1 real new one; effectively the same 4 core questions as last week plus the new Elinor/Linoi one).
+
+--- 3. Staleness ---
+hot.md: refreshed this morning during meeting-processing (fresh for today's RFS content) but its Pipelines section and several day-counts (75 Hard, Instagram, wa-people-sync, wa-bridge) still carried last week's (07-12) numbers verbatim. FIXED this session: full refresh of all day-counts to 2026-07-19 reality, provenance-bug progress noted, Eitan Solow finding added.
+commitments.md: 53 active items (48 carried + 5 added from the 07-19 meeting). Zero real closures — now FOUR consecutive weekly audits with no closure (06-28 → 07-05 → 07-12 → 07-19). NEW FINDING (see §4): "Decide Eitan Solow's RFS Global admission" (added 2026-06-05) is stale — projects/rfs-global.md:75 explicitly marks him "Resolved" but commitments.md still lists it Active.
+Top overdue (+7 days from 2026-07-12 baseline): Chapter 4 to Amit — 72 days. RFS platform wireframes — due 06-23, now 26 days overdue — Etay + Yuval still blocked. Zak Feingold acceptance email — 44 days (accepted, not yet told). Dana Gerichter admission / Sari Hillel speaker email / RFS Global Instagram setup — 41 days each.
+75 Hard/: STILL ATTENTION, escalated — no daily files since 2026-06-21, now 28 consecutive days (was 21 at 07-12, was 14 at 07-05 — roughly doubling each audit cycle). Tracker.md unchanged. 75hard-sync.err.log re-checked: still `fatal: ... Could not resolve host: github.com` on every run.
+Projects dormant (untouched, +7 days from 07-12 baseline where tracked): instagram-growth 42 days (was 35), still 0 reels vs. 2/week plan. nona / rfs-guest-onepagers / rfs-mentor-shortlist / instagram-unfollow: 46 days each (was 39) — 3rd audit proposing "mark active vs paused," still unapplied. crm-rea: 71+ days (was 64+). crohns-companion-israel / real-estate-course: 27-28 days (was 20-21). NEWLY CROSSING the same threshold: biliyo (27 days since 06-22, MVP gate 08-04 is <3 weeks out) and medical-data-marketplace / rfs-platform (21 days since 06-28). rfs-global resets to 0 days (touched today) — drops off the dormant list.
+system/conversations/main.md: still not appended to since 2026-06-15, now 34 days (was 27) — same unresolved gap, 3rd audit flagging it.
+Person notes >60 days claiming "active" threads: re-checked babi.md, ohad-ozalvo.md — still no active-thread claims. OK.
+memory/relationships.md: "Active groups" message-volume table still a 2026-06-12 snapshot, unrefreshed — same standing proposal, unapplied.
+
+--- 4. Duplicates ---
+NEW: commitments.md's active "Decide Eitan Solow's RFS Global admission and send him the decision by Motzash" (added 2026-06-05) contradicts projects/rfs-global.md:75's "Resolved: Eitan Solow (ex-8200 dev turned sales) — was decision-due by Motzash (2026-06-05)." Same fact, two states, two files. PROPOSED (not applied, content correction not a link addition): move the commitments.md line to Resolved, or confirm with Noam first.
+No other new duplicates found this session.
+
+--- 5. Pipelines ---
+wa-people-sync: launchctl idle/last-exit-0; log re-tailed through 2026-07-19 01:00:02 — watermark still frozen at maxts=1781423491000, count=0 every run 07-13 through 07-19. Now 23 consecutive days frozen (was 16). Still looks like an ingestion-side stall.
+wa-bridge: confirmed again via `launchctl list` — absent entirely. Log files both last-modified 2026-06-30. Now 19 days dead, unchanged conclusion: likely root cause of the wa-people-sync freeze above.
+weekly-audit: `launchctl list` shows the job active with a pid during this session — consistent with the scheduled Sunday run. PASS.
+brain-bot (Telegram): log re-tailed through 2026-07-19 19:39 — same pattern as every prior audit: repeated DNS-resolution failures on api.telegram.org, each followed by "recovered after N failures." Still flapping, still self-healing. PASS with caveat, unchanged.
+75hard-sync: err log re-tailed — still `Could not resolve host: github.com` on every git push attempt. Unresolved, same DNS signature as brain-bot (3rd audit proposing a Mac-level DNS check).
+Meetings/: 1 new Fathom recording this week (2026-07-19), breaking the quiet streak that ran from 2026-06-28.
+75 Hard daily files: none since 2026-06-21 — see §3, now 28 days.
+
+--- 6. Hygiene ---
+inbox/: PASS (empty, only the permanent audio/ subfolder).
+outbox/: PASS (empty).
+HOME.md drift: PASS — no new people/projects notes created this week; rfs-global (already indexed) is the only touched project.
+git: status/log again could not be checked this session — git commands were not approved in this automated run, same limitation as the last 3 consecutive audits (07-05, 07-12, 07-19). hot.md's standing "uncommitted files across sessions" item remains open and unverified.
+system/conversations/main.md: 34-day gap — see §3, same unresolved hygiene debt, 3rd audit flagging it.
+
+Fixes applied (this session — safe mechanical only, per scope):
+  1. hot.md: fully refreshed — all pipeline/project day-counts updated to 2026-07-19 reality (75 Hard 21→28, Instagram 35→42, wa-people-sync 16→23, wa-bridge 12+→19+, commitments streak 3→4 audits), provenance-bug progress noted (dafne-bennatan fixed), Eitan Solow stale-commitment finding added.
+  (No hub/index link additions were needed in HOME.md or relationships.md this session — verified via the graph-health check in §1; the week's only new content was already correctly linked by this morning's meeting-processing pass.)
+
+Open proposals (not applied — outside this session's safe-mechanical scope):
+  - commitments.md — move "Decide Eitan Solow's admission" to Resolved (contradicts rfs-global.md's "Resolved" note); confirm with Noam first.
+  - people/arad-fruchter.md, lev-wolf.md, gal-halfon.md — fix body "Last interaction:" lines to match frontmatter (3 remaining instances of the same pipeline bug; dafne-bennatan's 4th instance self-corrected this week).
+  - projects/second-brain-levelup.md:62 — remove/update the stale ^[ambiguous] 30-day-project tag (proposed 3 audits running now, still not applied).
+  - projects/rfs-platform.md:72 — clarify Ori vs. Etay/Yuval relationship with Noam; check whether the 2026-06-08 "join Ori's build" commitment is now moot.
+  - memory/relationships.md — refresh or relabel the "Active groups" message-volume table as a 2026-06-12 snapshot.
+  - instagram-growth / nona / rfs-guest-onepagers / rfs-mentor-shortlist / instagram-unfollow / crm-rea: ask Noam to explicitly mark active vs paused (proposed 3 audits running now).
+  - 75 Hard bot: 28 days stalled, accelerating; 75hard-sync's git-push DNS failure is a concrete piece of this but doesn't fully explain the daily-file gap.
+  - wa-bridge: still dead 19+ days; likely the root cause of the wa-people-sync freeze — highest-leverage single pipeline fix available.
+  - Network/DNS: brain-bot and 75hard-sync still show the same DNS-resolution-failure signature (3rd audit proposing a system-level check).
+  - system/conversations/main.md: resume appending from the next terminal session (no backfill attempted, same as last 2 weeks).
+  - ~/.claude/skills/audit.md: still references "hubs/" coverage checks; terminology stale post-restructure (not fixed this session — outside vault scope).
+  - git: status/log unchecked this session (no approval, 4th week running); "uncommitted files" item in hot.md carried forward unverified.
+
+Next audit: watch commitments triage (0 real closures, 4 consecutive audits — still the top risk in the vault), whether the Eitan Solow entry gets cleaned up, whether arad-fruchter/lev-wolf/gal-halfon's last_interaction lines get fixed (and whether dafne-bennatan's fix was pipeline-level or one-off), 75 Hard bot + wa-bridge + wa-people-sync (all three still worsening, no sign of self-recovery), rfs-platform Ori question, Dana identity (6+ weeks by then), Biliyo MVP gate (08-04, will be <1 week out). Compare graph against this session's count: 156 total / 55 core + HOME.md index / 0 real isolated (excl. _sync-log.md).
+==================== end 2026-07-19 ====================
