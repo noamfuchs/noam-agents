@@ -45,6 +45,15 @@ From [[Meetings/2026-07-19 - Impromptu Zoom Meeting (165053320)]] (Noam + [[dafn
 - **Speaker gap (urgent):** Sari (Decart founder) went unresponsive — Noam seeking a replacement guest speaker for Wednesday's run (2026-07-22).
 - Dafne returns 2026-07-29; will connect Noam with Tomer for job-search assistance.
 
+## Global strategy 1:1 (2026-07-20) — Noam + Yonatan: hybrid expansion model
+From [[Meetings/2026-07-20 - Impromptu Zoom Meeting (165209133)]] (Noam + [[yonatan-buntzel|Yonatan]]; Fathom tagged only Noam ^[inferred — action items in the recording are assigned to Yonatan]).
+- **The trigger — role misalignment:** Noam felt sidelined by Yonatan's parallel, undocumented work on the "Global" initiative. Ownership is Noam's primary non-financial reward ("currency") for contributing to RFS; unclear roles create a risk of the team working at cross-purposes.
+- **Two models on the table:**
+  - **Yonatan (top-down):** Global is the org's next major step, not a niche — a structured, funded, accelerated launch leveraging existing assets (CEO network, English-language videos, proven model). Immediate US NGO path via an existing partner ("Marei Pered" per Fathom ^[ambiguous — name spelling unverified]) providing a US bank account + legal/tax framework. Strong unit economics + brand value → raise **$50k+** from passionate investors, potentially paying key US community managers (seen as necessary given the team's remote location).
+  - **Noam (bottom-up):** people-first, organic — start with one NYC group, embed the DNA through close mentorship, empower local leaders (e.g., **Joel**, an NYC influencer with deep community connections). A rapid top-down launch risks diluting the culture and high volunteer turnover.
+- **Resolution (decision): hybrid model.** The first NYC group launches slowly and organically (DNA-first), while a long-term strategic plan is developed to avoid past mistakes. The Global team expands beyond Noam + [[dafne-bennatan|Dafne]].
+- **Next steps:** Yonatan → open the US NGO + bank account via the Pered partner (then US payroll + donation intake); draft the 1–2 yr strategic plan + Gantt (share with Dafne + Adam + Noam). Noam → continue sourcing/vetting NYC team leaders (via Joel et al.); schedule the Dafne + Joel Zoom re: the NYC lead; schedule the Global strategy Zoom (Dafne + [[adam-teer-run-for-startups|Adam]] + Yonatan). Both → define clear roles + communication protocols for the Global team.
+
 ## Open items
 - Follow up with speaker **Sherer** (from the recent event) to clarify his preferred comms channel (LinkedIn vs. direct), establishing a clear protocol for participants to engage him directly — Noam + Dafne (2026-06-15). [name per Fathom transcript]
 - Recruit ~5 more members to hit 17.
@@ -85,6 +94,7 @@ Strategy shift (2026-06-08): move the pipeline from VC-heavy toward **founders/e
 - Greg Kinross — Adam to email the link to Noam.
 
 ## Decisions
+- 2026-07-20 — Hybrid expansion model (Noam + [[yonatan-buntzel|Yonatan]]): first NYC group launches slowly/organically (bottom-up, DNA-first, local leaders like Joel), while Yonatan drafts a 1–2 yr strategic plan + Gantt (top-down: US NGO via the "Marei Pered" partner, $50k+ raise, possibly paid US community managers); the Global team expands beyond Noam + Dafne; roles + comms protocols to be defined.
 - 2026-07-19 — Team restructure for expansion: Arad moves to a focused, project-based role (Noam to speak with him; Adam prompted first per Dafne); Elinor leads NY collaborations; Mika + Eitan lead the new Israel group (early October).
 - 2026-06-28 — Social-media editing taken in-house (team edits IG videos, Dana keeps Stories + community); content roles split: Dafne → IG Stories, Noam + Arad → IG/LinkedIn posts; standardize on a video template + ≥2 Reels/week.
 - 2026-06-16 — Noam + Dafne proactively lead RFS global expansion (NY first ~September, then Miami), positioning as de facto leaders; elevate speakers to high-impact founders/CEOs; distinct RFS Global brand/shirts; NY sponsorship via Or Segal (Base44).

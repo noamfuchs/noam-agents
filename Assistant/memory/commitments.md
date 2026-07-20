@@ -1,7 +1,7 @@
 ---
 name: Commitments
 description: Things Noam has committed to — to other people, to himself, with dates. Source of truth for morning preview "what you owe today."
-updated: 2026-07-19
+updated: 2026-07-20
 ---
 
 # Commitments
@@ -62,6 +62,8 @@ _Format: one bullet per commitment. Auto-updated when Noam mentions one in conve
 - Open the NY Ambassadors WhatsApp group; add Linoi + 2 contacts; share updates there — from 2026-07-19 meeting [[Meetings/2026-07-19 - Impromptu Zoom Meeting (165053320)]] — added 2026-07-19
 - Launch the NY group GTM — start promoting the new website to gather sign-ups/leads — from 2026-07-19 meeting [[Meetings/2026-07-19 - Impromptu Zoom Meeting (165053320)]] — added 2026-07-19
 - Begin planning the early-October Israel group with Mika + Eitan — from 2026-07-19 meeting [[Meetings/2026-07-19 - Impromptu Zoom Meeting (165053320)]] — added 2026-07-19
+- Schedule a Zoom with [[people/dafne-bennatan|Dafne]] + Joel (NYC influencer) re: the NYC group lead; then assign a 2nd lead, set a cadence, and start outreach — from 2026-07-20 meeting [[Meetings/2026-07-20 - Impromptu Zoom Meeting (165209133)]] — added 2026-07-20
+- Schedule the Global strategy Zoom with [[people/dafne-bennatan|Dafne]] + [[people/adam-teer-run-for-startups|Adam]] + [[people/yonatan-buntzel|Yonatan]] — from 2026-07-20 meeting [[Meetings/2026-07-20 - Impromptu Zoom Meeting (165209133)]] — added 2026-07-20
 - _e.g. "Send chapter 4 draft to Amit by 2026-05-10"_
 
 ## Recurring

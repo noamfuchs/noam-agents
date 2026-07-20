@@ -1,10 +1,12 @@
 ---
 name: log
 description: Append-only event log, newest first. One line per event. Sessions append here; never rewrite history.
-updated: 2026-07-19
+updated: 2026-07-20
 ---
 
 # 📜 Log (newest first)
+
+- 2026-07-20: processed [[Meetings/2026-07-20 - Impromptu Zoom Meeting (165209133)]] (RFS Global strategy 1:1, Noam + Yonatan Buntzel — Fathom tagged only Noam; inferred from action items). +1 decision (hybrid expansion model: organic first NYC group + Yonatan's 1–2 yr top-down plan — US NGO via "Marei Pered", $50k+ raise path, Global team expands beyond Noam+Dafne); +2 Noam commitments (schedule Dafne+Joel Zoom re: NYC lead; schedule Global strategy Zoom Dafne+Adam+Yonatan); updated [[people/yonatan-buntzel]] (last_interaction → 07-20, Global open threads, sidelining-tension note); new section + decision in [[projects/rfs-global]]; journal/2026-07-20.md created; marked `processed: true`. Open Qs for Noam: (1) Joel (NYC influencer, candidate NYC lead) — create a people file? (2) "Marei Pered" — who/what is the US NGO partner (Fathom spelling unverified)?
 
 - 2026-07-19 (Sunday maintenance): weekly digest + audit appended to journal/2026-07-19.md (under today's meeting-processing entry). 1 decision this week (07-19 RFS restructure), learned-this-week.md empty (nothing to flush). Commitments: 53 active, **zero real closures — now a FOURTH consecutive audit** (06-28→07-05→07-12→07-19); found a stale one — "Decide Eitan Solow" still Active in commitments.md though projects/rfs-global.md already marks him Resolved (proposed fix, not applied). Audit verdict ATTENTION (same as last 3): 75 Hard bot worse (28d silent, was 21d), wa-people-sync frozen 23d (was 16d), wa-bridge dead 19d (was 12+) — offset by the provenance win (1 of 4 last_interaction mismatches self-corrected: dafne-bennatan) and clean graph health (156 files, 55 core + HOME index, 0 real orphans, no hub/index fixes needed — this week's only new content was already linked by this morning's pass). Dropped a phantom ^[ambiguous] tracking item (qiu-qiqian M.Sc question — already resolved 06-12, no tag actually exists); added 1 real new one (Elinor vs Linoi spelling, properly tagged). Full report: system/logs/audit.log. hot.md refreshed (all day-counts updated, trimmed to ~500 words). Git status/log unchecked again (not approved in automated runs, 4th week running).
 

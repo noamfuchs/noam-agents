@@ -1,12 +1,16 @@
 ---
 name: Decisions
 description: Decisions Noam has made, with date and reasoning. Searched by decision-recall skill when a similar question comes up.
-updated: 2026-07-19
+updated: 2026-07-20
 ---
 
 # Decisions
 
 _Format: each decision is a level-2 heading with date and reasoning. Add new ones at the top._
+
+## 2026-07-20 — RFS Global expansion: hybrid model (organic NYC launch + top-down strategic plan)
+**Decision:** Adopt a **hybrid expansion model** for RFS Global, merging Noam's bottom-up approach with [[yonatan-buntzel|Yonatan]]'s top-down one: the **first NYC group launches slowly and organically** — embedding the org's DNA through close mentorship and local leaders (e.g., **Joel**, an NYC influencer with deep community connections) — while Yonatan drafts a **long-term (1–2 yr) strategic plan** leveraging existing assets: the CEO network, English-language videos, a US NGO via an existing partner ("Marei Pered" per Fathom ^[ambiguous — name spelling unverified]), and a path to raise **$50k+** from passionate investors, potentially paying key US community managers. The Global team expands beyond Noam + [[dafne-bennatan|Dafne]]; clear roles and communication protocols to be defined.
+**Why:** The meeting was triggered by role misalignment — Noam felt sidelined by Yonatan's parallel, undocumented Global work (ownership is Noam's primary non-financial "currency" at RFS). A pure top-down launch risks diluting the culture and churning volunteers; pure organic growth leaves funding and infrastructure on the table. The hybrid preserves quality and values while building the funded, structured path. See [[rfs-global]]. From [[Meetings/2026-07-20 - Impromptu Zoom Meeting (165209133)]].
 
 ## 2026-07-19 — RFS Global team restructure for expansion
 **Decision:** Restructure the RFS Global leadership for expansion: **[[arad-fruchter|Arad]]** moves out of the 3-person leadership arrangement into a **focused, project-based role** — Noam will speak with him to define it (per [[dafne-bennatan|Dafne]]'s advice, first prompt [[adam-teer-run-for-startups|Adam]], who brought Arad in, to talk to him). **Elinor** leads NY collaborations (local presence, proactive sourcing — e.g., found a runner with 10k followers). **Mika + Eitan** lead the new Israel group launching early October.
