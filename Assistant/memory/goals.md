@@ -19,6 +19,7 @@ Sources: רשימת החלומות שלי.docx (Dropbox root, "dream list"), 30 
 - Launch 3-4 impact ventures that create real change in Israeli and global society, 10-year horizon. (Reichman application)
 - The current venture thesis from the application: closing opportunity gaps for low-socioeconomic youth (inspiration lectures + an AI app matching youth to scholarships and programs). Related: [[rfs-global]] energy, [[real-estate-course]] as income engine.
 - Music: one show at a time, money plus spiritual reward, no longer the main identity. (dream list, Day 7)
+- **2026-07-21 (Telegram):** keeps getting offered music work — good money — but wants to "burn the ships" and commit fully to a new life in tech/startups/VC instead. Live tension: pulls against steady income while [[biliyo]] co-founder decision is still undecided and MVP deadline (2026-08-04) looms. Echoes the [[story|2023 walk-away pattern]] (reframes the break from music fast, resists sitting with the loss).
 - Considered direction during the Geneva period: management consulting / financial analysis. (HEC Lausanne letter)
 - Personal content/social page. (dream list) Now live as [[instagram-growth]].
 
