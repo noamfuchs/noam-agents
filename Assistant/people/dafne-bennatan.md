@@ -40,7 +40,7 @@ last_interaction: "2026-07-19"
 - Noam owes her + Arad: the Ben interview video re-exported without the opening question (2026-06-28).
 - Advised (expansion sync, 2026-07-19): before Noam's role conversation with [[arad-fruchter|Arad]], first prompt [[adam-teer-run-for-startups|Adam]] to speak with Arad — Adam brought him into the group. See [[rfs-global]].
 - Noam owes her: an update after his role conversation with Arad (2026-07-19).
-- Owns: connect Noam with **Tomer** for job-search assistance (2026-07-19). ^[which Tomer is unclear — not confirmed to be Noam's father]
+- Owns: connect Noam with [[tomer-golan|Tomer Golan]] (FutureFirst principal, her boyfriend) for job-search assistance (2026-07-19). Resolved 2026-07-23: meeting set for 2026-07-24.
 - Away, returning **2026-07-29** (2026-07-19).
 
 ## Notes
